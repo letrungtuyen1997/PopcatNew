@@ -60,7 +60,9 @@ project(":desktop") {
         implementation "com.badlogicgames.gdx:gdx-backend-lwjgl:$gdxVersion"
         implementation "com.badlogicgames.gdx:gdx-platform:$gdxVersion:natives-desktop"
         implementation "com.badlogicgames.gdx:gdx-box2d-platform:$gdxVersion:natives-desktop"
-        
+//        implementation 'com.google.code.gson:gson:2.8.6'
+
+
     }
 }
 
@@ -102,7 +104,9 @@ project(":android") {
         implementation 'com.google.android.gms:play-services-games:18.0.1'
 //        compile 'com.google.android.gms:play-services-identity:15.0.0'
         implementation 'com.google.android.gms:play-services-auth:17.0.0'
-        
+//        implementation 'com.google.code.gson:gson:2.8.6'
+
+
     }
 }
 
@@ -116,7 +120,9 @@ project(":html") {
         implementation "com.badlogicgames.gdx:gdx-backend-gwt:$gdxVersion"
         implementation "com.badlogicgames.gdx:gdx:$gdxVersion:sources"
         implementation "com.badlogicgames.gdx:gdx-backend-gwt:$gdxVersion:sources"
-        
+//        implementation 'com.google.code.gson:gson:2.8.6'
+
+
     }
 }
 
@@ -126,6 +132,8 @@ project(":core") {
 
     dependencies {
         implementation "com.badlogicgames.gdx:gdx:$gdxVersion"
+//        implementation 'com.google.code.gson:gson:2.8.6'
+
     }
 }
 

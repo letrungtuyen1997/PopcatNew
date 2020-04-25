@@ -10,6 +10,8 @@ public class BitmapFontC {
   public static BitmapFont NerwynGrey;
   public static BitmapFont NerwynOrange;
   public static BitmapFont RubikOne;
+  public static BitmapFont FontYellow;
+  public static BitmapFont FontAlert;
 
   public static void initBitmapFont(){
     roboto = GAssetsManager.getBitmapFont("RobotoCyan.fnt");
@@ -18,5 +20,7 @@ public class BitmapFontC {
     NerwynGrey = GAssetsManager.getBitmapFont("NerwynGrey.fnt");
     NerwynOrange = GAssetsManager.getBitmapFont("NerwynOrange.fnt");
     RubikOne = GAssetsManager.getBitmapFont("RubikOne.fnt");
+    FontYellow = GAssetsManager.getBitmapFont("myfont.fnt");
+    FontAlert = GAssetsManager.getBitmapFont("alert_font.fnt");
   }
 }

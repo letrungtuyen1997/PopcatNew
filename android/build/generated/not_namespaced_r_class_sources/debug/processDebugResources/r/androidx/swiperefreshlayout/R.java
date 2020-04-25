@@ -125,18 +125,18 @@ public final class R {
     public static final class string {
         private string() {}
 
-        public static final int status_bar_notification_info_overflow = 0x7f080023;
+        public static final int status_bar_notification_info_overflow = 0x7f090023;
     }
     public static final class style {
         private style() {}
 
-        public static final int TextAppearance_Compat_Notification = 0x7f090001;
-        public static final int TextAppearance_Compat_Notification_Info = 0x7f090002;
-        public static final int TextAppearance_Compat_Notification_Line2 = 0x7f090003;
-        public static final int TextAppearance_Compat_Notification_Time = 0x7f090004;
-        public static final int TextAppearance_Compat_Notification_Title = 0x7f090005;
-        public static final int Widget_Compat_NotificationActionContainer = 0x7f090007;
-        public static final int Widget_Compat_NotificationActionText = 0x7f090008;
+        public static final int TextAppearance_Compat_Notification = 0x7f0a0001;
+        public static final int TextAppearance_Compat_Notification_Info = 0x7f0a0002;
+        public static final int TextAppearance_Compat_Notification_Line2 = 0x7f0a0003;
+        public static final int TextAppearance_Compat_Notification_Time = 0x7f0a0004;
+        public static final int TextAppearance_Compat_Notification_Title = 0x7f0a0005;
+        public static final int Widget_Compat_NotificationActionContainer = 0x7f0a0007;
+        public static final int Widget_Compat_NotificationActionText = 0x7f0a0008;
     }
     public static final class styleable {
         private styleable() {}

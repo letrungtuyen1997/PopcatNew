@@ -1,6 +1,8 @@
 package com.ss;
 
 import com.badlogic.gdx.Preferences;
+import com.badlogic.gdx.assets.AssetManager;
+import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.TextureAtlas;
 import com.platform.IPlatform;
 import com.badlogic.gdx.Gdx;
@@ -14,6 +16,7 @@ import com.ss.core.util.GStage.StageBorder;
 import com.ss.effects.SoundEffect;
 import com.ss.gameLogic.config.C;
 import com.ss.scenes.GameScene;
+import com.ss.scenes.StartScene;
 
 public class GMain extends GDirectedGame {
 
@@ -26,6 +29,7 @@ public class GMain extends GDirectedGame {
 
   public static Preferences prefs;
   public static IPlatform platform;
+
   public GMain(IPlatform plat){
     platform = plat;
   }
@@ -83,11 +87,12 @@ public class GMain extends GDirectedGame {
   
   private static GScreen menuScreen()
   {
-    return new GameScene();
+    return new StartScene();
   }
 
   public void create()
   {
+    initLocalNotification();
     SoundEffect.initSound();
     this.init();
     this.initPrefs();
@@ -96,7 +101,7 @@ public class GMain extends GDirectedGame {
   }
 
   private void initPrefs(){
-    prefs = Gdx.app.getPreferences("My Preferences");
+    prefs = Gdx.app.getPreferences("My Preferences2");
   }
 
   public void dispose()
@@ -104,5 +109,16 @@ public class GMain extends GDirectedGame {
     GMain.platform.log("############## gmain dispose");
     GParticleSystem.saveAllFreeMin();
     super.dispose();
+  }
+  private void initLocalNotification(){
+    platform.SetDailyNotification(1, "Lieng 2020", "Bam vao nhan duoc bao nhieu tien", 1, 18);
+    //platform.SetDailyNotification(3, "Lieng 2020", "Bam vao nhan duoc bao nhieu tien", 3, 18);
+    //platform.SetDailyNotification(7, "Lieng 2020", "Bam vao nhan duoc bao nhieu tien", 7, 18);
+    int noId = platform.GetNotifyId();
+    if(noId==-1){
+      //binhthuong
+    } else if(noId == 1){
+      //thuong
+    }
   }
 }

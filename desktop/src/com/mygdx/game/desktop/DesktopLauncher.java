@@ -48,7 +48,10 @@ public class DesktopLauncher {
 
       @Override
       public String GetConfigStringValue(String name, String defaultValue) {
-        return null;
+        if(name.equals(""))
+          return defaultValue;
+        else
+          return name;
       }
 
       @Override
@@ -98,6 +101,26 @@ public class DesktopLauncher {
 
       @Override
       public void ShowLeaderboard() {
+
+      }
+
+      @Override
+      public void Restart() {
+
+      }
+
+      @Override
+      public int GetNotifyId() {
+        return 0;
+      }
+
+      @Override
+      public void SetDailyNotification(int id, String header, String content, int days, int hours) {
+
+      }
+
+      @Override
+      public void CancelDailyNotification(int id) {
 
       }
     }), config);

@@ -1,0 +1,38 @@
+[
+  {
+    "region": "icon1",
+    "id": 0,
+    "quantity": 1,
+    "percent": 2500
+  },
+  {
+    "region": "icon2",
+    "id": 1,
+    "quantity": 3,
+    "percent": 850
+  },
+  {
+    "region": "icon1",
+    "id": 2,
+    "quantity": 3,
+    "percent": 850
+  },
+  {
+    "region": "icon3",
+    "id": 3,
+    "quantity": 1,
+    "percent": 2500
+  },
+  {
+    "region": "icon2",
+    "id": 4,
+    "quantity": 1,
+    "percent": 2500
+  },
+  {
+    "region": "icon3",
+    "id": 5,
+    "quantity": 3,
+    "percent": 800
+  }
+]

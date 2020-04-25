@@ -1,83 +1,250 @@
 
 uigame.png
-size: 1024,2048
+size: 2048,2048
 format: RGBA8888
 filter: Nearest,Nearest
 repeat: none
 Chosse0
   rotate: false
-  xy: 2, 162
+  xy: 1908, 938
   size: 90, 78
   orig: 90, 78
   offset: 0, 0
   index: -1
 Chosse1
   rotate: false
-  xy: 724, 1444
+  xy: 1309, 158
   size: 90, 78
   orig: 90, 78
   offset: 0, 0
   index: -1
 Chosse2
   rotate: false
-  xy: 2, 82
+  xy: 1431, 386
   size: 90, 78
   orig: 90, 78
   offset: 0, 0
   index: -1
 Chosse3
   rotate: false
-  xy: 94, 162
+  xy: 475, 78
   size: 90, 78
   orig: 90, 78
   offset: 0, 0
   index: -1
 Chosse4
   rotate: false
-  xy: 724, 1364
+  xy: 1908, 858
+  size: 90, 78
+  orig: 90, 78
+  offset: 0, 0
+  index: -1
+Chosse5
+  rotate: false
+  xy: 1309, 78
+  size: 90, 78
+  orig: 90, 78
+  offset: 0, 0
+  index: -1
+Chosse6
+  rotate: false
+  xy: 1401, 158
+  size: 90, 78
+  orig: 90, 78
+  offset: 0, 0
+  index: -1
+Chosse7
+  rotate: false
+  xy: 1908, 778
   size: 90, 78
   orig: 90, 78
   offset: 0, 0
   index: -1
 Static0
   rotate: false
-  xy: 816, 1444
+  xy: 1401, 78
   size: 90, 78
   orig: 90, 78
   offset: 0, 0
   index: -1
 Static1
   rotate: false
-  xy: 2, 2
+  xy: 1908, 698
   size: 90, 78
   orig: 90, 78
   offset: 0, 0
   index: -1
 Static2
   rotate: false
-  xy: 94, 82
+  xy: 1908, 618
   size: 90, 78
   orig: 90, 78
   offset: 0, 0
   index: -1
 Static3
   rotate: false
-  xy: 186, 162
+  xy: 567, 78
   size: 90, 78
   orig: 90, 78
   offset: 0, 0
   index: -1
 Static4
   rotate: false
-  xy: 724, 1284
+  xy: 1838, 499
+  size: 90, 78
+  orig: 90, 78
+  offset: 0, 0
+  index: -1
+Static5
+  rotate: false
+  xy: 1838, 419
+  size: 90, 78
+  orig: 90, 78
+  offset: 0, 0
+  index: -1
+Static6
+  rotate: false
+  xy: 1493, 62
+  size: 90, 78
+  orig: 90, 78
+  offset: 0, 0
+  index: -1
+Static7
+  rotate: false
+  xy: 1930, 538
   size: 90, 78
   orig: 90, 78
   offset: 0, 0
   index: -1
 bg
   rotate: false
-  xy: 2, 242
+  xy: 2, 761
+  size: 720, 1285
+  orig: 720, 1285
+  offset: 0, 0
+  index: -1
+bg2
+  rotate: false
+  xy: 724, 766
   size: 720, 1280
   orig: 720, 1280
+  offset: 0, 0
+  index: -1
+bg_icon_cross
+  rotate: false
+  xy: 1309, 466
+  size: 225, 298
+  orig: 225, 298
+  offset: 0, 0
+  index: -1
+btnContinus
+  rotate: false
+  xy: 1536, 689
+  size: 370, 109
+  orig: 370, 109
+  offset: 0, 0
+  index: -1
+btnExit
+  rotate: false
+  xy: 1908, 1018
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: -1
+btnGameOther
+  rotate: false
+  xy: 1908, 1140
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: -1
+btnMini
+  rotate: false
+  xy: 1536, 414
+  size: 300, 163
+  orig: 300, 163
+  offset: 0, 0
+  index: -1
+btnNewGame
+  rotate: false
+  xy: 1536, 579
+  size: 370, 108
+  orig: 370, 108
+  offset: 0, 0
+  index: -1
+btnOk
+  rotate: false
+  xy: 1309, 238
+  size: 256, 104
+  orig: 256, 104
+  offset: 0, 0
+  index: -1
+btnRank
+  rotate: false
+  xy: 2, 48
+  size: 471, 108
+  orig: 471, 108
+  offset: 0, 0
+  index: -1
+btnWatch
+  rotate: false
+  xy: 1309, 344
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: -1
+frmBonus
+  rotate: false
+  xy: 724, 2
+  size: 583, 762
+  orig: 583, 762
+  offset: 0, 0
+  index: -1
+frmGameOther
+  rotate: false
+  xy: 1446, 1262
+  size: 600, 784
+  orig: 600, 784
+  offset: 0, 0
+  index: -1
+frmWheel
+  rotate: false
+  xy: 2, 158
+  size: 650, 601
+  orig: 650, 601
+  offset: 0, 0
+  index: -1
+kim
+  rotate: false
+  xy: 1493, 142
+  size: 70, 94
+  orig: 70, 94
+  offset: 0, 0
+  index: -1
+whell
+  rotate: false
+  xy: 1446, 800
+  size: 460, 460
+  orig: 460, 460
+  offset: 0, 0
+  index: -1
+
+uigame2.png
+size: 2048,2048
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+bgStart
+  rotate: false
+  xy: 2, 2
+  size: 720, 1280
+  orig: 720, 1280
+  offset: 0, 0
+  index: -1
+frmBoard
+  rotate: false
+  xy: 724, 478
+  size: 720, 804
+  orig: 720, 804
   offset: 0, 0
   index: -1

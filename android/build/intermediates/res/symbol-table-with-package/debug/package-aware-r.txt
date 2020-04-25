@@ -1,4 +1,4 @@
-com.mygdx.game
+com.jkstudiogroup.popcat
 attr adSize
 attr adSizes
 attr adUnitId
@@ -175,6 +175,7 @@ layout notification_template_custom_big
 layout notification_template_icon_group
 layout notification_template_part_chronometer
 layout notification_template_part_time
+mipmap ic_launcher
 string app_name
 string com_crashlytics_android_build_id
 string common_google_play_services_enable_button

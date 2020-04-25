@@ -1,34 +1,42 @@
 {
   "project_info": {
-    "project_number": "707532446921",
-    "firebase_url": "https://color-match-db982.firebaseio.com",
-    "project_id": "color-match-db982",
-    "storage_bucket": "color-match-db982.appspot.com"
+    "project_number": "297811367941",
+    "firebase_url": "https://popcat-3a3ba.firebaseio.com",
+    "project_id": "popcat-3a3ba",
+    "storage_bucket": "popcat-3a3ba.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:707532446921:android:d31348002d773f15584118",
+        "mobilesdk_app_id": "1:297811367941:android:7e98556cbddebb78",
         "android_client_info": {
-          "package_name": "com.mygdx.game"
+          "package_name": "com.jkstudiogroup.popcat"
         }
       },
       "oauth_client": [
         {
-          "client_id": "707532446921-ej9nfrhuasd4tqjdtvrvjf8fmnr02r08.apps.googleusercontent.com",
+          "client_id": "297811367941-gc2d8b57b749v80b24cu3n2ufo3m81eo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.jkstudiogroup.popcat",
+            "certificate_hash": "67c4455ed1dbb3e0658ff8ab21bf21a4117b20db"
+          }
+        },
+        {
+          "client_id": "297811367941-g5tuevrkv1i63c7t7n4df79ovm44v4qr.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDj4_sCTGLaY3wkQ_xMtBNlttwGsGQFKq8"
+          "current_key": "AIzaSyD-AMDnKq-8wRUU-WxqwBeUHNW2RXNc13A"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "707532446921-ej9nfrhuasd4tqjdtvrvjf8fmnr02r08.apps.googleusercontent.com",
+              "client_id": "297811367941-g5tuevrkv1i63c7t7n4df79ovm44v4qr.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

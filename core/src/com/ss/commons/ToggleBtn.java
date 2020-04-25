@@ -1,6 +1,7 @@
 package com.ss.commons;
 
 import com.badlogic.gdx.graphics.g2d.TextureAtlas;
+import com.badlogic.gdx.scenes.scene2d.Group;
 import com.badlogic.gdx.scenes.scene2d.InputEvent;
 import com.badlogic.gdx.scenes.scene2d.ui.Image;
 import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
@@ -10,22 +11,25 @@ import com.ss.effects.SoundEffect;
 
 public class ToggleBtn {
   private TextureAtlas atlas;
-  private GLayerGroup group;
+  private Group group;
   private Image shapeOn, shapeOff;
+  private String btn1,btn2;
   private boolean value;
   private int id;
-  public ToggleBtn(TextureAtlas atlas, GLayerGroup group, boolean value, int id){
+  public ToggleBtn(TextureAtlas atlas, Group group, boolean value, int id, String btn1, String btn2){
     this.atlas = atlas;
     this.group = group;
     this.value = value;
     this.id = id;
+    this.btn1=btn1;
+    this.btn2=btn2;
     initUI();
     addEventClick();
   }
 
   private void initUI(){
-    shapeOn = GUI.createImage(atlas, "onBtn");
-    shapeOff = GUI.createImage(atlas, "offBtn");
+    shapeOn = GUI.createImage(atlas, btn1);
+    shapeOff = GUI.createImage(atlas, btn2);
     group.addActor(shapeOn);
     group.addActor(shapeOff);
     setValue(this.value);
@@ -45,7 +49,7 @@ public class ToggleBtn {
         setValue(false);
         if(id == 1){
           SoundEffect.music = false;
-          SoundEffect.pauseM();
+//          SoundEffect.pauseM();
         }
         else if(id == 2){
           SoundEffect.mute = true;
@@ -62,7 +66,7 @@ public class ToggleBtn {
 
         if(id == 1){
           SoundEffect.music = true;
-          SoundEffect.unPause();
+//          SoundEffect.unPause();
         }
         else if(id == 2){
           SoundEffect.mute = false;
