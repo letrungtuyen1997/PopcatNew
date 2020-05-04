@@ -30,7 +30,8 @@ public class fotter {
     public Image fotter;
     private Array<Image> arrItem = new Array<>();
     private Array<Image> arrbtnAddmore = new Array<>();
-    private Array<Image> arrFrm = new Array<>();
+    private Array<Label> arrLb = new Array<>();
+    private Array<String> arrLbStr = new Array<>();
     private Array<Image> arrIcon = new Array<>();
     public Array<Label> arrLbQuantity = new Array<>();
     public Array<Integer> arrQuantity = new Array<>();
@@ -40,7 +41,7 @@ public class fotter {
     private int index=0;
     private GShapeSprite gShape;
     private Header header;
-    private Image light;
+    private Image light,frm;
     public fotter(Header header){
         this.header = header;
         GStage.addToLayer(GLayer.top,group);
@@ -195,17 +196,27 @@ public class fotter {
 
     }
     private void renderTutorial(){
-        for(int i=0;i<3;i++){
-            Image frm = GUI.createImage(TextureAtlasC.Fottergame,"frm"+(i+1));
-            frm.setPosition(header.group.getX(),header.group.getY()-frm.getHeight());
-            gr.addActor(frm);
-            frm.setVisible(false);
-            arrFrm.add(frm);
+        arrLbStr.add(C.lang.lbSkill1,C.lang.lbSkill2,C.lang.lbSkill3);
+        frm = GUI.createImage(TextureAtlasC.Fottergame,"frm");
+        frm.setWidth(Config.ScreenW);
+        frm.setPosition(header.group.getX(),header.group.getY()-frm.getHeight());
+        gr.addActor(frm);
+        frm.setVisible(false);
+        ///////// label ///////
+        for (int i=0;i<3;i++){
+            Label lb = new Label(arrLbStr.get(i),new Label.LabelStyle(BitmapFontC.FontAlert,null));
+            lb.setFontScale(0.45f);
+            lb.setOrigin(Align.center);
+            lb.setAlignment(Align.center);
+            lb.setPosition(Config.ScreenW/2+lb.getPrefWidth()/5,frm.getY()+frm.getHeight()/4,Align.center);
+            lb.setVisible(false);
+            gr.addActor(lb);
+            arrLb.add(lb);
         }
         light = GUI.createImage(TextureAtlasC.Fottergame,"light");
         light.setScale(1.5f);
         light.setOrigin(Align.center);
-        light.setPosition(arrFrm.get(0).getX()+140,arrFrm.get(0).getY()+arrFrm.get(0).getHeight()/2,Align.center);
+        light.setPosition(frm.getX()+140,frm.getY()+frm.getHeight()/2,Align.center);
         gr.addActor(light);
         light.setVisible(false);
         for(int i=0;i<3;i++){
@@ -228,20 +239,20 @@ public class fotter {
         ));
     }
     public void showfrmTutorial(int index,boolean turn){
-        for (int i=0;i<arrFrm.size;i++){
+        for (int i=0;i<arrIcon.size;i++){
             if(index==i){
-                arrFrm.get(i).setVisible(true);
+                arrLb.get(i).setVisible(true);
                 arrIcon.get(i).setVisible(true);
             }else {
-                arrFrm.get(i).setVisible(false);
+                arrLb.get(i).setVisible(false);
                 arrIcon.get(i).setVisible(false);
             }
         }
         if(turn==true) {
-
+            frm.setVisible(true);
             gr.setVisible(true);
             gr.addAction(Actions.sequence(
-                    Actions.moveBy(0, arrFrm.get(0).getHeight(), 0.5f),
+                    Actions.moveBy(0, frm.getHeight(), 0.5f),
                     GSimpleAction.simpleAction((d, a) -> {
                         light.setVisible(true);
                         return true;
@@ -250,7 +261,7 @@ public class fotter {
         }
         else {
             gr.addAction(Actions.sequence(
-                    Actions.moveBy(0,-arrFrm.get(0).getHeight(),0.5f),
+                    Actions.moveBy(0,-frm.getHeight(),0.5f),
                     GSimpleAction.simpleAction((d,a)->{
                         light.setVisible(false);
                         gr.setVisible(false);
@@ -323,7 +334,7 @@ public class fotter {
                 }
             });
         }else {
-            Label notice = new Label("Kiểm tra kết nối",new Label.LabelStyle(BitmapFontC.robotoVi, Color.RED));
+            Label notice = new Label(C.lang.lbCheckConnect,new Label.LabelStyle(BitmapFontC.robotoVi, Color.RED));
             notice.setPosition(0,0,Align.center);
             group.addActor(notice);
             notice.addAction(Actions.sequence(

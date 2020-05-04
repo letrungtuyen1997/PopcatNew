@@ -38,6 +38,7 @@ public class Board {
     private Group group= new Group();
     private Group group1= new Group();
     private Group grlb= new Group();
+    private Group grParticle= new Group();
     private Group grClrStage= new Group();
     private ArrayList<Pop> chosenPops = null;
     private int countPop;
@@ -59,6 +60,7 @@ public class Board {
         GStage.addToLayer(GLayer.ui,group);
         GStage.addToLayer(GLayer.top,group1);
         GStage.addToLayer(GLayer.top,grlb);
+        GStage.addToLayer(GLayer.top,grParticle);
         header.group.addActor(grClrStage);
 //        GStage.addToLayer(GLayer.top,grClrStage);
         Config.processConfig();
@@ -149,11 +151,12 @@ public class Board {
      }
     void popClick(Pop pop) {
 
+
         if (chosenPops == null)
+        {
             selectPops(pop);
-        else
-        if (hasBeenChosen(pop)){
-            explodePops(Config.selectMode);
+            if (chosenPops!=null)
+                explodePops(Config.selectMode);
         }
         else{
             selectPops(pop);
@@ -199,7 +202,6 @@ public class Board {
                 overlap.setVisible(true);
                 break;
         }
-//        for (pop p: chosenPops)
 
         if (samePops.size() >= 2) {
             SoundEffect.Play(SoundEffect.click);
@@ -212,13 +214,15 @@ public class Board {
             chosenPops = samePops;
             countPop = samePops.size();
 
+        }else {
+            setTouch(Touchable.enabled);
         }
+
 
     }
 
 
     private void explodePops(SelectMode selectMode){
-        setTouch(Touchable.disabled);
         float explodeTime = 0;
         int index = 0;
         setPopScore();
@@ -430,8 +434,11 @@ public class Board {
         }
     }
     public void setTouchExploxe(Touchable set){
-        for (Pop p : chosenPops)
-            p.popChosse.setTouchable(set);
+        if(chosenPops!=null){
+            for (Pop p : chosenPops)
+                p.pop.setTouchable(set);
+        }
+
     }
 
     private boolean isDeadEnd(){
@@ -585,7 +592,10 @@ public class Board {
     }
     private void AniStageClear(){
         grClrStage.setZIndex(header.group.getChildren().get(0).getZIndex()+1);
-        Image logo = GUI.createImage(TextureAtlasC.Fottergame,"stageClear");
+        String type="stageClearVn";
+        if(C.lang.idcontry.equals("en"))
+            type="stageClearEn";
+        Image logo = GUI.createImage(TextureAtlasC.Fottergame,type);
         logo.setPosition(0,0,Align.center);
         grClrStage.addActor(logo);
         grClrStage.setPosition(Config.ScreenW/2,Config.ScreenH/2);
@@ -594,12 +604,12 @@ public class Board {
                 Actions.moveTo(Config.ScreenW-logo.getWidth()/4,header.lbLevel.getY(),0.7f),
                 Actions.scaleTo(0.4f,0.4f,0.7f)
         ));
-
     }
     private void saveData(){
         Config.HighScore = GMain.prefs.getLong("HighScore");
         if(Config.Score>Config.HighScore){
             Config.HighScore=Config.Score;
+            GMain.platform.ReportScore(Config.HighScore);
         }
         GMain.prefs.putLong("Score",Config.Score);
         GMain.prefs.putLong("HighScore",Config.HighScore);
@@ -638,6 +648,7 @@ public class Board {
         header.updateLevel();
         header.updateHighSc(Config.HighScore);
         bonusScore = Config.BonusScore;
+        Config.DuraCountDown=1;
         group.clear();
         group.remove();
         grlb.clear();
@@ -673,6 +684,7 @@ public class Board {
 
     }
     private void GameOver(){
+        Config.DuraCountDown=1;
         SoundEffect.Stopmusic(1);
         GMain.platform.ShowFullscreen();
         GMain.prefs.putBoolean("isnewgame",false);
@@ -709,13 +721,29 @@ public class Board {
         btnRestart.setOrigin(Align.center);
         btnRestart.setPosition(-btnRestart.getWidth()/2,frm.getHeight()/2-btnRestart.getHeight()*1.2f,Align.center);
         gr.addActor(btnRestart);
+        ////// lbRestart//////
+        Label lbRestart = new Label(C.lang.lbRestart,new Label.LabelStyle(BitmapFontC.FontAlert,null));
+        lbRestart.setFontScale(0.5f);
+        lbRestart.setOrigin(Align.center);
+        lbRestart.setAlignment(Align.center);
+        lbRestart.setPosition(btnRestart.getX()+btnRestart.getWidth()/2,btnRestart.getY()+btnRestart.getHeight()/2,Align.center);
+        gr.addActor(lbRestart);
+
+
         ////// btn Home /////////
         Image btnHome = GUI.createImage(TextureAtlasC.Fottergame,"btnHome");
         btnHome.setOrigin(Align.center);
         btnHome.setPosition(btnHome.getWidth()/2,frm.getHeight()/2-btnHome.getHeight()*1.2f,Align.center);
         gr.addActor(btnHome);
+        ////// lbHome//////
+        Label lbHome = new Label(C.lang.lbHome,new Label.LabelStyle(BitmapFontC.FontAlert,null));
+        lbHome.setFontScale(0.5f);
+        lbHome.setOrigin(Align.center);
+        lbHome.setAlignment(Align.center);
+        lbHome.setPosition(btnHome.getX()+btnHome.getWidth()/2,btnHome.getY()+btnHome.getHeight()/2,Align.center);
+        gr.addActor(lbHome);
         gr.addAction(Actions.scaleTo(1,1,0.5f,Interpolation.swingOut));
-        btnRestart.addListener(new ClickListener(){
+        lbRestart.addListener(new ClickListener(){
             @Override
             public void touchUp(InputEvent event, float x, float y, int pointer, int button) {
                 super.touchUp(event, x, y, pointer, button);
@@ -723,7 +751,7 @@ public class Board {
                 restart(gr);
             }
         });
-        btnHome.addListener(new ClickListener(){
+        lbHome.addListener(new ClickListener(){
             @Override
             public void touchUp(InputEvent event, float x, float y, int pointer, int button) {
                 super.touchUp(event, x, y, pointer, button);
@@ -752,5 +780,4 @@ public class Board {
         header.updateHighSc(Config.HighScore);
         new Board(Config.Level,header,fotter,gameScene);
     }
-
 }

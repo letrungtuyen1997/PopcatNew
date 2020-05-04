@@ -1,5 +1,6 @@
 package com.ss.gameLogic.objects;
 
+import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.scenes.scene2d.Group;
 import com.badlogic.gdx.scenes.scene2d.actions.Actions;
 import com.badlogic.gdx.scenes.scene2d.ui.Image;
@@ -10,6 +11,7 @@ import com.ss.commons.TextureAtlasC;
 import com.ss.core.util.GLayer;
 import com.ss.core.util.GStage;
 import com.ss.core.util.GUI;
+import com.ss.gameLogic.config.C;
 import com.ss.gameLogic.config.Config;
 
 public class Header {
@@ -26,10 +28,28 @@ public class Header {
         Image frmHighSc = GUI.createImage(TextureAtlasC.Fottergame,"frmHighSc");
         frmHighSc.setPosition(frmHighSc.getWidth()/2,frmHighSc.getHeight()/2,Align.center);
         group.addActor(frmHighSc);
-        ////////// frm money/////
-//        Image frmmoney = GUI.createImage(TextureAtlasC.Fottergame,"frmMoney");
-//        frmmoney.setPosition(Config.ScreenW-frmmoney.getWidth()*0.75f,frmmoney.getHeight(),Align.center);
-//        group.addActor(frmmoney);
+        ////////// Label highSc/////
+        Label lbHighS = new Label(C.lang.lbHighSc,new Label.LabelStyle(BitmapFontC.FontAlert,null));
+        lbHighS.setFontScale(0.4f);
+        lbHighS.setOrigin(Align.center);
+//        lbHighS.setAlignment(Align.center);
+        lbHighS.setPosition(20,header.getY()+lbHighS.getPrefHeight()/2+10,Align.left);
+        group.addActor(lbHighS);
+        ////////// Label Target/////
+        Label lbtar = new Label(C.lang.lbTarget,new Label.LabelStyle(BitmapFontC.FontAlert, Color.GREEN));
+        lbtar.setFontScale(0.4f);
+        lbtar.setOrigin(Align.center);
+//        lbtar.setAlignment(Align.center);
+        lbtar.setPosition(20,lbHighS.getY()+lbHighS.getPrefHeight()*3.5f,Align.left);
+        group.addActor(lbtar);
+        ////////// Label Level/////
+        Label lblv = new Label(C.lang.lbLv,new Label.LabelStyle(BitmapFontC.FontAlert, Color.ORANGE));
+        lblv.setFontScale(0.4f);
+        lblv.setOrigin(Align.center);
+//        lblv.setAlignment(Align.center);
+        lblv.setPosition(20,lbHighS.getY()+lbHighS.getPrefHeight()*5.5f,Align.left);
+        group.addActor(lblv);
+
         ///////// frm Score////////
         Image frmScore = GUI.createImage(TextureAtlasC.Fottergame,"frmScore");
         frmScore.setPosition(Config.ScreenW/2,200,Align.center);

@@ -6,7 +6,7 @@
     "drFlypop2": 0.02,
     "popScore": 10,
     "bonusScore": 2000,
-    "targetScore": 3000,
+    "targetScore": 6000,
     "sliceDuration": 0.25,
     "shiftDuration": 0.1,
     "DuraCountDown": 1,

@@ -23,8 +23,8 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Random;
-import java.util.stream.Collectors;
-import java.util.stream.IntStream;
+//import java.util.stream.Collectors;
+//import java.util.stream.IntStream;
 
 @SuppressWarnings("unused")
 public class Wheel extends Group {
@@ -37,12 +37,12 @@ public class Wheel extends Group {
   public  static        List<WheelItem>              wheelItems          = new ArrayList<>(); //thông tin từ item
   public  static        int                          PARTITION           = 12;                //số phần chia, wheelItems.size() phải = PARTITION
   public  static        float                        TEXT_SPACE          = 6;                 //khoảng cách chữ
-  public  static        boolean                      Y_DOWN              = true;
+  public  static        boolean                      Y_DOWN              = true;              //tọa đồ y down hay y up
 
   private static final  boolean                      RENDER_ITEM         = true;             //có vẽ icon item hay ko
-  private static final  boolean                      RENDER_POINTER      = false;             //có vẽ icon item hay ko
-  public static   float                              ITEM_SCALE          = 1;                 //scale của whell item
-  public static   float                              ITEM_FLOAT          = 0.6f;              //vẽ item gần hay xa tâm tròn
+  private static final  boolean                      RENDER_POINTER      = false;             //có vẽ icon  hay ko
+  public  static        float                        ITEM_SCALE          = 1;                 //scale của whell item
+  public  static        float                        ITEM_FLOAT          = 0.6f;              //vẽ item gần hay xa tâm tròn
   private static final  float                        DOT_FLOAT           = 0.66f;             //vẽ text số lượng gần hay xa tâm tròn
   private static final  boolean                      RENDER_TEXT         = true;              //có vẽ text số lượng hay ko
   private static final  boolean                      POLAR_TEXT_RENDER   = false;              //true: vẽ text phóng từ tâm, false: vẽ xung quanh rìa đường tròn
@@ -83,11 +83,16 @@ public class Wheel extends Group {
       }
 
       wheelItemMap.clear();
-      int totalPercent = wheelItems.stream().mapToInt(i -> i.percent).sum();
+      int totalPercent = 0;
+      for (int i = 0; i < wheelItems.size(); i++)
+        totalPercent += wheelItems.get(i).percent;
+      //int totalPercent = wheelItems.stream().mapToInt(i -> i.percent).sum();
       if (totalPercent != TOTAL_PERCENT)
         throw new IllegalStateException("wheel percent inconsistency: " + totalPercent);
 
-      wheelItems.forEach(it -> wheelItemMap.put(it.id, it));
+      for (WheelItem items : wheelItems)
+        wheelItemMap.put(items.id, items);
+      //wheelItems.forEach(it -> wheelItemMap.put(it.id, it));
 
       WHEEL_ARC = 360 / PARTITION;
       cp = new Vector2(wheelTex.getRegionWidth()/2, wheelTex.getRegionHeight()/2);
@@ -143,23 +148,53 @@ public class Wheel extends Group {
     float               scl               = getScaleX();
 
     //render light dot
-    IntStream.range(0, PARTITION).filter(i -> {
-      if (acc < FLASH_DURATION)
-        return i%2 == 0;
-      else if (acc > FLASH_DURATION && acc < FLASH_DURATION*2)
-        return i%2 == 1;
-      acc = 0;
-      return i%2 == 0;
-    }).forEach(i -> {
-      float w         = lightDot.getRegionWidth();
-      float h         = lightDot.getRegionHeight();
-      float ox        = w/2f;
-      float oy        = h/2f;
-      pos .set(0, wheelTex.getRegionHeight()* DOT_FLOAT /2f)
-          .rotate(wheel.getRotation() + i*WHEEL_ARC + WHEEL_ARC/2)
-          .add(cp).scl(scl).add(getX(), getY()).sub(w/2, h/2);
-      batch.draw(lightDot, pos.x, pos.y, ox, oy, w, h, scl, scl, 0);
-    });
+//    IntStream.range(0, PARTITION).filter(i -> {
+//      if (acc < FLASH_DURATION)
+//        return i%2 == 0;
+//      else if (acc > FLASH_DURATION && acc < FLASH_DURATION*2)
+//        return i%2 == 1;
+//      acc = 0;
+//      return i%2 == 0;
+//    }).forEach(i -> {
+//      float w         = lightDot.getRegionWidth();
+//      float h         = lightDot.getRegionHeight();
+//      float ox        = w/2f;
+//      float oy        = h/2f;
+//      pos .set(0, wheelTex.getRegionHeight()* DOT_FLOAT /2f)
+//          .rotate(wheel.getRotation() + i*WHEEL_ARC + WHEEL_ARC/2)
+//          .add(cp).scl(scl).add(getX(), getY()).sub(w/2, h/2);
+//      batch.draw(lightDot, pos.x, pos.y, ox, oy, w, h, scl, scl, 0);
+//    });
+
+    for (int i = 0; i < PARTITION; i++) {
+      if (acc < FLASH_DURATION) {
+        if (i %2 == 0) {
+          float w         = lightDot.getRegionWidth();
+          float h         = lightDot.getRegionHeight();
+          float ox        = w/2f;
+          float oy        = h/2f;
+          pos .set(0, wheelTex.getRegionHeight()* DOT_FLOAT /2f)
+                  .rotate(wheel.getRotation() + i*WHEEL_ARC + WHEEL_ARC/2)
+                  .add(cp).scl(scl).add(getX(), getY()).sub(w/2, h/2);
+          batch.draw(lightDot, pos.x, pos.y, ox, oy, w, h, scl, scl, 0);
+        }
+      }
+      else if (acc > FLASH_DURATION && acc < FLASH_DURATION*2) {
+        if (i%2 == 1) {
+          float w         = lightDot.getRegionWidth();
+          float h         = lightDot.getRegionHeight();
+          float ox        = w/2f;
+          float oy        = h/2f;
+          pos .set(0, wheelTex.getRegionHeight()* DOT_FLOAT /2f)
+                  .rotate(wheel.getRotation() + i*WHEEL_ARC + WHEEL_ARC/2)
+                  .add(cp).scl(scl).add(getX(), getY()).sub(w/2, h/2);
+          batch.draw(lightDot, pos.x, pos.y, ox, oy, w, h, scl, scl, 0);
+        }
+      }
+      else {
+        acc = 0;
+      }
+    }
 
     if (RENDER_POINTER) {
       //render pointer
@@ -186,22 +221,37 @@ public class Wheel extends Group {
 
   private List<Tuple<Vector2, WheelItem>> calcItemPosition() {
     Vector2 roller = Vector2.Zero.setAngle(0).set(0, wheelTex.getRegionHeight()*ITEM_FLOAT/2);
-    return IntStream.range(0, PARTITION)
-    .mapToObj(i -> {
+    List<Tuple<Vector2, WheelItem>> result = new ArrayList<>();
+    for (int i = 0; i < PARTITION; i++) {
       TextureRegion region = wheelItems.get(i)/*!*/.tex;
       Vector2 pos = roller.cpy().rotate(i*WHEEL_ARC).add(cp)
                     .sub(region.getRegionWidth()/2, region.getRegionHeight()/2);
-      return new Tuple<>(pos, wheelItems.get(i));
-    })
-    .collect(Collectors.toList());
+      result.add(new Tuple<>(pos, wheelItems.get(i)));
+    }
+    return result;
+
+//    return IntStream.range(0, PARTITION)
+//    .mapToObj(i -> {
+//      TextureRegion region = wheelItems.get(i)/*!*/.tex;
+//      Vector2 pos = roller.cpy().rotate(i*WHEEL_ARC).add(cp)
+//                    .sub(region.getRegionWidth()/2, region.getRegionHeight()/2);
+//      return new Tuple<>(pos, wheelItems.get(i));
+//    })
+//    .collect(Collectors.toList());
   }
 
   private List<Vector2> calcDotPosition(float shiftRadian) {
     Vector2 roller = Vector2.Zero.setAngle(0).set(0, wheelTex.getRegionHeight()* Wheel.DOT_FLOAT /2);
-    return IntStream.range(0, PARTITION)
-    .mapToObj(i -> roller.cpy().rotate(i*WHEEL_ARC + shiftRadian)
-      .add(cp).sub(wheelDot.getRegionWidth()/2, wheelDot.getRegionHeight()/2))
-    .collect(Collectors.toList());
+    List<Vector2> result = new ArrayList<>();
+    for (int i = 0; i < PARTITION; i++) {
+      result.add(roller.cpy().rotate(i*WHEEL_ARC + shiftRadian)
+              .add(cp).sub(wheelDot.getRegionWidth()/2, wheelDot.getRegionHeight()/2));
+    }
+    return result;
+//    return IntStream.range(0, PARTITION)
+//    .mapToObj(i -> roller.cpy().rotate(i*WHEEL_ARC + shiftRadian)
+//      .add(cp).sub(wheelDot.getRegionWidth()/2, wheelDot.getRegionHeight()/2))
+//    .collect(Collectors.toList());
   }
 
   private void combine() {
@@ -222,21 +272,28 @@ public class Wheel extends Group {
 
     //render qty text
     if (RENDER_TEXT) {
-      IntStream.range(0, PARTITION)
-      .forEach(i -> {
+      for (int i = 0; i < PARTITION; i++) {
         AngularSpriteFont sprite;
         if (POLAR_TEXT_RENDER)
           sprite = new PolarSpriteFont(wheelItems.get(i)./*!*/qtyText, wheelText);
         else
           sprite = new AngularSpriteFont(wheelItems.get(i)./*!*/qtyText, wheelText);
         sprite.draw(batch,i*WHEEL_ARC);
-      });
+      }
+//      IntStream.range(0, PARTITION)
+//      .forEach(i -> {
+//        AngularSpriteFont sprite;
+//        if (POLAR_TEXT_RENDER)
+//          sprite = new PolarSpriteFont(wheelItems.get(i)./*!*/qtyText, wheelText);
+//        else
+//          sprite = new AngularSpriteFont(wheelItems.get(i)./*!*/qtyText, wheelText);
+//        sprite.draw(batch,i*WHEEL_ARC);
+//      });
     }
 
     //render items
     if(RENDER_ITEM) {
-      IntStream.range(0, PARTITION)
-      .forEach(i -> {
+      for (int i = 0; i < PARTITION; i++) {
         int     iw        = wheelItems.get(i)./*!*/tex.getRegionWidth();
         int     ih        = wheelItems.get(i).tex.getRegionHeight();
         float   ix        = items.get(i).position.x;
@@ -257,7 +314,30 @@ public class Wheel extends Group {
         scl   =  1;
         ang   =  0;
         batch.draw(wheelDot, ix, iy, ox, oy, iw, ih, scl, scl, ang);
-      });
+      }
+//      IntStream.range(0, PARTITION)
+//      .forEach(i -> {
+//        int     iw        = wheelItems.get(i)./*!*/tex.getRegionWidth();
+//        int     ih        = wheelItems.get(i).tex.getRegionHeight();
+//        float   ix        = items.get(i).position.x;
+//        float   iy        = items.get(i).position.y;
+//        float   ox        = iw/2;
+//        float   oy        = ih/2;
+//        float   scl       = ITEM_SCALE;
+//        float   ang       = i*WHEEL_ARC;
+//        batch.draw(items.get(i).wheelItem.tex, ix, iy, ox, oy, iw, ih, scl, scl, ang);
+//
+//        //render dots
+//        iw    =  wheelDot.getRegionWidth();
+//        ih    =  wheelDot.getRegionHeight();
+//        ix    =  dotPos.get(i)./*!*/x;
+//        iy    =  dotPos.get(i).y;
+//        ox    =  iw/2;
+//        oy    =  ih/2;
+//        scl   =  1;
+//        ang   =  0;
+//        batch.draw(wheelDot, ix, iy, ox, oy, iw, ih, scl, scl, ang);
+//      });
     }
     batch.end();fbo.end();batch.dispose();
 
@@ -502,9 +582,8 @@ public class Wheel extends Group {
     public int getPercent() {
       return percent;
     }
-    public TextureRegion getRegion() {
-      return tex;
-    }
+    public TextureRegion getRegion(){return tex;}
+
     public int getId() {
       return id;
     }

@@ -42,6 +42,9 @@ public class StartScene extends GScreen {
     private Group group = new Group();
     private Group gr = new Group();
     private Group gCrossPanel;
+    private Group grbtn1 = new Group();
+    private Group grbtn2 = new Group();
+    private Group grbtn3 = new Group();
     private ArrayList<Group> lsBgIcon;
     private boolean checkWhell=false;
 
@@ -52,12 +55,17 @@ public class StartScene extends GScreen {
 
     @Override
     public void init() {
+
         GStage.addToLayer(GLayer.ui,group);
+        GStage.addToLayer(GLayer.ui,grbtn1);
+        GStage.addToLayer(GLayer.ui,grbtn2);
+        GStage.addToLayer(GLayer.ui,grbtn3);
         GStage.addToLayer(GLayer.top,gr);
+
+
         SoundEffect.Playmusic(1);
 //        GMain.platform.ShowBanner(true);
-        TextureAtlasC.initAtlas();
-        BitmapFontC.initBitmapFont();
+
         render();
     }
 
@@ -65,38 +73,34 @@ public class StartScene extends GScreen {
     public void run() {
 
     }
+    private void createWheel(){
+
+    }
     private void render(){
+
         Config.loadjson();
         Image bg = GUI.createImage(TextureAtlasC.uigame,"bgStart");
         bg.setWidth(Config.ScreenW);
         bg.setHeight(Config.ScreenH);
         group.addActor(bg);
         //////// btn new Game//////
-        Image btnNewGame = GUI.createImage(TextureAtlasC.uigame,"btnNewGame");
-        btnNewGame.setOrigin(Align.center);
-        btnNewGame.setPosition(Config.ScreenW/2,Config.ScreenH/2+btnNewGame.getHeight(), Align.center);
-        group.addActor(btnNewGame);
+        btn(grbtn1,Config.ScreenW/2,Config.ScreenH/2,"btn",C.lang.lbbtnNewGame);
         //////// btn Continus//////
-        Image btnContinus = GUI.createImage(TextureAtlasC.uigame,"btnContinus");
-        btnContinus.setOrigin(Align.center);
-        btnContinus.setPosition(Config.ScreenW/2,btnNewGame.getY()+btnContinus.getHeight()*1.8f, Align.center);
-        group.addActor(btnContinus);
-        //////// btn Rank//////
-        Image btnRank = GUI.createImage(TextureAtlasC.uigame,"btnRank");
-        btnRank.setOrigin(Align.center);
-        btnRank.setPosition(Config.ScreenW/2,btnContinus.getY()+btnRank.getHeight()*1.8f, Align.center);
-        group.addActor(btnRank);
+        btn(grbtn2,Config.ScreenW/2,Config.ScreenH/2+grbtn1.getHeight()+10,"btn",C.lang.lbbtnContinus);
+//        //////// btn Rank//////
+        btn(grbtn3,Config.ScreenW/2,Config.ScreenH/2+grbtn1.getHeight()*2+20,"btn2",C.lang.lbbtnRank);
         //////// btn minigame /////
         Image btnMini = GUI.createImage(TextureAtlasC.uigame,"btnMini");
         btnMini.setPosition(Config.ScreenW/2,Config.ScreenH-btnMini.getHeight()/2,Align.center);
         group.addActor(btnMini);
-        ////// event btn//////
-        eventBtnNewGame(btnNewGame);
-        eventBtnContinus(btnContinus);
-        SetStatus(btnContinus);
-        AniBtn(btnNewGame,btnContinus,btnRank);
         //////// whell mini game ///////
         WheelItem();
+        ////// event btn//////
+        eventBtnNewGame(grbtn1);
+        eventBtnContinus(grbtn2);
+        eventBtnRank(grbtn3);
+        SetStatus(grbtn2);
+        AniBtn(grbtn1,grbtn2,grbtn3);
         eventBtnMini(btnMini);
         ///////// btn gameOther//////
         Image btnGmOther = GUI.createImage(TextureAtlasC.uigame,"btnGameOther");
@@ -106,6 +110,21 @@ public class StartScene extends GScreen {
         eventBtnGmOther(btnGmOther);
         AnibtnGm(btnGmOther);
 
+    }
+    private void btn(Group grbtn,float x,float y,String type,String lb){
+        Image btn = GUI.createImage(TextureAtlasC.uigame,type);
+        btn.setPosition(0,0);
+        grbtn.addActor(btn);
+        Label lbbtn = new Label(lb,new Label.LabelStyle(BitmapFontC.FontAlert,null));
+        lbbtn.setFontScale(0.7f);
+        lbbtn.setOrigin(Align.center);
+        lbbtn.setAlignment(Align.center);
+        lbbtn.setPosition(btn.getX()+btn.getWidth()/2,btn.getY()+btn.getHeight()/2-lbbtn.getPrefHeight()/4,Align.center);
+        grbtn.addActor(lbbtn);
+        grbtn.setWidth(btn.getWidth());
+        grbtn.setHeight(btn.getHeight());
+        grbtn.setOrigin(Align.center);
+        grbtn.setPosition(x,y,Align.center);
     }
     private void AnibtnGm(Image btn){
         btn.addAction(Actions.sequence(
@@ -133,7 +152,7 @@ public class StartScene extends GScreen {
             }
         });
     }
-    private void eventBtnNewGame(Image btn){
+    private void eventBtnNewGame(Group btn){
         btn.addListener(new ClickListener(){
             @Override
             public void touchUp(InputEvent event, float x, float y, int pointer, int button) {
@@ -147,7 +166,7 @@ public class StartScene extends GScreen {
             }
         });
     }
-    private void eventBtnContinus(Image btn){
+    private void eventBtnContinus(Group btn){
         btn.addListener(new ClickListener(){
             @Override
             public void touchUp(InputEvent event, float x, float y, int pointer, int button) {
@@ -157,14 +176,18 @@ public class StartScene extends GScreen {
             }
         });
     }
-    private void SetStatus(Image btn){
+    private void SetStatus(Group btn){
         boolean check = GMain.prefs.getBoolean("isnewgame");
         if(check==false){
-            btn.setColor(Color.DARK_GRAY);
+            for (int i=0;i<btn.getChildren().size;i++){
+                btn.getChildren().get(i).setColor(Color.DARK_GRAY);
+            }
+//            btn.setColor(Color.DARK_GRAY);
             btn.setTouchable(Touchable.disabled);
         }
+        System.out.println("check: "+btn.isTouchable());
     }
-    private void AniBtn(Image btn1,Image btn2,Image btn3){
+    private void AniBtn(Group btn1,Group btn2,Group btn3){
         btn1.addAction(Actions.sequence(
             Actions.scaleTo(0.9f,0.9f,0.4f),
             Actions.scaleTo(1f,1f,0.4f),
@@ -203,12 +226,30 @@ public class StartScene extends GScreen {
             }
         });
     }
+    private void eventBtnRank(Group btn){
+        btn.addListener(new ClickListener(){
+            @Override
+            public void touchUp(InputEvent event, float x, float y, int pointer, int button) {
+                super.touchUp(event, x, y, pointer, button);
+                SoundEffect.Play(SoundEffect.click);
+                GMain.platform.ShowLeaderboard();
+
+            }
+        });
+    }
     private void WheelItem(){
         FileHandle js = Gdx.files.internal("data/wheel.json");
         String jsonStr = js.readString();
         String jv2 = GMain.platform.GetConfigStringValue("skills",jsonStr);
         JsonReader json = new JsonReader();
-        JsonValue jv = json.parse(jv2);
+        JsonValue jv;
+        try {
+            jv = json.parse(jv2);
+            System.out.println("log:"+jv.get("region").asString());
+
+        }catch (Exception e){
+            jv = json.parse(jsonStr);
+        }
         gr.setVisible(false);
         gr.setPosition(Config.ScreenW/2,Config.ScreenH/2);
         gr.setScale(0);
@@ -223,56 +264,60 @@ public class StartScene extends GScreen {
         frmWheel.setPosition(0,0,Align.center);
         gr.addActor(frmWheel);
         ///////// Wheel ///////////
-        Wheel.wheelTex = TextureAtlasC.uigame.findRegion("whell");
-        Wheel.wheelTex.flip(false,true);
-//        Wheel.wheelTick = Gdx.audio.newSound(Gdx.files.internal("sound/wheel_sound.mp3"));
-        Wheel.wheelTick = GAssetsManager.getSound("wheel_sound.mp3");
-
-        Wheel.pointer = TextureAtlasC.WhellAtlas.findRegion("pointer");
-        Wheel.pointer.flip(false,true);
-        Wheel.wheelDot = TextureAtlasC.WhellAtlas.findRegion("dot");
-        Wheel.lightDot = TextureAtlasC.WhellAtlas.findRegion("lightdot");
-        Wheel.wheelText = BitmapFontC.FontAlert;
-        Wheel.TEXT_SPACE = 5f;
-        Wheel.PARTITION = 6;
-        Wheel.ITEM_SCALE= 0.7f;
-        Wheel.ITEM_FLOAT= 0.5f;
-        for (JsonValue ob: jv){
-            Wheel.wheelItems.add(Wheel.WheelItem.newInst(TextureAtlasC.Fottergame.findRegion(
-                    ob.get("region").asString()),
-                    ob.get("id").asInt(),
-                    ob.get("quantity").asInt(),
-                    ""+ob.get("quantity").asInt(),
-                    ob.get("percent").asInt()));
+        if(Config.checkWheel==false){
+            Config.checkWheel=true;
+            Wheel.wheelTex = TextureAtlasC.uigame.findRegion("whell");
+            Wheel.wheelTex.flip(false,true);
+            Wheel.wheelTick = Gdx.audio.newSound(Gdx.files.internal("sound/wheel_sound.mp3"));
+//        Wheel.wheelTick = GAssetsManager.getSound("wheel_sound.mp3");
+            Wheel.pointer = TextureAtlasC.WhellAtlas.findRegion("pointer");
+            Wheel.pointer.flip(false,true);
+            Wheel.wheelDot = TextureAtlasC.WhellAtlas.findRegion("dot");
+            Wheel.lightDot = TextureAtlasC.WhellAtlas.findRegion("lightdot");
+            Wheel.wheelText = BitmapFontC.FontAlert;
+            Wheel.TEXT_SPACE = 5f;
+            Wheel.PARTITION = 6;
+            Wheel.ITEM_SCALE= 0.7f;
+            Wheel.ITEM_FLOAT= 0.5f;
+            for (JsonValue ob: jv){
+                Wheel.wheelItems.add(Wheel.WheelItem.newInst(TextureAtlasC.Fottergame.findRegion(
+                        ob.get("region").asString()),
+                        ob.get("id").asInt(),
+                        ob.get("quantity").asInt(),
+                        ""+ob.get("quantity").asInt(),
+                        ob.get("percent").asInt()));
 //
+            }
+            Wheel.inst().setWheelListener(new Wheel.EventListener() {
+                @Override
+                public boolean start() {
+                    if(checkWhell==false)
+                        AddmoreWheel();
+                    else
+                        blackOverlay.setTouchable(Touchable.disabled);
+                    return checkWhell;
+                }
+
+                @Override
+                public void end(Wheel.WheelItem item) {
+                    blackOverlay.setTouchable(Touchable.enabled);
+                    Gdx.app.log("output item", item.getRegion() + "");
+                    showFrmBonus(item.getRegion().toString().trim(),item.getQty());
+
+                }
+
+                @Override
+                public void error(String msg) {
+                    Gdx.app.log("Wheel error", msg);
+                }
+            });
+            Wheel.inst().init();
+            Wheel.inst().setPosition(-Wheel.wheelTex.getRegionWidth()/2,-Wheel.wheelTex.getRegionWidth()/2);
         }
+
 //        Wheel.wheelItems.add(Wheel.WheelItem.newInst(TextureAtlasC.Fottergame.findRegion("SoVang"), 0, 2, "800", 1000));
         //////// listener ////////
-        Wheel.inst().setWheelListener(new Wheel.EventListener() {
-            @Override
-            public boolean start() {
-                if(checkWhell==false)
-                    AddmoreWheel();
-                else
-                    blackOverlay.setTouchable(Touchable.disabled);
-                return checkWhell;
-            }
 
-            @Override
-            public void end(Wheel.WheelItem item) {
-                blackOverlay.setTouchable(Touchable.enabled);
-                Gdx.app.log("output item", item.getRegion() + "");
-                showFrmBonus(item.getRegion().toString().trim(),item.getQty());
-
-            }
-
-            @Override
-            public void error(String msg) {
-                Gdx.app.log("Wheel error", msg);
-            }
-        });
-        Wheel.inst().init();
-        Wheel.inst().setPosition(-Wheel.wheelTex.getRegionWidth()/2,-Wheel.wheelTex.getRegionWidth()/2);
         gr.addActor(Wheel.inst());
         /////// pointer/////
         Image pointer = GUI.createImage(TextureAtlasC.uigame,"kim");
@@ -332,6 +377,13 @@ public class StartScene extends GScreen {
         Image frm = GUI.createImage(TextureAtlasC.uigame,"frmBonus");
         frm.setPosition(0,0,Align.center);
         grBonus.addActor(frm);
+        /////// lb reward/////
+        String name = "rewardVn";
+        if(C.lang.idcontry.equals("en"))
+            name = "rewardEn";
+        Image reward = GUI.createImage(TextureAtlasC.uigame,name);
+        reward.setPosition(0,-reward.getHeight(),Align.center);
+        grBonus.addActor(reward);
         /////// particle///////
         effectWin ef = new effectWin(4,0,0,0);
         grBonus.addActor(ef);
@@ -462,7 +514,7 @@ public class StartScene extends GScreen {
                     gCrossPanel.addActor(gIcon);
                     Label lbName = new Label(item.getDisplayName(), new Label.LabelStyle(BitmapFontC.FontAlert, Color.GOLD));
                     lbName.setAlignment(Align.center);
-                    lbName.setFontScale(.5f);
+                    lbName.setFontScale(.4f);
                     lbName.setPosition(actor.getX() + actor.getWidth()/2 - lbName.getWidth()/2,
                             actor.getY() + actor.getHeight());
                     gIcon.addActor(lbName);
@@ -535,14 +587,13 @@ public class StartScene extends GScreen {
                     group.remove();
                     SoundEffect.Play(SoundEffect.ChangeColor);
 
-
                 }else {
                     group.clear();
                     group.remove();
                 }
             });
         }else {
-            Label notice = new Label("Kiểm tra kết nối",new Label.LabelStyle(BitmapFontC.robotoVi, Color.RED));
+            Label notice = new Label(C.lang.lbCheckConnect,new Label.LabelStyle(BitmapFontC.robotoVi, Color.RED));
             notice.setPosition(0,0,Align.center);
             group.addActor(notice);
             notice.addAction(Actions.sequence(

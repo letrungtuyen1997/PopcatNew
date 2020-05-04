@@ -12,6 +12,7 @@ import com.badlogic.gdx.utils.Align;
 import com.ss.commons.TextureAtlasC;
 import com.ss.commons.Tweens;
 import com.ss.core.action.exAction.GSimpleAction;
+import com.ss.core.util.GLayer;
 import com.ss.core.util.GStage;
 import com.ss.core.util.GUI;
 import com.ss.effects.SoundEffect;
@@ -29,6 +30,7 @@ public class Pop implements Comparable {
     private Group group;
     private Group grEffect =new Group();
     public Pop(int col, int row,int id, Group group,Group group2,Board board,fotter fotter,float duration){
+        GStage.addToLayer(GLayer.ui,grEffect);
         this.id = id;
         this.row = row;
         this.col = col;
@@ -50,7 +52,7 @@ public class Pop implements Comparable {
                     group2.addActor(popChosse);
                     popChosse.setVisible(false);
                     pop.setTouchable(Touchable.disabled);
-                    group2.addActor(grEffect);
+//                    group2.addActor(grEffect);
                     AddTouch();
                     if(row==Config.row-1&&col==Config.col-1||duration==0){
                         System.out.println("mo het");
@@ -66,24 +68,16 @@ public class Pop implements Comparable {
     public void AddTouch(){
         pop.addListener(new ClickListener(){
             @Override
-            public void touchUp(InputEvent event, float x, float y, int pointer, int button) {
-                board.popClick(Pop.this);
+            public boolean touchDown(InputEvent event, float x, float y, int pointer, int button) {
+                board.setTouch(Touchable.disabled);
+                SoundEffect.Play(SoundEffect.click);
                 Config.xSkill=pop.getX()+pop.getWidth()/2;
                 Config.ySkill=pop.getY()+pop.getHeight()/2;
+                board.popClick(Pop.this);
+//                board.setTouchExploxe(Touchable.disabled);
                 if(Config.selectMode== SelectMode.CHANGECOLOR)
                     board.changeOnePop(Pop.this);
-                super.touchUp(event, x, y, pointer, button);
-
-            }
-        });
-        popChosse.addListener(new ClickListener(){
-            @Override
-            public void touchUp(InputEvent event, float x, float y, int pointer, int button) {
-                SoundEffect.Play(SoundEffect.click);
-                board.setTouchExploxe(Touchable.disabled);
-                board.popClick(Pop.this);
-                super.touchUp(event, x, y, pointer, button);
-
+                return super.touchDown(event, x, y, pointer, button);
             }
         });
     }
@@ -127,16 +121,16 @@ public class Pop implements Comparable {
         this.col = C;
     }
     public  void  explode(){
+        pop.clear();
+        pop.remove();
+        popChosse.clear();
+        popChosse.remove();
         if(board.efSkill==false){
             effectWin ef = new effectWin(1,id,pop.getX(),pop.getY());
             group.addActor(ef);
             ef.start();
         }
-        pop.clear();
-        pop.remove();
-        popChosse.clear();
-        popChosse.remove();
-      disposeEffect();
+        disposeEffect();
     }
     public void disposeEffect(){
         grEffect.clear();

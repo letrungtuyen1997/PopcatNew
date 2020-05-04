@@ -10,6 +10,7 @@ import com.badlogic.gdx.graphics.g2d.ParticleEmitter;
 import com.badlogic.gdx.graphics.g2d.TextureAtlas;
 import com.badlogic.gdx.graphics.g2d.TextureRegion;
 import com.badlogic.gdx.scenes.scene2d.Actor;
+import com.ss.GMain;
 import com.ss.commons.TextureAtlasC;
 import com.ss.core.util.GAssetsManager;
 
@@ -31,11 +32,9 @@ public class effectWin extends Actor{
         setY(f2);
             if(id==1){
                 TextureAtlas atlas = new TextureAtlas();
-                AssetManager assetManager = new AssetManager();
-                assetManager.load("effects/Chosse"+id2+".png",Texture.class);
-                assetManager.finishLoading();
                 TextureRegion texture;
-                texture= new TextureRegion(assetManager.get("effects/Chosse"+id2+".png",Texture.class));
+                texture= new TextureRegion(GMain.assetManager.get("effects/Chosse"+id2+".png",Texture.class));
+
                 atlas.addRegion("party", texture);
 //                this.effect.load(Destroy, Gdx.files.internal("particle"));
                 this.effect.load(Destroy, atlas);

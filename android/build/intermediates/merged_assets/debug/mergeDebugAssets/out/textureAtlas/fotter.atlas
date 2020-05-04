@@ -6,58 +6,44 @@ filter: Nearest,Nearest
 repeat: none
 addMore
   rotate: false
-  xy: 724, 12
+  xy: 1226, 706
   size: 34, 34
   orig: 34, 34
   offset: 0, 0
   index: -1
 btnHome
   rotate: false
-  xy: 963, 66
+  xy: 724, 15
   size: 234, 76
   orig: 234, 76
   offset: 0, 0
   index: -1
 btnPause
   rotate: false
-  xy: 1948, 777
+  xy: 960, 6
   size: 85, 85
   orig: 85, 85
   offset: 0, 0
   index: -1
 btnRestart
   rotate: false
-  xy: 1394, 194
+  xy: 1478, 395
   size: 234, 76
   orig: 234, 76
   offset: 0, 0
   index: -1
 fotter
   rotate: false
-  xy: 724, 144
+  xy: 1446, 855
   size: 532, 159
   orig: 532, 159
   offset: 0, 0
   index: -1
-frm1
+frm
   rotate: false
-  xy: 724, 626
-  size: 720, 193
-  orig: 720, 193
-  offset: 0, 0
-  index: -1
-frm2
-  rotate: false
-  xy: 724, 821
-  size: 720, 193
-  orig: 720, 193
-  offset: 0, 0
-  index: -1
-frm3
-  rotate: false
-  xy: 724, 431
-  size: 720, 193
-  orig: 720, 193
+  xy: 724, 819
+  size: 720, 195
+  orig: 720, 195
   offset: 0, 0
   index: -1
 frmGameOver
@@ -69,28 +55,28 @@ frmGameOver
   index: -1
 frmHighSc
   rotate: false
-  xy: 1446, 468
-  size: 418, 150
-  orig: 418, 150
+  xy: 1446, 695
+  size: 440, 158
+  orig: 440, 158
   offset: 0, 0
   index: -1
 frmMoney
   rotate: false
-  xy: 1394, 117
+  xy: 1226, 742
   size: 201, 75
   orig: 201, 75
   offset: 0, 0
   index: -1
 frmScore
   rotate: false
-  xy: 724, 48
+  xy: 1478, 473
   size: 237, 94
   orig: 237, 94
   offset: 0, 0
   index: -1
 frmSkill1
   rotate: false
-  xy: 724, 305
+  xy: 1226, 569
   size: 720, 124
   orig: 720, 124
   offset: 0, 0
@@ -104,91 +90,98 @@ header
   index: -1
 icon1
   rotate: false
-  xy: 1258, 150
+  xy: 1888, 700
   size: 134, 153
   orig: 134, 153
   offset: 0, 0
   index: -1
 icon2
   rotate: false
-  xy: 1948, 864
+  xy: 1948, 548
   size: 76, 150
   orig: 76, 150
   offset: 0, 0
   index: -1
 icon3
   rotate: false
-  xy: 1698, 347
+  xy: 1717, 448
   size: 111, 119
   orig: 111, 119
   offset: 0, 0
   index: -1
 iconHome
   rotate: false
-  xy: 1811, 287
+  xy: 1176, 113
   size: 77, 77
   orig: 77, 77
   offset: 0, 0
   index: -1
 item1
   rotate: false
-  xy: 1698, 245
+  xy: 1932, 446
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 item2
   rotate: false
-  xy: 1811, 366
+  xy: 1176, 271
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 item3
   rotate: false
-  xy: 1866, 518
+  xy: 1830, 467
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 light
   rotate: false
-  xy: 1446, 272
+  xy: 1226, 373
   size: 250, 194
   orig: 250, 194
   offset: 0, 0
   index: -1
-stageClear
+stageClearEn
   rotate: false
-  xy: 1446, 620
+  xy: 724, 93
+  size: 450, 328
+  orig: 450, 328
+  offset: 0, 0
+  index: -1
+stageClearVn
+  rotate: false
+  xy: 724, 423
   size: 500, 394
   orig: 500, 394
   offset: 0, 0
   index: -1
 turnOffMs
   rotate: false
-  xy: 1597, 115
+  xy: 1357, 294
   size: 77, 77
   orig: 77, 77
   offset: 0, 0
   index: -1
 turnOffSu
   rotate: false
-  xy: 1278, 71
+  xy: 1278, 294
   size: 77, 77
   orig: 77, 77
   offset: 0, 0
   index: -1
 turnOnMs
   rotate: false
-  xy: 1948, 698
+  xy: 1047, 14
   size: 77, 77
   orig: 77, 77
   offset: 0, 0
   index: -1
 turnOnSu
   rotate: false
-  xy: 1199, 65
+  xy: 1176, 192
   size: 77, 77
   orig: 77, 77
   offset: 0, 0

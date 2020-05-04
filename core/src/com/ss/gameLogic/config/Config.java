@@ -41,6 +41,7 @@ public class Config {
     public static float xSkill = 0;
     public static float ySkill = 0;
     public static boolean checkConnet =true;
+    public static boolean checkWheel =false;
     public enum Direction {
         HORIZON, VERTICAL
     }
@@ -105,8 +106,13 @@ public class Config {
         String jv2 =GMain.platform.GetConfigStringValue("config",jsonStr);
         System.out.println("log: "+jv2);
         JsonReader json = new JsonReader();
-        JsonValue jv = json.parse(jv2);
-        System.out.println("log:"+jv.get("row").asInt());
+        JsonValue jv = null;
+        try {
+            jv = json.parse(jv2);
+            System.out.println("log:"+jv.get("row").asInt());
+        }catch (Exception e){
+            jv = json.parse(jsonStr);
+        }
         row = jv.get("row").asInt();
         col = jv.get("col").asInt();
         paddingY = jv.get("paddingBaner").asFloat();

@@ -6,28 +6,28 @@ filter: Nearest,Nearest
 repeat: none
 Chosse0
   rotate: false
-  xy: 1908, 938
+  xy: 1536, 38
   size: 90, 78
   orig: 90, 78
   offset: 0, 0
   index: -1
 Chosse1
   rotate: false
-  xy: 1309, 158
+  xy: 1309, 564
   size: 90, 78
   orig: 90, 78
   offset: 0, 0
   index: -1
 Chosse2
   rotate: false
-  xy: 1431, 386
+  xy: 1908, 938
   size: 90, 78
   orig: 90, 78
   offset: 0, 0
   index: -1
 Chosse3
   rotate: false
-  xy: 475, 78
+  xy: 1628, 38
   size: 90, 78
   orig: 90, 78
   offset: 0, 0
@@ -41,77 +41,77 @@ Chosse4
   index: -1
 Chosse5
   rotate: false
-  xy: 1309, 78
+  xy: 1720, 38
   size: 90, 78
   orig: 90, 78
   offset: 0, 0
   index: -1
 Chosse6
   rotate: false
-  xy: 1401, 158
+  xy: 1812, 38
   size: 90, 78
   orig: 90, 78
   offset: 0, 0
   index: -1
 Chosse7
   rotate: false
-  xy: 1908, 778
+  xy: 1949, 259
   size: 90, 78
   orig: 90, 78
   offset: 0, 0
   index: -1
 Static0
   rotate: false
-  xy: 1401, 78
+  xy: 492, 78
   size: 90, 78
   orig: 90, 78
   offset: 0, 0
   index: -1
 Static1
   rotate: false
-  xy: 1908, 698
+  xy: 1949, 179
   size: 90, 78
   orig: 90, 78
   offset: 0, 0
   index: -1
 Static2
   rotate: false
-  xy: 1908, 618
+  xy: 1924, 99
   size: 90, 78
   orig: 90, 78
   offset: 0, 0
   index: -1
 Static3
   rotate: false
-  xy: 567, 78
+  xy: 1904, 19
   size: 90, 78
   orig: 90, 78
   offset: 0, 0
   index: -1
 Static4
   rotate: false
-  xy: 1838, 499
+  xy: 1917, 778
   size: 90, 78
   orig: 90, 78
   offset: 0, 0
   index: -1
 Static5
   rotate: false
-  xy: 1838, 419
+  xy: 1917, 698
   size: 90, 78
   orig: 90, 78
   offset: 0, 0
   index: -1
 Static6
   rotate: false
-  xy: 1493, 62
+  xy: 1917, 618
   size: 90, 78
   orig: 90, 78
   offset: 0, 0
   index: -1
 Static7
   rotate: false
-  xy: 1930, 538
+  xy: 1917, 538
   size: 90, 78
   orig: 90, 78
   offset: 0, 0
@@ -132,21 +132,28 @@ bg2
   index: -1
 bg_icon_cross
   rotate: false
-  xy: 1309, 466
+  xy: 1309, 11
   size: 225, 298
   orig: 225, 298
   offset: 0, 0
   index: -1
-btnContinus
+btn
   rotate: false
-  xy: 1536, 689
-  size: 370, 109
-  orig: 370, 109
+  xy: 1536, 118
+  size: 386, 113
+  orig: 386, 113
+  offset: 0, 0
+  index: -1
+btn2
+  rotate: false
+  xy: 2, 43
+  size: 488, 113
+  orig: 488, 113
   offset: 0, 0
   index: -1
 btnExit
   rotate: false
-  xy: 1908, 1018
+  xy: 1309, 644
   size: 120, 120
   orig: 120, 120
   offset: 0, 0
@@ -160,35 +167,21 @@ btnGameOther
   index: -1
 btnMini
   rotate: false
-  xy: 1536, 414
+  xy: 1691, 339
   size: 300, 163
   orig: 300, 163
   offset: 0, 0
   index: -1
-btnNewGame
-  rotate: false
-  xy: 1536, 579
-  size: 370, 108
-  orig: 370, 108
-  offset: 0, 0
-  index: -1
 btnOk
   rotate: false
-  xy: 1309, 238
+  xy: 1691, 233
   size: 256, 104
   orig: 256, 104
   offset: 0, 0
   index: -1
-btnRank
-  rotate: false
-  xy: 2, 48
-  size: 471, 108
-  orig: 471, 108
-  offset: 0, 0
-  index: -1
 btnWatch
   rotate: false
-  xy: 1309, 344
+  xy: 1908, 1018
   size: 120, 120
   orig: 120, 120
   offset: 0, 0
@@ -216,9 +209,23 @@ frmWheel
   index: -1
 kim
   rotate: false
-  xy: 1493, 142
+  xy: 584, 62
   size: 70, 94
   orig: 70, 94
+  offset: 0, 0
+  index: -1
+rewardEn
+  rotate: false
+  xy: 1309, 311
+  size: 380, 191
+  orig: 380, 191
+  offset: 0, 0
+  index: -1
+rewardVn
+  rotate: false
+  xy: 1446, 504
+  size: 469, 294
+  orig: 469, 294
   offset: 0, 0
   index: -1
 whell

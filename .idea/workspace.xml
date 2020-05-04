@@ -5,106 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="026e0459-2601-47c7-b19d-d1b121e5eacb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/Sound/Bomb.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/Sound/Lose.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/Sound/PlusMoney.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/Sound/bghome.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/Sound/button.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/Sound/changColor.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/Sound/gameOver2.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/Sound/kaching.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/Sound/levelComplete2.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/Sound/new.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/Sound/result2.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/Sound/rocket.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/Sound/unlock.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/Sound/wheel_sound.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/data/ConfigData.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/data/other_games.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/data/wheel.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/effects/001.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/effects/010.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/effects/016.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/effects/017.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/effects/018.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/effects/019.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/effects/020.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/effects/021.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/effects/022.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/effects/023.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/effects/024.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/effects/028.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/effects/043 copy.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/effects/044 copy.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/effects/18-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/effects/20-8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/effects/Destroy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/effects/ITEM_Sp_04_Howl_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/effects/L001.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/effects/PC_Gourd_magicEF_05.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/effects/PC_PeaD_skill.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/effects/PC_PeaD_skillEF.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/effects/SL_Offset_00_04.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/effects/bom" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/effects/bom.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/effects/bomb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/effects/light" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/effects/lightBomb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/effects/lightPop" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/effects/ls001.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/effects/ls009.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/effects/ls010.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/effects/ls011.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/effects/ls020.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/effects/party.p" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/effects/party.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/effects/r01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/effects/rocket" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/effects/rocket.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/effects/rocket2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/effects/shanguang.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/effects/spark-alt2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/effects/unlock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/effects/water shadow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/font/NerwynGrey.fnt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/font/NerwynGrey.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/font/NerwynOrange.fnt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/font/NerwynOrange.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/font/RobotoCyan.fnt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/font/RobotoCyan.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/font/RobotoVi.fnt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/font/RobotoVi.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/font/RobotoViGrey.fnt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/font/RobotoViGrey.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/font/RubikOne.fnt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/font/RubikOne.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/font/alert_font.fnt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/font/alert_font.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/font/fontWhite.fnt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/font/fontWhite.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/font/myfont.fnt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/font/myfont.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/textureAtlas/wheel.atlas" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/textureAtlas/wheel.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/src/com/mygdx/game/AlarmReceiver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/src/com/mygdx/game/DailyNotification.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/src/com/mygdx/game/JokerSdk.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/com/platform/ToggleHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/com/ss/commons/_ToggleButton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/com/ss/gameLogic/objects/HTTPAssetLoader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/com/ss/gameLogic/objects/Header.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/com/ss/gameLogic/objects/Setting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/com/ss/gameLogic/objects/Wheel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/com/ss/gameLogic/objects/data/ConfigData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/com/ss/gameLogic/objects/data/WheelData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/com/ss/gameLogic/objects/fotter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/com/ss/scenes/StartScene.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.6/fileContent/annotation-processors.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/fileContent/annotation-processors.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.6/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/fileContent/fileContent.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.bin" afterDir="false" />
@@ -119,275 +19,149 @@
       <change beforePath="$PROJECT_DIR$/.gradle/4.6/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/taskHistory/taskHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Asset/Chosse0.png" beforeDir="false" afterPath="$PROJECT_DIR$/Asset/Chosse0.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Asset/Chosse1.png" beforeDir="false" afterPath="$PROJECT_DIR$/Asset/Chosse1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Asset/Chosse2.png" beforeDir="false" afterPath="$PROJECT_DIR$/Asset/Chosse2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Asset/Chosse3.png" beforeDir="false" afterPath="$PROJECT_DIR$/Asset/Chosse3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Asset/Chosse4.png" beforeDir="false" afterPath="$PROJECT_DIR$/Asset/Chosse4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Asset/Static0.png" beforeDir="false" afterPath="$PROJECT_DIR$/Asset/Static0.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Asset/Static1.png" beforeDir="false" afterPath="$PROJECT_DIR$/Asset/Static1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Asset/Static2.png" beforeDir="false" afterPath="$PROJECT_DIR$/Asset/Static2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Asset/Static3.png" beforeDir="false" afterPath="$PROJECT_DIR$/Asset/Static3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Asset/Static4.png" beforeDir="false" afterPath="$PROJECT_DIR$/Asset/Static4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Asset/bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/Asset/bg.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Asset/Wheel.java" beforeDir="false" afterPath="$PROJECT_DIR$/Asset/Wheel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Asset/btnContinus.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Asset/btnNewGame.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Asset/btnRank.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Asset/fotter/btnHome.png" beforeDir="false" afterPath="$PROJECT_DIR$/Asset/fotter/btnHome.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Asset/fotter/btnRestart.png" beforeDir="false" afterPath="$PROJECT_DIR$/Asset/fotter/btnRestart.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Asset/fotter/frm1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Asset/fotter/frm2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Asset/fotter/frm3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Asset/fotter/frmHighSc.png" beforeDir="false" afterPath="$PROJECT_DIR$/Asset/fotter/frmHighSc.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Asset/frmBonus.png" beforeDir="false" afterPath="$PROJECT_DIR$/Asset/frmBonus.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Asset/popcat 2/Chosse0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Asset/popcat 2/Chosse1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Asset/popcat 2/Chosse2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Asset/popcat 2/Chosse3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Asset/popcat 2/Chosse4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Asset/popcat 2/Chosse5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Asset/popcat 2/Chosse6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Asset/popcat 2/Chosse7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Asset/popcat 2/Static0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Asset/popcat 2/Static1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Asset/popcat 2/Static2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Asset/popcat 2/Static3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Asset/popcat 2/Static4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Asset/popcat 2/Static5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Asset/popcat 2/Static6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Asset/popcat 2/Static7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Asset/popcat.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Asset/stageClear.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Asset/tinified.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Asset/tinified/fotter.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Asset/tinified/uigame.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Asset/tinified/uigame2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Asset/tinified/wheel.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/android/android.iml" beforeDir="false" afterPath="$PROJECT_DIR$/android/android.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/assets/GPoolInfo.txt" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/GPoolInfo.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/assets/Sound/Bg.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/assets/Sound/EffectFall.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/Sound/EffectFall.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/assets/Sound/EffectGood.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/Sound/EffectGood.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/assets/Sound/EliminateEffect1.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/assets/Sound/EliminateEffect10.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/assets/Sound/EliminateEffect11.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/assets/Sound/EliminateEffect12.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/assets/Sound/EliminateEffect13.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/assets/Sound/EliminateEffect14.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/assets/Sound/EliminateEffect2.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/assets/Sound/EliminateEffect3.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/assets/Sound/EliminateEffect4.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/assets/Sound/EliminateEffect5.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/assets/Sound/EliminateEffect6.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/assets/Sound/EliminateEffect7.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/assets/Sound/EliminateEffect8.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/assets/Sound/EliminateEffect9.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/assets/Sound/GameBG.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/assets/Sound/Good.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/Sound/Good.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/assets/Sound/Great.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/Sound/Great.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/assets/Sound/click.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/Sound/click.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/assets/Sound/counterScore.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/Sound/counterScore.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/assets/Sound/gameOver.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/Sound/gameOver.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/assets/Sound/matchMany.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/Sound/matchMany.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/assets/Sound/stageClear.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/Sound/stageClear.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/assets/font/font_name_bot.fnt" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/font/font_name_bot.fnt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/assets/data/ConfigData.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/data/ConfigData.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/assets/i18n/lang.properties" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/i18n/lang.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/assets/i18n/lang_en.properties" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/i18n/lang_en.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/assets/textureAtlas/card.atlas" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/assets/textureAtlas/card.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/assets/textureAtlas/lieng.atlas" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/assets/textureAtlas/lieng.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/assets/textureAtlas/atlas.tpproj" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/textureAtlas/atlas.tpproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/assets/textureAtlas/fotter.atlas" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/textureAtlas/fotter.atlas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/assets/textureAtlas/fotter.png" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/textureAtlas/fotter.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/assets/textureAtlas/uigame.atlas" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/textureAtlas/uigame.atlas" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/assets/textureAtlas/uigame.png" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/textureAtlas/uigame.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/build/generated/fabric/res/debug/values/com_crashlytics_build_id.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/generated/fabric/res/debug/values/com_crashlytics_build_id.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/androidx/asynclayoutinflater/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/androidx/asynclayoutinflater/R.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/androidx/browser/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/androidx/browser/R.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/androidx/coordinatorlayout/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/androidx/coordinatorlayout/R.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/androidx/core/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/androidx/core/R.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/androidx/customview/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/androidx/customview/R.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/androidx/drawerlayout/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/androidx/drawerlayout/R.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/androidx/fragment/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/androidx/fragment/R.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/androidx/legacy/coreui/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/androidx/legacy/coreui/R.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/androidx/legacy/coreutils/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/androidx/legacy/coreutils/R.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/androidx/loader/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/androidx/loader/R.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/androidx/slidingpanelayout/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/androidx/slidingpanelayout/R.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/androidx/swiperefreshlayout/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/androidx/swiperefreshlayout/R.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/androidx/viewpager/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/androidx/viewpager/R.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/com/google/android/gms/ads/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/com/google/android/gms/ads/R.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/com/google/android/gms/ads/impl/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/com/google/android/gms/ads/impl/R.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/com/google/android/gms/auth/api/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/com/google/android/gms/auth/api/R.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/com/google/android/gms/base/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/com/google/android/gms/base/R.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/com/google/android/gms/common/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/com/google/android/gms/common/R.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/com/google/firebase/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/com/google/firebase/R.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/com/google/firebase/abt/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/com/google/firebase/abt/R.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/com/google/firebase/remoteconfig/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/com/google/firebase/remoteconfig/R.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/com/mygdx/game/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/com/mygdx/game/R.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/generated/res/google-services/debug/values/values.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/generated/res/google-services/debug/values/values.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/generated/source/buildConfig/debug/com/mygdx/game/BuildConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/generated/source/buildConfig/debug/com/mygdx/game/BuildConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/debug.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/debug.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/single/debug.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/single/debug.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugAssets/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugAssets/merger.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/J5HZjfgXRcc24r6X4Ub1yiFGe5U=" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/J5HZjfgXRcc24r6X4Ub1yiFGe5U=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/J5HZjfgXRcc24r6X4Ub1yiFGe5U=" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/J5HZjfgXRcc24r6X4Ub1yiFGe5U=" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugResources/merged.dir/values-af/values-af.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugResources/merged.dir/values-am/values-am.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ar/values-ar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugResources/merged.dir/values-as/values-as.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugResources/merged.dir/values-az/values-az.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugResources/merged.dir/values-b+sr+Latn/values-b+sr+Latn.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugResources/merged.dir/values-be/values-be.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugResources/merged.dir/values-bg/values-bg.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugResources/merged.dir/values-bn/values-bn.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugResources/merged.dir/values-bs/values-bs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ca/values-ca.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugResources/merged.dir/values-cs/values-cs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugResources/merged.dir/values-da/values-da.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugResources/merged.dir/values-de/values-de.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugResources/merged.dir/values-el/values-el.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rAU/values-en-rAU.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rCA/values-en-rCA.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rGB/values-en-rGB.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rIN/values-en-rIN.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rXC/values-en-rXC.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugResources/merged.dir/values-es-rUS/values-es-rUS.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugResources/merged.dir/values-es/values-es.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugResources/merged.dir/values-et/values-et.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugResources/merged.dir/values-eu/values-eu.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugResources/merged.dir/values-fa/values-fa.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugResources/merged.dir/values-fi/values-fi.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugResources/merged.dir/values-fr-rCA/values-fr-rCA.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugResources/merged.dir/values-fr/values-fr.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugResources/merged.dir/values-gl/values-gl.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugResources/merged.dir/values-gu/values-gu.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hi/values-hi.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hr/values-hr.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hu/values-hu.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hy/values-hy.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugResources/merged.dir/values-in/values-in.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugResources/merged.dir/values-is/values-is.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugResources/merged.dir/values-it/values-it.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugResources/merged.dir/values-iw/values-iw.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ja/values-ja.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ka/values-ka.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugResources/merged.dir/values-kk/values-kk.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugResources/merged.dir/values-km/values-km.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugResources/merged.dir/values-kn/values-kn.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ko/values-ko.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ky/values-ky.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugResources/merged.dir/values-lo/values-lo.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugResources/merged.dir/values-lt/values-lt.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugResources/merged.dir/values-lv/values-lv.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugResources/merged.dir/values-mk/values-mk.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ml/values-ml.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugResources/merged.dir/values-mn/values-mn.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugResources/merged.dir/values-mr/values-mr.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ms/values-ms.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugResources/merged.dir/values-my/values-my.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugResources/merged.dir/values-nb/values-nb.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ne/values-ne.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugResources/merged.dir/values-nl/values-nl.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugResources/merged.dir/values-or/values-or.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugResources/merged.dir/values-pa/values-pa.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugResources/merged.dir/values-pl/values-pl.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugResources/merged.dir/values-pt-rBR/values-pt-rBR.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugResources/merged.dir/values-pt-rPT/values-pt-rPT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugResources/merged.dir/values-pt/values-pt.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ro/values-ro.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ru/values-ru.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugResources/merged.dir/values-si/values-si.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sk/values-sk.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sl/values-sl.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sq/values-sq.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sr/values-sr.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sv/values-sv.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw/values-sw.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ta/values-ta.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugResources/merged.dir/values-te/values-te.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugResources/merged.dir/values-th/values-th.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugResources/merged.dir/values-tl/values-tl.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugResources/merged.dir/values-tr/values-tr.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugResources/merged.dir/values-uk/values-uk.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ur/values-ur.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugResources/merged.dir/values-uz/values-uz.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v16/values-v16.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v21/values-v21.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugResources/merged.dir/values-vi/values-vi.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugResources/merged.dir/values-watch-v20/values-watch-v20.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugResources/merged.dir/values-zh-rCN/values-zh-rCN.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugResources/merged.dir/values-zh-rHK/values-zh-rHK.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugResources/merged.dir/values-zh-rTW/values-zh-rTW.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugResources/merged.dir/values-zu/values-zu.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugResources/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugResources/merger.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/instant_run_merged_manifests/debug/processDebugManifest/instant-run/output.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/instant_run_merged_manifests/debug/processDebugManifest/instant-run/output.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/legacy_multidex_aapt_derived_proguard_rules/debug/processDebugResources/manifest_keep.txt" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/legacy_multidex_aapt_derived_proguard_rules/debug/processDebugResources/manifest_keep.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/packageDebug/tmp/debug/file-input-save-data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/packageDebug/tmp/debug/file-input-save-data.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/QzLNBA4dymb3ZGnsuuhGLWIqPHM=" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/QzLNBA4dymb3ZGnsuuhGLWIqPHM=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/mygdx/game/DailyNotification.class" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/mygdx/game/DailyNotification.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/build/intermediates/merged_assets/debug/mergeDebugAssets/out/GPoolInfo.txt" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/merged_assets/debug/mergeDebugAssets/out/GPoolInfo.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/merged_assets/debug/mergeDebugAssets/out/Sound/Bg.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/merged_assets/debug/mergeDebugAssets/out/Sound/EffectFall.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/merged_assets/debug/mergeDebugAssets/out/Sound/EffectFall.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/merged_assets/debug/mergeDebugAssets/out/Sound/EffectGood.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/merged_assets/debug/mergeDebugAssets/out/Sound/EffectGood.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/merged_assets/debug/mergeDebugAssets/out/Sound/EliminateEffect1.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/merged_assets/debug/mergeDebugAssets/out/Sound/EliminateEffect10.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/merged_assets/debug/mergeDebugAssets/out/Sound/EliminateEffect11.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/merged_assets/debug/mergeDebugAssets/out/Sound/EliminateEffect12.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/merged_assets/debug/mergeDebugAssets/out/Sound/EliminateEffect13.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/merged_assets/debug/mergeDebugAssets/out/Sound/EliminateEffect14.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/merged_assets/debug/mergeDebugAssets/out/Sound/EliminateEffect2.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/merged_assets/debug/mergeDebugAssets/out/Sound/EliminateEffect3.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/merged_assets/debug/mergeDebugAssets/out/Sound/EliminateEffect4.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/merged_assets/debug/mergeDebugAssets/out/Sound/EliminateEffect5.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/merged_assets/debug/mergeDebugAssets/out/Sound/EliminateEffect6.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/merged_assets/debug/mergeDebugAssets/out/Sound/EliminateEffect7.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/merged_assets/debug/mergeDebugAssets/out/Sound/EliminateEffect8.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/merged_assets/debug/mergeDebugAssets/out/Sound/EliminateEffect9.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/merged_assets/debug/mergeDebugAssets/out/Sound/GameBG.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/merged_assets/debug/mergeDebugAssets/out/Sound/Good.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/merged_assets/debug/mergeDebugAssets/out/Sound/Good.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/merged_assets/debug/mergeDebugAssets/out/Sound/Great.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/merged_assets/debug/mergeDebugAssets/out/Sound/Great.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/merged_assets/debug/mergeDebugAssets/out/Sound/click.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/merged_assets/debug/mergeDebugAssets/out/Sound/click.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/merged_assets/debug/mergeDebugAssets/out/Sound/counterScore.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/merged_assets/debug/mergeDebugAssets/out/Sound/counterScore.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/merged_assets/debug/mergeDebugAssets/out/Sound/gameOver.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/merged_assets/debug/mergeDebugAssets/out/Sound/gameOver.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/merged_assets/debug/mergeDebugAssets/out/Sound/matchMany.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/merged_assets/debug/mergeDebugAssets/out/Sound/matchMany.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/merged_assets/debug/mergeDebugAssets/out/Sound/stageClear.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/merged_assets/debug/mergeDebugAssets/out/Sound/stageClear.mp3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/build/intermediates/merged_assets/debug/mergeDebugAssets/out/crashlytics-build.properties" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/merged_assets/debug/mergeDebugAssets/out/crashlytics-build.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/merged_assets/debug/mergeDebugAssets/out/font/font_name_bot.fnt" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/merged_assets/debug/mergeDebugAssets/out/font/font_name_bot.fnt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/merged_assets/debug/mergeDebugAssets/out/data/ConfigData.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/merged_assets/debug/mergeDebugAssets/out/data/ConfigData.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/build/intermediates/merged_assets/debug/mergeDebugAssets/out/i18n/lang.properties" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/merged_assets/debug/mergeDebugAssets/out/i18n/lang.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/build/intermediates/merged_assets/debug/mergeDebugAssets/out/i18n/lang_en.properties" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/merged_assets/debug/mergeDebugAssets/out/i18n/lang_en.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/merged_assets/debug/mergeDebugAssets/out/textureAtlas/card.atlas" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/merged_assets/debug/mergeDebugAssets/out/textureAtlas/card.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/merged_assets/debug/mergeDebugAssets/out/textureAtlas/lieng.atlas" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/merged_assets/debug/mergeDebugAssets/out/textureAtlas/lieng.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/merged_assets/debug/mergeDebugAssets/out/textureAtlas/atlas.tpproj" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/merged_assets/debug/mergeDebugAssets/out/textureAtlas/atlas.tpproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/merged_assets/debug/mergeDebugAssets/out/textureAtlas/fotter.atlas" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/merged_assets/debug/mergeDebugAssets/out/textureAtlas/fotter.atlas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/merged_assets/debug/mergeDebugAssets/out/textureAtlas/fotter.png" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/merged_assets/debug/mergeDebugAssets/out/textureAtlas/fotter.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/build/intermediates/merged_assets/debug/mergeDebugAssets/out/textureAtlas/uigame.atlas" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/merged_assets/debug/mergeDebugAssets/out/textureAtlas/uigame.atlas" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/build/intermediates/merged_assets/debug/mergeDebugAssets/out/textureAtlas/uigame.png" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/merged_assets/debug/mergeDebugAssets/out/textureAtlas/uigame.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/merged_manifests/debug/processDebugManifest/merged/output.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/merged_manifests/debug/processDebugManifest/merged/output.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/processed_res/debug/processDebugResources/out/output.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/processed_res/debug/processDebugResources/out/output.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/merged_assets/debug/mergeDebugAssets/out/textureAtlas/uigame2.png" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/merged_assets/debug/mergeDebugAssets/out/textureAtlas/uigame2.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/build/intermediates/processed_res/debug/processDebugResources/out/resources-debug.ap_" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/processed_res/debug/processDebugResources/out/resources-debug.ap_" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values_values.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values_values.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/symbol-table-with-package/debug/package-aware-r.txt" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/symbol-table-with-package/debug/package-aware-r.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/symbols/debug/R.txt" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/symbols/debug/R.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/outputs/logs/manifest-merger-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/outputs/logs/manifest-merger-debug-report.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/google-services.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/google-services.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/71.jar" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/71.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/72.jar" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/72.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/73/com/mygdx/game/DailyNotification.dex" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/73/com/mygdx/game/DailyNotification.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/__content__.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/__content__.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexMerger/debug/0/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/dexMerger/debug/0/classes.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexMerger/debug/2/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/dexMerger/debug/2/classes.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexMerger/debug/3/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/dexMerger/debug/3/classes.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/mergeJavaRes/debug/__content__.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/mergeJavaRes/debug/__content__.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/mergeJniLibs/debug/__content__.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/mergeJniLibs/debug/__content__.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/outputs/apk/debug/android-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/outputs/apk/debug/android-debug.apk" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/res/values/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/com/mygdx/game/AndroidLauncher.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/com/mygdx/game/AndroidLauncher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/platform/IPlatform.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/platform/IPlatform.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/src/com/mygdx/game/DailyNotification.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/com/mygdx/game/DailyNotification.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/ss/GMain$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/ss/GMain$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/ss/GMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/ss/GMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/ss/commons/BitmapFontC.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/ss/commons/BitmapFontC.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/ss/commons/TextureAtlasC.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/ss/commons/TextureAtlasC.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/ss/commons/ToggleBtn$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/ss/commons/ToggleBtn$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/ss/commons/ToggleBtn$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/ss/commons/ToggleBtn$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/ss/commons/ToggleBtn.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/ss/commons/ToggleBtn.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/ss/effects/SoundEffect.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/ss/effects/SoundEffect.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/ss/effects/effectWin.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/ss/effects/effectWin.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/ss/gameLogic/config/Anchor.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/ss/gameLogic/config/Anchor.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/ss/gameLogic/config/C$lang.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/ss/gameLogic/config/C$lang.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/ss/gameLogic/config/C$remote.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/ss/gameLogic/config/C$remote.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/ss/gameLogic/config/C.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/ss/gameLogic/config/C.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/ss/gameLogic/config/Config$Anchor.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/ss/gameLogic/config/Config$Anchor.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/ss/gameLogic/config/Config$Direction.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/ss/gameLogic/config/Config$Direction.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/ss/gameLogic/config/Config$ShiftAnchor.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/ss/gameLogic/config/Config$ShiftAnchor.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/ss/gameLogic/config/Config.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/ss/gameLogic/config/Config.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/ss/gameLogic/config/ShiftAnchor.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/ss/gameLogic/config/ShiftAnchor.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/ss/gameLogic/objects/Board$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/ss/gameLogic/objects/Board$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/ss/gameLogic/objects/Board$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/ss/gameLogic/objects/Board$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/ss/gameLogic/objects/Board$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/ss/gameLogic/objects/Board$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/ss/gameLogic/objects/Board$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/ss/gameLogic/objects/Board$4.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/ss/gameLogic/objects/Board.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/ss/gameLogic/objects/Board.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/ss/gameLogic/objects/Header.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/ss/gameLogic/objects/Header.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/ss/gameLogic/objects/Pop$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/ss/gameLogic/objects/Pop$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/ss/gameLogic/objects/Pop$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/ss/gameLogic/objects/Pop$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/ss/gameLogic/objects/Pop$2.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/ss/gameLogic/objects/Pop.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/ss/gameLogic/objects/Pop.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/ss/interfaces/SelectMode.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/ss/interfaces/SelectMode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/ss/scenes/GameScene.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/ss/scenes/GameScene.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/ss/gameLogic/objects/Wheel$AngularSpriteFont.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/ss/gameLogic/objects/Wheel$AngularSpriteFont.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/ss/gameLogic/objects/Wheel$PolarSpriteFont.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/ss/gameLogic/objects/Wheel$PolarSpriteFont.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/ss/gameLogic/objects/Wheel$Tuple.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/ss/gameLogic/objects/Wheel$Tuple.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/ss/gameLogic/objects/Wheel$WheelDragListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/ss/gameLogic/objects/Wheel$WheelDragListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/ss/gameLogic/objects/Wheel$WheelItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/ss/gameLogic/objects/Wheel$WheelItem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/ss/gameLogic/objects/Wheel$WheelRollAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/ss/gameLogic/objects/Wheel$WheelRollAction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/ss/gameLogic/objects/Wheel.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/ss/gameLogic/objects/Wheel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/ss/gameLogic/objects/fotter$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/ss/gameLogic/objects/fotter$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/ss/gameLogic/objects/fotter$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/ss/gameLogic/objects/fotter$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/ss/gameLogic/objects/fotter$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/ss/gameLogic/objects/fotter$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/ss/gameLogic/objects/fotter.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/ss/gameLogic/objects/fotter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/ss/scenes/StartScene$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/ss/scenes/StartScene$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/ss/scenes/StartScene$10.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/ss/scenes/StartScene$10.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/ss/scenes/StartScene$11.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/ss/scenes/StartScene$11.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/ss/scenes/StartScene$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/ss/scenes/StartScene$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/ss/scenes/StartScene$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/ss/scenes/StartScene$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/ss/scenes/StartScene$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/ss/scenes/StartScene$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/ss/scenes/StartScene$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/ss/scenes/StartScene$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/ss/scenes/StartScene$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/ss/scenes/StartScene$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/ss/scenes/StartScene$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/ss/scenes/StartScene$7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/ss/scenes/StartScene$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/ss/scenes/StartScene$8.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/ss/scenes/StartScene$9$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/ss/scenes/StartScene$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/ss/scenes/StartScene$9.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/ss/scenes/StartScene.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/ss/scenes/StartScene.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/build/libs/core-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/libs/core-1.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/com/platform/IPlatform.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/platform/IPlatform.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/src/com/ss/GMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/ss/GMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/com/ss/commons/BitmapFontC.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/ss/commons/BitmapFontC.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/com/ss/commons/TextureAtlasC.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/ss/commons/TextureAtlasC.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/com/ss/commons/ToggleBtn.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/ss/commons/ToggleBtn.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/com/ss/effects/SoundEffect.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/ss/effects/SoundEffect.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/src/com/ss/effects/effectWin.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/ss/effects/effectWin.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/src/com/ss/gameLogic/config/C.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/ss/gameLogic/config/C.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/src/com/ss/gameLogic/config/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/ss/gameLogic/config/Config.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/src/com/ss/gameLogic/objects/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/ss/gameLogic/objects/Board.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/ss/gameLogic/objects/Header.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/ss/gameLogic/objects/Header.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/src/com/ss/gameLogic/objects/Pop.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/ss/gameLogic/objects/Pop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/com/ss/interfaces/SelectMode.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/ss/interfaces/SelectMode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/com/ss/scenes/GameScene.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/ss/scenes/GameScene.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/desktop/build/classes/java/main/com/mygdx/game/desktop/DesktopLauncher$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/desktop/build/classes/java/main/com/mygdx/game/desktop/DesktopLauncher$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/desktop/build/classes/java/main/com/mygdx/game/desktop/DesktopLauncher.class" beforeDir="false" afterPath="$PROJECT_DIR$/desktop/build/classes/java/main/com/mygdx/game/desktop/DesktopLauncher.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/desktop/src/com/mygdx/game/desktop/DesktopLauncher.java" beforeDir="false" afterPath="$PROJECT_DIR$/desktop/src/com/mygdx/game/desktop/DesktopLauncher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/ss/gameLogic/objects/Wheel.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/ss/gameLogic/objects/Wheel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/ss/gameLogic/objects/fotter.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/ss/gameLogic/objects/fotter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/ss/scenes/StartScene.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/ss/scenes/StartScene.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/PopCat$Unnamed.ic" NAME="Unnamed Coverage Results" MODIFIED="1587790877331" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
@@ -403,11 +177,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/core/src/com/ss/gameLogic/config/Config.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/com/ss/GMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="517">
-              <caret line="119" column="58" lean-forward="true" selection-start-line="119" selection-start-column="58" selection-end-line="119" selection-end-column="58" />
+            <state relative-caret-position="1455">
+              <caret line="127" column="70" selection-start-line="127" selection-start-column="70" selection-end-line="127" selection-end-column="70" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -427,11 +201,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/core/src/com/ss/gameLogic/objects/Board.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="104" column="117" selection-start-line="104" selection-start-column="117" selection-end-line="104" selection-end-column="117" />
+            <state relative-caret-position="316">
+              <caret line="622" column="38" selection-start-line="622" selection-start-column="38" selection-end-line="622" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -440,13 +214,49 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/src/com/ss/gameLogic/objects/Pop.java">
+        <entry file="file://$PROJECT_DIR$/core/src/com/platform/IPlatform.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+            <state relative-caret-position="525">
+              <caret line="35" column="16" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/android/src/com/mygdx/game/AndroidLauncher.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="41" column="13" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/android/src/com/mygdx/game/AlarmReceiver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="21" column="49" selection-start-line="21" selection-start-column="49" selection-end-line="21" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/android/src/com/mygdx/game/JokerSdk.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="62" column="53" selection-start-line="62" selection-start-column="53" selection-end-line="62" selection-end-column="53" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/com/ss/commons/TextureAtlasC.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="60" />
             </state>
           </provider>
         </entry>
@@ -454,8 +264,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/src/com/ss/scenes/StartScene.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="93">
-              <caret line="440" column="55" selection-start-line="440" selection-start-column="55" selection-end-line="440" selection-end-column="55" />
+            <state relative-caret-position="315">
+              <caret line="57" selection-start-line="57" selection-end-line="57" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -464,56 +274,8 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/src/com/ss/gameLogic/objects/data/WheelData.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
-              <folding>
-                <element signature="e#390#391#0" expanded="true" />
-                <element signature="e#419#420#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/android/AndroidManifest.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="35" column="18" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="18" />
-            </state>
-          </provider>
-          <provider editor-type-id="android-manifest" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/android/assets/data/other_games.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="29" column="12" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/android/assets/data/wheel.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" selection-end-line="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/src/com/ss/scenes/GameScene.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="53" selection-start-line="53" selection-end-line="53" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/core/src/MyGdxGame.gwt.xml">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -533,6 +295,9 @@
       <find>ads:</find>
       <find>cong</find>
       <find>log:</find>
+      <find>langua</find>
+      <find>cuu</find>
+      <find>wheel setting wrong</find>
     </findStrings>
   </component>
   <component name="GenerateSignedApkSettings">
@@ -555,38 +320,39 @@
         <option value="$PROJECT_DIR$/core/src/com/ss/gameLogic/objects/Data/Popdata.java" />
         <option value="$PROJECT_DIR$/core/src/com/ss/commons/_ToggleButton.java" />
         <option value="$PROJECT_DIR$/core/src/com/ss/commons/ToggleBtn.java" />
-        <option value="$PROJECT_DIR$/core/src/com/ss/gameLogic/objects/Header.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/core/src/com/ss/commons/TextureAtlasC.java" />
         <option value="$PROJECT_DIR$/core/src/com/ss/gameLogic/objects/data/WheelData.java" />
         <option value="$PROJECT_DIR$/core/src/com/ss/commons/BitmapFontC.java" />
         <option value="$PROJECT_DIR$/core/src/com/ss/core/util/GAssetsManager.java" />
         <option value="$PROJECT_DIR$/core/src/com/ss/gameLogic/Wheel.java" />
-        <option value="$PROJECT_DIR$/core/src/com/ss/GMain.java" />
         <option value="$PROJECT_DIR$/core/src/com/ss/gameLogic/objects/Setting.java" />
         <option value="$PROJECT_DIR$/desktop/src/com/mygdx/game/desktop/DesktopLauncher.java" />
         <option value="$PROJECT_DIR$/core/src/com/ss/gameLogic/objects/HTTPAssetLoader.java" />
-        <option value="$PROJECT_DIR$/core/src/com/ss/effects/effectWin.java" />
-        <option value="$PROJECT_DIR$/core/src/com/ss/gameLogic/objects/Wheel.java" />
         <option value="$PROJECT_DIR$/android/assets/data/wheel.json" />
-        <option value="$PROJECT_DIR$/android/assets/i18n/lang_en.properties" />
-        <option value="$PROJECT_DIR$/android/assets/i18n/lang.properties" />
-        <option value="$PROJECT_DIR$/core/src/com/ss/gameLogic/config/C.java" />
         <option value="$PROJECT_DIR$/android/build.gradle" />
-        <option value="$PROJECT_DIR$/android/src/com/mygdx/game/DailyNotification.java" />
         <option value="$PROJECT_DIR$/android/src/com/mygdx/game/AlarmReceiver.java" />
-        <option value="$PROJECT_DIR$/android/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/core/src/com/ss/effects/SoundEffect.java" />
-        <option value="$PROJECT_DIR$/core/src/com/ss/gameLogic/objects/fotter.java" />
         <option value="$PROJECT_DIR$/android/src/com/mygdx/game/JokerSdk.java" />
-        <option value="$PROJECT_DIR$/core/src/com/ss/gameLogic/objects/Board.java" />
         <option value="$PROJECT_DIR$/core/src/com/ss/gameLogic/objects/data/ConfigData.java" />
-        <option value="$PROJECT_DIR$/android/assets/data/ConfigData.json" />
-        <option value="$PROJECT_DIR$/core/src/com/ss/scenes/StartScene.java" />
         <option value="$PROJECT_DIR$/core/src/com/ss/scenes/GameScene.java" />
-        <option value="$PROJECT_DIR$/core/src/com/ss/gameLogic/config/Config.java" />
         <option value="$PROJECT_DIR$/android/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/core/src/com/ss/gameLogic/objects/Header.java" />
+        <option value="$PROJECT_DIR$/android/assets/data/ConfigData.json" />
+        <option value="$PROJECT_DIR$/android/assets/i18n/lang.properties" />
+        <option value="$PROJECT_DIR$/core/src/com/ss/gameLogic/objects/fotter.java" />
+        <option value="$PROJECT_DIR$/android/src/com/mygdx/game/DailyNotification.java" />
+        <option value="$PROJECT_DIR$/core/src/com/ss/gameLogic/config/C.java" />
+        <option value="$PROJECT_DIR$/android/assets/i18n/lang_en.properties" />
         <option value="$PROJECT_DIR$/core/src/com/ss/gameLogic/objects/Pop.java" />
+        <option value="$PROJECT_DIR$/core/src/com/ss/gameLogic/objects/Wheel.java" />
+        <option value="$PROJECT_DIR$/core/src/com/ss/gameLogic/config/Config.java" />
+        <option value="$PROJECT_DIR$/core/src/com/ss/effects/effectWin.java" />
+        <option value="$PROJECT_DIR$/core/src/com/ss/gameLogic/objects/Board.java" />
+        <option value="$PROJECT_DIR$/android/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/core/src/com/ss/scenes/StartScene.java" />
+        <option value="$PROJECT_DIR$/core/src/com/ss/scenes/loading.java" />
+        <option value="$PROJECT_DIR$/core/src/com/ss/GMain.java" />
       </list>
     </option>
   </component>
@@ -600,6 +366,24 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="PopCat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PopCat" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="PopCat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PopCat" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="android" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="AndroidView">
         <subPane>
           <expand>
@@ -639,6 +423,14 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="ss" type="462c0819:PsiDirectoryNode" />
               <item name="assetManager" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PopCat" type="1abcf292:AndroidViewProjectNode" />
+              <item name="core" type="e9137016:NonAndroidModuleNode" />
+              <item name="java" type="f7eae187:NonAndroidSourceTypeNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="ss" type="462c0819:PsiDirectoryNode" />
+              <item name="commons" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="PopCat" type="1abcf292:AndroidViewProjectNode" />
@@ -698,19 +490,7 @@
               <item name="java" type="f7eae187:NonAndroidSourceTypeNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="ss" type="462c0819:PsiDirectoryNode" />
-              <item name="gameLogic" type="462c0819:PsiDirectoryNode" />
-              <item name="objects" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PopCat" type="1abcf292:AndroidViewProjectNode" />
-              <item name="core" type="e9137016:NonAndroidModuleNode" />
-              <item name="java" type="f7eae187:NonAndroidSourceTypeNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="ss" type="462c0819:PsiDirectoryNode" />
-              <item name="gameLogic" type="462c0819:PsiDirectoryNode" />
-              <item name="objects" type="462c0819:PsiDirectoryNode" />
-              <item name="Utils.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+              <item name="interfaces" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="PopCat" type="1abcf292:AndroidViewProjectNode" />
@@ -743,53 +523,36 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="PopCat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PopCat" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="PopCat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PopCat" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="android" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="ExportApk.ApkPath" value="$PROJECT_DIR$/android" />
-    <property name="ExportApk.BuildVariants" value="debug" />
+    <property name="ExportApk.BuildVariants" value="release" />
     <property name="ExportApk.SignV1" value="true" />
     <property name="ExportApk.SignV2" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
-    <property name="device.picker.selection" value="32049d5ed653c0d1" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="ObjectiveC" />
+    <property name="device.picker.selection" value="5DWOJNZSH6EEB6AU" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="not.eligible.for.single.variant.sync" value="true" />
     <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
-    <property name="sync.plugin.last.upgrade.timestamp" value="1587608577431" />
+    <property name="sync.plugin.last.upgrade.timestamp" value="1588328160604" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/android/res" />
-      <recent name="$PROJECT_DIR$/android/assets/sound" />
-      <recent name="$PROJECT_DIR$/android" />
-      <recent name="$PROJECT_DIR$/android/assets/effects" />
-      <recent name="$PROJECT_DIR$/core/src/com/ss/gameLogic/objects" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/android/assets" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.platform" />
       <recent name="com.ss.commons" />
       <recent name="com.ss.gameLogic.objects.Data" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/android/assets" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/core/src/com/ss/gameLogic/objects" />
+      <recent name="$PROJECT_DIR$/android/res" />
+      <recent name="$PROJECT_DIR$/android/assets/sound" />
+      <recent name="$PROJECT_DIR$/android" />
+      <recent name="$PROJECT_DIR$/android/assets/effects" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -905,7 +668,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.1881259" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.1881259" />
       <window_info id="Structure" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Build Variants" order="4" side_tool="true" />
@@ -918,9 +681,9 @@
       <window_info anchor="bottom" id="TODO" order="2" weight="0.32921812" />
       <window_info anchor="bottom" id="Terminal" order="3" weight="0.32921812" />
       <window_info anchor="bottom" id="Event Log" order="4" sideWeight="0.5007153" side_tool="true" weight="0.24554184" />
-      <window_info anchor="bottom" id="Build" order="5" weight="0.24554184" />
-      <window_info anchor="bottom" id="Android Profiler" order="6" weight="0.32921812" />
-      <window_info anchor="bottom" id="Run" order="7" sideWeight="0.49928468" weight="0.24554184" />
+      <window_info anchor="bottom" id="Build" order="5" visible="true" weight="0.24554184" />
+      <window_info anchor="bottom" id="Android Profiler" order="6" show_stripe_button="false" weight="0.32921812" />
+      <window_info anchor="bottom" id="Run" order="7" sideWeight="0.49928468" weight="0.3127572" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.32921812" />
       <window_info anchor="bottom" id="Find" order="9" weight="0.32921812" />
       <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" />
@@ -928,95 +691,13 @@
       <window_info anchor="right" id="Gradle" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info anchor="right" id="Coverage" order="5" side_tool="true" weight="0.3297568" />
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/android/assets/effects/bomb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/ss/gameLogic/objects/Data/Popdata.java" />
-    <entry file="file://$PROJECT_DIR$/core/src/com/ss/commons/_ToggleButton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="24" column="45" selection-start-line="24" selection-start-column="45" selection-end-line="24" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/platform/ToggleHandler.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android/assets/effects/017.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android/assets/effects/rocket2">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/ss/gameLogic/objects/Header.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="45" column="36" selection-start-line="45" selection-start-column="36" selection-end-line="45" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/ss/commons/ToggleBtn.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/ss/commons/TextureAtlasC.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android/assets/textureAtlas/wheel.atlas">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3039" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android/assets/font/alert_font.fnt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/ss/commons/BitmapFontC.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/ss/core/util/GAssetsManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="297" column="5" selection-start-line="297" selection-start-column="5" selection-end-line="297" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android/assets/effects/010.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android/assets/effects/001.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/src/com/ss/gameLogic/Wheel.java" />
     <entry file="file://$PROJECT_DIR$/android/assets/textureAtlas/wheel.png">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/ss/GMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1335">
-          <caret line="112" column="39" selection-start-line="112" selection-start-column="39" selection-end-line="112" selection-end-column="39" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/core/src/com/ss/gameLogic/objects/Setting.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1042,89 +723,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/ss/gameLogic/objects/Wheel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="54" column="76" selection-start-line="54" selection-start-column="76" selection-end-line="54" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android/assets/i18n/lang_en.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" selection-start-line="10" selection-end-line="10" selection-end-column="32" />
-        </state>
-      </provider>
-      <provider editor-type-id="ResourceBundle" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android/assets/i18n/lang.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" selection-start-line="10" selection-end-line="10" selection-end-column="10" />
-        </state>
-      </provider>
-      <provider editor-type-id="ResourceBundle" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/ss/gameLogic/config/C.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="56" column="50" selection-start-line="56" selection-start-column="50" selection-end-line="56" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/ss/gameLogic/objects/HTTPAssetLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="61" column="73" selection-start-line="61" selection-start-column="4" selection-end-line="61" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/android/google-services.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="20" column="53" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1920">
-          <caret line="128" column="18" selection-start-line="128" selection-start-column="18" selection-end-line="128" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android/src/com/mygdx/game/AlarmReceiver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="14" column="72" selection-start-line="14" selection-start-column="72" selection-end-line="14" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android/src/com/mygdx/game/AndroidLauncher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-74">
-          <caret line="41" column="13" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/ss/effects/effectWin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="48" column="51" selection-start-line="48" selection-start-column="51" selection-end-line="48" selection-end-column="51" />
         </state>
       </provider>
     </entry>
@@ -1135,62 +737,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/ss/gameLogic/objects/fotter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="249" column="9" selection-start-line="249" selection-start-column="9" selection-end-line="249" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android/src/com/mygdx/game/DailyNotification.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-325">
-          <caret line="14" column="72" selection-start-line="14" selection-start-column="72" selection-end-line="14" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android/src/com/mygdx/game/JokerSdk.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="88" column="23" selection-start-line="88" selection-start-column="23" selection-end-line="88" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/src/com/ss/gameLogic/objects/data/Config.java" />
     <entry file="file://$PROJECT_DIR$/core/src/com/ss/gameLogic/objects/data/ConfigData.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="4" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android/assets/data/ConfigData.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="3" selection-start-column="2" selection-end-line="14" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/platform/IPlatform.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/desktop/src/com/mygdx/game/desktop/DesktopLauncher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="52" column="12" selection-start-line="52" selection-start-column="12" selection-end-line="52" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1204,6 +755,14 @@
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" column="18" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="18" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-manifest" />
     </entry>
     <entry file="file://$PROJECT_DIR$/android/assets/data/other_games.json">
       <provider selected="true" editor-type-id="text-editor">
@@ -1219,58 +778,279 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/ss/core/util/GLayerGroup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/ss/core/util/GScreen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2565">
+          <caret line="219" selection-start-line="219" selection-end-line="219" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/ss/gameLogic/objects/Header.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="49" column="26" selection-start-line="49" selection-start-column="26" selection-end-line="49" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android/assets/data/ConfigData.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="3" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/core/src/com/ss/scenes/GameScene.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="53" selection-start-line="53" selection-end-line="53" />
+        <state relative-caret-position="8">
+          <caret line="103" column="37" selection-start-line="103" selection-start-column="37" selection-end-line="103" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/android/AndroidManifest.xml">
+    <entry file="file://$PROJECT_DIR$/core/src/com/ss/gameLogic/objects/fotter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="35" column="18" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="18" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-manifest" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/ss/gameLogic/objects/Board.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="104" column="117" selection-start-line="104" selection-start-column="117" selection-end-line="104" selection-end-column="117" />
+        <state relative-caret-position="264">
+          <caret line="46" column="36" selection-start-line="46" selection-start-column="36" selection-end-line="46" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/ss/scenes/StartScene.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx/1.9.9/1409aca6a4293a7ca8dbd60281c3211a195dd39a/gdx-1.9.9-sources.jar!/com/badlogic/gdx/scenes/scene2d/Actor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="440" column="55" selection-start-line="440" selection-start-column="55" selection-end-line="440" selection-end-column="55" />
+        <state relative-caret-position="175">
+          <caret line="368" column="16" selection-start-line="368" selection-start-column="16" selection-end-line="368" selection-end-column="16" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#14762#14763#0" expanded="true" />
+            <element signature="e#14795#14796#0" expanded="true" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="128" column="18" selection-start-line="128" selection-start-column="18" selection-end-line="128" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-80">
+          <caret line="45" column="9" selection-start-line="45" selection-start-column="9" selection-end-line="45" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/ss/gameLogic/objects/HTTPAssetLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1035">
+          <caret line="61" column="73" selection-start-line="61" selection-start-column="4" selection-end-line="61" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/ss/core/util/GStage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="81" selection-start-line="81" selection-end-line="81" />
+          <folding>
+            <element signature="e#2790#2791#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/ss/core/util/GDirectedGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="65" selection-start-line="65" selection-end-line="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android/assets/i18n/lang.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="8" selection-start-line="11" selection-end-line="11" selection-end-column="8" />
+        </state>
+      </provider>
+      <provider editor-type-id="ResourceBundle" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/ss/gameLogic/config/C.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="59" column="24" selection-start-line="59" selection-start-column="24" selection-end-line="59" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/ss/core/util/GUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1035">
+          <caret line="78" selection-start-line="78" selection-end-line="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android/assets/i18n/lang_en.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+        </state>
+      </provider>
+      <provider editor-type-id="ResourceBundle" />
     </entry>
     <entry file="file://$PROJECT_DIR$/core/src/com/ss/gameLogic/objects/Pop.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+        <state relative-caret-position="1605">
+          <caret line="128" selection-start-line="128" selection-end-line="128" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/ss/effects/effectWin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="35" column="108" selection-start-line="35" selection-start-column="43" selection-end-line="35" selection-end-column="108" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/core/src/com/ss/gameLogic/config/Config.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="517">
-          <caret line="119" column="58" lean-forward="true" selection-start-line="119" selection-start-column="58" selection-end-line="119" selection-end-column="58" />
+        <state relative-caret-position="540">
+          <caret line="43" column="43" selection-start-line="43" selection-start-column="43" selection-end-line="43" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx/1.9.9/1409aca6a4293a7ca8dbd60281c3211a195dd39a/gdx-1.9.9-sources.jar!/com/badlogic/gdx/scenes/scene2d/Stage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2625">
+          <caret line="220" selection-start-line="220" selection-end-line="220" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/ss/gameLogic/objects/Wheel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="82" column="7" selection-start-line="82" selection-start-column="7" selection-end-line="82" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android/src/com/mygdx/game/DailyNotification.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="53" column="42" selection-start-line="53" selection-start-column="42" selection-end-line="53" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android/res/xml/remote_config_defaults.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android/res/values/color.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="12" lean-forward="true" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android/res/values/styles.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/ss/scenes/loading.java" />
+    <entry file="file://$PROJECT_DIR$/core/src/com/ss/GMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1455">
+          <caret line="127" column="70" selection-start-line="127" selection-start-column="70" selection-end-line="127" selection-end-column="70" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/desktop/src/com/mygdx/game/desktop/DesktopLauncher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="52" column="12" selection-start-line="52" selection-start-column="12" selection-end-line="52" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/platform/IPlatform.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" column="16" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android/src/com/mygdx/game/AndroidLauncher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="41" column="13" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android/src/com/mygdx/game/AlarmReceiver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="21" column="49" selection-start-line="21" selection-start-column="49" selection-end-line="21" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android/src/com/mygdx/game/JokerSdk.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="62" column="53" selection-start-line="62" selection-start-column="53" selection-end-line="62" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/ss/commons/TextureAtlasC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/ss/scenes/StartScene.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="57" selection-start-line="57" selection-end-line="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/MyGdxGame.gwt.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/ss/gameLogic/objects/Board.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="622" column="38" selection-start-line="622" selection-start-column="38" selection-end-line="622" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
