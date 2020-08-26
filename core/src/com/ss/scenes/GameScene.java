@@ -53,9 +53,12 @@ public class GameScene extends GScreen {
         fotter = new fotter(header);
         new Board(Config.Level,header,fotter,this);
         ///////////// setting/////////
+        Image frm = GUI.createImage(TextureAtlasC.Fottergame,"frmSetting");
+        frm.setPosition(frm.getWidth()*0.7f,fotter.group.getY()+frm.getHeight()/2+5, Align.center);
+        grSetting.addActor(frm);
         GStage.addToLayer(GLayer.top,grSetting);
         Image btnSetting = GUI.createImage(TextureAtlasC.Fottergame,"btnPause");
-        btnSetting.setPosition(btnSetting.getWidth(),fotter.group.getY()+btnSetting.getHeight(), Align.center);
+        btnSetting.setPosition(frm.getX()+frm.getWidth()/2,frm.getY()+frm.getHeight()/2, Align.center);
         grSetting.addActor(btnSetting);
         btnSetting.addListener(new ClickListener(){
             @Override
@@ -79,7 +82,7 @@ public class GameScene extends GScreen {
         bg.setWidth(Config.ScreenW);
         bg.setHeight(Config.ScreenH-Config.paddingY);
         bg.setPosition(0,Config.paddingY);
-        System.out.println("checkY: "+header.LbScore.getX());
+       // System.out.println("checkY: "+header.LbScore.getX());
 
     }
     private void initGroup(){

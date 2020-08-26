@@ -20,11 +20,11 @@ public class Header {
 
     public Header(){
         GStage.addToLayer(GLayer.top,group);
-        Image header = GUI.createImage(TextureAtlasC.Fottergame,"header");
-        header.setWidth(Config.ScreenW);
-        header.setOrigin(Align.center);
-        header.setPosition(header.getWidth()/2,header.getHeight()/2,Align.center);
-        group.addActor(header);
+//        Image header = GUI.createImage(TextureAtlasC.Fottergame,"header");
+//        header.setWidth(Config.ScreenW);
+//        header.setOrigin(Align.center);
+//        header.setPosition(header.getWidth()/2,header.getHeight()/2,Align.center);
+//        group.addActor(header);
         Image frmHighSc = GUI.createImage(TextureAtlasC.Fottergame,"frmHighSc");
         frmHighSc.setPosition(frmHighSc.getWidth()/2,frmHighSc.getHeight()/2,Align.center);
         group.addActor(frmHighSc);
@@ -33,21 +33,21 @@ public class Header {
         lbHighS.setFontScale(0.4f);
         lbHighS.setOrigin(Align.center);
 //        lbHighS.setAlignment(Align.center);
-        lbHighS.setPosition(20,header.getY()+lbHighS.getPrefHeight()/2+10,Align.left);
+        lbHighS.setPosition(35,lbHighS.getPrefHeight()*1.5f,Align.left);
         group.addActor(lbHighS);
         ////////// Label Target/////
         Label lbtar = new Label(C.lang.lbTarget,new Label.LabelStyle(BitmapFontC.FontAlert, Color.GREEN));
         lbtar.setFontScale(0.4f);
         lbtar.setOrigin(Align.center);
 //        lbtar.setAlignment(Align.center);
-        lbtar.setPosition(20,lbHighS.getY()+lbHighS.getPrefHeight()*3.5f,Align.left);
+        lbtar.setPosition(35,lbHighS.getY()+lbHighS.getPrefHeight()*2.8f,Align.left);
         group.addActor(lbtar);
         ////////// Label Level/////
         Label lblv = new Label(C.lang.lbLv,new Label.LabelStyle(BitmapFontC.FontAlert, Color.ORANGE));
         lblv.setFontScale(0.4f);
         lblv.setOrigin(Align.center);
 //        lblv.setAlignment(Align.center);
-        lblv.setPosition(20,lbHighS.getY()+lbHighS.getPrefHeight()*5.5f,Align.left);
+        lblv.setPosition(35,lbHighS.getY()+lbHighS.getPrefHeight()*4.5f,Align.left);
         group.addActor(lblv);
 
         ///////// frm Score////////
@@ -66,21 +66,21 @@ public class Header {
         lbTarget.setFontScale(0.7f);
         lbTarget.setAlignment(Align.center);
         lbTarget.setOrigin(Align.center);
-        lbTarget.setPosition(frmHighSc.getX()+frmHighSc.getWidth()*0.55f,frmHighSc.getY()+frmHighSc.getHeight()*0.50f,Align.center);
+        lbTarget.setPosition(frmHighSc.getX()+frmHighSc.getWidth()*0.6f,frmHighSc.getY()+frmHighSc.getHeight()*0.48f,Align.center);
         group.addActor(lbTarget);
         ////// label High Score ///////
         lbHighSc = new Label(""+Config.HighScore,new Label.LabelStyle(BitmapFontC.robotoVi,null));
         lbHighSc.setFontScale(0.7f);
         lbHighSc.setAlignment(Align.center);
         lbHighSc.setOrigin(Align.center);
-        lbHighSc.setPosition(frmHighSc.getX()+frmHighSc.getWidth()*0.7f,frmHighSc.getY()+frmHighSc.getHeight()*0.2f,Align.center);
+        lbHighSc.setPosition(frmHighSc.getX()+frmHighSc.getWidth()*0.6f,frmHighSc.getY()+frmHighSc.getHeight()*0.25f,Align.center);
         group.addActor(lbHighSc);
         ////// label level/////
         lbLevel= new Label(""+Config.Level,new Label.LabelStyle(BitmapFontC.NerwynOrange,null));
         lbLevel.setFontScale(1.3f);
         lbLevel.setAlignment(Align.center);
         lbLevel.setOrigin(Align.center);
-        lbLevel.setPosition(frmHighSc.getX()+frmHighSc.getWidth()*0.25f,frmHighSc.getY()+frmHighSc.getHeight()*0.85f,Align.center);
+        lbLevel.setPosition(frmHighSc.getX()+frmHighSc.getWidth()*0.3f,frmHighSc.getY()+frmHighSc.getHeight()*0.7f,Align.center);
         group.addActor(lbLevel);
     }
     public void updateScore(long sc){

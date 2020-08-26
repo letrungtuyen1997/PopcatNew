@@ -67,7 +67,7 @@ public class fotter {
         ////// render item //////
         for(int i=0;i<3;i++){
             Image item = GUI.createImage(TextureAtlasC.Fottergame,"item"+(i+1));
-            item.setPosition(Config.ScreenW/2+item.getWidth()*(i+1),fotter.getY()+fotter.getHeight()*0.6f,Align.center);
+            item.setPosition(Config.ScreenW/2-item.getWidth()/2+item.getWidth()*(i+1),fotter.getY()+fotter.getHeight()*0.4f,Align.center);
             group.addActor(item);
             ////////// label /////////
             Label LbQuantity = new Label(""+quantity,new Label.LabelStyle(BitmapFontC.NerwynOrange,null));
@@ -98,7 +98,7 @@ public class fotter {
                     SoundEffect.Play(SoundEffect.click);
                     if(touch==0){
                         if(arrbtnAddmore.get(arrItem.indexOf(ob,true)).isVisible()==true){
-                            System.out.println("het skilll!!");
+                           // System.out.println("het skilll!!");
                             AddmoreSkill(arrItem.indexOf(ob,true));
                             setAddmore();
                         }else {

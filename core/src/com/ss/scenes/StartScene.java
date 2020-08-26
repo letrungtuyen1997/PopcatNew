@@ -66,6 +66,7 @@ public class StartScene extends GScreen {
         SoundEffect.Playmusic(1);
 //        GMain.platform.ShowBanner(true);
 
+
         render();
     }
 
@@ -86,9 +87,9 @@ public class StartScene extends GScreen {
         //////// btn new Game//////
         btn(grbtn1,Config.ScreenW/2,Config.ScreenH/2,"btn",C.lang.lbbtnNewGame);
         //////// btn Continus//////
-        btn(grbtn2,Config.ScreenW/2,Config.ScreenH/2+grbtn1.getHeight()+10,"btn",C.lang.lbbtnContinus);
+        btn(grbtn2,Config.ScreenW/2,Config.ScreenH/2+grbtn1.getHeight()+10,"btn2",C.lang.lbbtnContinus);
 //        //////// btn Rank//////
-        btn(grbtn3,Config.ScreenW/2,Config.ScreenH/2+grbtn1.getHeight()*2+20,"btn2",C.lang.lbbtnRank);
+        btn(grbtn3,Config.ScreenW/2,Config.ScreenH/2+grbtn1.getHeight()*2+20,"btn",C.lang.lbbtnRank);
         //////// btn minigame /////
         Image btnMini = GUI.createImage(TextureAtlasC.uigame,"btnMini");
         btnMini.setPosition(Config.ScreenW/2,Config.ScreenH-btnMini.getHeight()/2,Align.center);
@@ -119,7 +120,7 @@ public class StartScene extends GScreen {
         lbbtn.setFontScale(0.7f);
         lbbtn.setOrigin(Align.center);
         lbbtn.setAlignment(Align.center);
-        lbbtn.setPosition(btn.getX()+btn.getWidth()/2,btn.getY()+btn.getHeight()/2-lbbtn.getPrefHeight()/4,Align.center);
+        lbbtn.setPosition(btn.getX()+btn.getWidth()/2,btn.getY()+btn.getHeight()/2+5,Align.center);
         grbtn.addActor(lbbtn);
         grbtn.setWidth(btn.getWidth());
         grbtn.setHeight(btn.getHeight());
@@ -185,7 +186,7 @@ public class StartScene extends GScreen {
 //            btn.setColor(Color.DARK_GRAY);
             btn.setTouchable(Touchable.disabled);
         }
-        System.out.println("check: "+btn.isTouchable());
+       // System.out.println("check: "+btn.isTouchable());
     }
     private void AniBtn(Group btn1,Group btn2,Group btn3){
         btn1.addAction(Actions.sequence(
@@ -246,7 +247,6 @@ public class StartScene extends GScreen {
         try {
             jv = json.parse(jv2);
             System.out.println("log:"+jv.get("region").asString());
-
         }catch (Exception e){
             jv = json.parse(jsonStr);
         }
@@ -373,6 +373,9 @@ public class StartScene extends GScreen {
         grBonus.setPosition(Config.ScreenW/2,Config.ScreenH/2);
         grBonus.setScale(0);
         grBonus.addAction(Actions.scaleTo(1,1,0.5f,Interpolation.bounceOut));
+        /////// particle///////
+        effectWin ef = new effectWin(4,0,0,0);
+        grBonus.addActor(ef);
         ///// frm bonus /////
         Image frm = GUI.createImage(TextureAtlasC.uigame,"frmBonus");
         frm.setPosition(0,0,Align.center);
@@ -382,11 +385,9 @@ public class StartScene extends GScreen {
         if(C.lang.idcontry.equals("en"))
             name = "rewardEn";
         Image reward = GUI.createImage(TextureAtlasC.uigame,name);
-        reward.setPosition(0,-reward.getHeight(),Align.center);
+        reward.setPosition(0,-reward.getHeight()*2,Align.center);
         grBonus.addActor(reward);
-        /////// particle///////
-        effectWin ef = new effectWin(4,0,0,0);
-        grBonus.addActor(ef);
+
         /////// icon //////
         Image icon  = GUI.createImage(TextureAtlasC.Fottergame,type);
         icon.setPosition(0,0,Align.center);
@@ -419,21 +420,21 @@ public class StartScene extends GScreen {
     }
     private void SetBonus(String type,int quan){
         if(type.equals("icon1")){
-            System.out.println("color");
+           // System.out.println("color");
             int color=  GMain.prefs.getInteger("color",3);
             color+=quan;
             GMain.prefs.putInteger("color",color);
             GMain.prefs.flush();
 
         }else if(type.equals("icon2")){
-            System.out.println("roket");
+           // System.out.println("roket");
             int rocket=  GMain.prefs.getInteger("rocket",3);
             rocket+=quan;
             GMain.prefs.putInteger("rocket",rocket);
             GMain.prefs.flush();
 
         }if(type.equals("icon3")) {
-            System.out.println("bom");
+           // System.out.println("bom");
             int bom = GMain.prefs.getInteger("bom", 3);
             bom += quan;
             GMain.prefs.putInteger("bom", bom);
@@ -512,7 +513,7 @@ public class StartScene extends GScreen {
                     actor.setY(30);
                     gIcon.addActor(actor);
                     gCrossPanel.addActor(gIcon);
-                    Label lbName = new Label(item.getDisplayName(), new Label.LabelStyle(BitmapFontC.FontAlert, Color.GOLD));
+                    Label lbName = new Label(item.getDisplayName(), new Label.LabelStyle(BitmapFontC.FontAlert, null));
                     lbName.setAlignment(Align.center);
                     lbName.setFontScale(.4f);
                     lbName.setPosition(actor.getX() + actor.getWidth()/2 - lbName.getWidth()/2,

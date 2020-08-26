@@ -62,7 +62,7 @@ public class effectWin extends Actor{
             }else if(id==4){
                 this.effect.load(light, Gdx.files.internal("effects"));
 //                this.effect.load(Destroy, atlas);
-                this.effect.scaleEffect(1f);
+                this.effect.scaleEffect(2f);
                 for (int i = 0; i < this.effect.getEmitters().size; i++) {
                     ((ParticleEmitter) this.effect.getEmitters().get(i)).flipY();
 //                    ((ParticleEmitter) this.effect.getEmitters().get(i)).setFlip(true,false);

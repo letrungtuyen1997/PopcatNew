@@ -1,6 +1,5 @@
 package com.ss.gameLogic.objects;
 
-import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.math.Interpolation;
 import com.badlogic.gdx.scenes.scene2d.Group;
@@ -11,7 +10,6 @@ import com.badlogic.gdx.scenes.scene2d.ui.Image;
 import com.badlogic.gdx.scenes.scene2d.ui.Label;
 import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
 import com.badlogic.gdx.utils.Align;
-import com.badlogic.gdx.utils.Array;
 import com.ss.GMain;
 import com.ss.commons.BitmapFontC;
 import com.ss.commons.TextureAtlasC;
@@ -53,6 +51,7 @@ public class Board {
     private GShapeSprite overlap;
     private GameScene gameScene;
     private long bonusScore = Config.BonusScore;
+    private boolean isShake =false;
     public Board(int Lv, Header header, fotter fotter, GameScene gameScene){
         this.header = header;
         this.fotter= fotter;
@@ -71,8 +70,13 @@ public class Board {
         overlap.setColor(0,0,0,0.6f);
         group1.addActor(overlap);
         overlap.setVisible(false);
-
+        loadOverFrm();
         create();
+    }
+    private void loadOverFrm(){
+        Image overFrm = GUI.createImage(TextureAtlasC.uigame,"overFrm");
+        overFrm.setPosition(GStage.getWorldWidth()/2,GStage.getWorldHeight()-overFrm.getHeight()/2-fotter.group.getHeight()+10,Align.center);
+        group.addActor(overFrm);
     }
     private int setQuantityPop(int lv){
         switch (lv){
@@ -104,6 +108,7 @@ public class Board {
                     int finalI = i;
                     int finalJ = j;
                     Tweens.setTimeout(group, Config.flyPop2 * count, () -> {
+//                        count++;
                         pops[finalI][finalJ] = new Pop(finalJ, finalI, (int) (Math.random() * quantityPop), group,group1, this, fotter, Config.flyPop);
 
                     });
@@ -115,13 +120,14 @@ public class Board {
             loadData();
             for(int i = 0; i < Config.row; i++) {
                 for (int j = 0; j < Config.col; j++) {
-                    count++;
+//                    count++;
                     int finalI = i;
                     int finalJ = j;
                     int id = GMain.prefs.getInteger("pop" + i + j);
                     if(id == -1) {
                         pops[i][j] = null;
                     } else {
+                        count++;
                         Tweens.setTimeout(group, Config.flyPop2 * count, () -> {
                             pops[finalI][finalJ] = new Pop(finalJ, finalI, id, group,group1, this, fotter, Config.flyPop);
 
@@ -130,22 +136,14 @@ public class Board {
                 }
             }
         }
-
-        Tweens.setTimeout(group,Config.flyPop2*(count/2+2),()->{
-            for (int ii=0;ii<(Config.row+3);ii++){
-                int finalIi = ii;
-                Tweens.setTimeout(group,0.12f*ii,()->{
-                    SoundEffect.Play(SoundEffect.Fall);
-                    if(finalIi ==Config.row+2){
-                        setTouch(Touchable.enabled);
-                        saveData();
-                        if (isDeadEnd())
-                            endGame();
-                    }
-
-                });
-            }
-
+//        System.out.println("count: "+count);
+        Tweens.setTimeout(group,(Config.flyPop2+0.02f)*count,()->{
+//            System.out.println("save data");
+            if(count<(Config.row*Config.col))
+                setTouch(Touchable.enabled);
+            saveData();
+            if (isDeadEnd())
+                endGame();
         });
 
      }
@@ -174,7 +172,7 @@ public class Board {
 
     private void selectPops(Pop pop){
         if (chosenPops != null) { // release chosen pops
-            setTouchExploxe(Touchable.enabled);
+//            setTouchExploxe(Touchable.enabled);
             for (Pop p : chosenPops){
                 p.changeState(false);
                 if(Config.selectMode==SelectMode.VERTICAL)
@@ -214,6 +212,7 @@ public class Board {
             chosenPops = samePops;
             countPop = samePops.size();
 
+
         }else {
             setTouch(Touchable.enabled);
         }
@@ -223,6 +222,7 @@ public class Board {
 
 
     private void explodePops(SelectMode selectMode){
+        setTouch(Touchable.disabled);
         float explodeTime = 0;
         int index = 0;
         setPopScore();
@@ -232,7 +232,7 @@ public class Board {
                 if (selectMode == SelectMode.AREA) {
 
                     int finalIndex = index;
-                    Tweens.setTimeout(group, explodeTime += 0.07f, () -> {
+                    Tweens.setTimeout(group, explodeTime += 0.05f, () -> {
                         CountScore(pop.pop.getX(),pop.pop.getY());
                         if(idxCtx==(chosenPops.size()-1)){
                             TotalScore(chosenPops.size(),pop.pop.getX(),pop.pop.getY());
@@ -242,6 +242,7 @@ public class Board {
                     });
                 }else if(selectMode == SelectMode.SQUARE){
                     if(efSkill==false){
+                        isShake=true;
                         fotter.setQuantitySkill(2);
                         efSkill=true;
                         explodeTime=1.4f;
@@ -251,7 +252,8 @@ public class Board {
                     }
 //                    pop.effect();
                     Tweens.setTimeout(group,1,()->{
-                        group.addAction(GScreenShakeAction.screenShake(0.5f,GLayer.ui,GLayer.top));
+//                        group.addAction(GScreenShakeAction.screenShake(1f,GLayer.ui,GLayer.top));
+                        shakeScren(0.05f);
                         pop.explode();
                         CountScore(pop.pop.getX(),pop.pop.getY());
                         if(idxCtx==(chosenPops.size()-1)){
@@ -283,7 +285,7 @@ public class Board {
                         ));
                     }
                     int finalIndex1 = index;
-                    Tweens.setTimeout(group, explodeTime += 0.1f, () -> {
+                    Tweens.setTimeout(group, explodeTime += 0.05f, () -> {
                         CountScore(pop.pop.getX(),pop.pop.getY());
                         if(idxCtx==(chosenPops.size()-1)){
                             TotalScore(chosenPops.size(),pop.pop.getX(),pop.pop.getY());
@@ -302,8 +304,8 @@ public class Board {
             }
         });
         Tweens.setTimeout(group,explodeTime,()->{ nullSlice(); });
-        Tweens.setTimeout(group, explodeTime + 0.1f + Config.sliceDuration, ()->{ blankShift(); });
-        Tweens.setTimeout(group, explodeTime + 0.1f + Config.sliceDuration + Config.shiftDuration, () ->{
+        Tweens.setTimeout(group, explodeTime + 0.05f + Config.sliceDuration, ()->{ blankShift(); });
+        Tweens.setTimeout(group, explodeTime + 0.05f + Config.sliceDuration + Config.shiftDuration, () ->{
             setTouch(Touchable.enabled);
             if (isDeadEnd())
                 endGame();
@@ -311,8 +313,23 @@ public class Board {
             Config.selectMode = SelectMode.AREA;
             efSkill=false;
             overlap.setVisible(false);
+            isShake=false;
         });
 
+    }
+    private void shakeScren(float dura){
+        if(isShake==false)
+            return;
+        GLayer.ui.getGroup().addAction(Actions.sequence(
+                Actions.moveBy(-2,0,dura),
+                Actions.moveBy(4,0,dura),
+                Actions.moveBy(-4,0,dura),
+                Actions.moveBy(2,0,dura),
+                GSimpleAction.simpleAction((d,a)->{
+                    shakeScren(dura);
+                    return true;
+                })
+        ));
     }
     private void nullSlice(){
         for (int i = 0; i < pops[0].length; i++){ //bug contain
@@ -398,7 +415,7 @@ public class Board {
                 public void touchUp(InputEvent event, float x, float y, int pointer, int button) {
                     super.touchUp(event, x, y, pointer, button);
                     SoundEffect.Play(SoundEffect.click);
-                    System.out.println("checkkk: "+ finalI);
+//                    System.out.println("checkkk: "+ finalI);
                     changeColorPop(finalI,pop);
                     gr.clear();
                     gr.remove();
@@ -606,7 +623,7 @@ public class Board {
         ));
     }
     private void saveData(){
-        Config.HighScore = GMain.prefs.getLong("HighScore");
+        Config.HighScore = (long) GMain.prefs.getLong("HighScore");
         if(Config.Score>Config.HighScore){
             Config.HighScore=Config.Score;
             GMain.platform.ReportScore(Config.HighScore);
@@ -663,7 +680,7 @@ public class Board {
             Config.DuraCountDown=1;
         }else {
             Config.DuraCountDown=0;
-            System.out.println("0000000000");
+            //System.out.println("0000000000");
         }
         group.addAction(
                 GTemporalAction.add(Config.DuraCountDown, (percent, actor) -> {
@@ -671,7 +688,7 @@ public class Board {
                     if(tic==9){
                         tic=0;
                         long up= Math.round(target/6);
-                        System.out.println("cong!!!!! : "+up);
+                       // System.out.println("cong!!!!! : "+up);
 
                         bonusScore-=up;
                         if(bonusScore<10)
@@ -726,7 +743,7 @@ public class Board {
         lbRestart.setFontScale(0.5f);
         lbRestart.setOrigin(Align.center);
         lbRestart.setAlignment(Align.center);
-        lbRestart.setPosition(btnRestart.getX()+btnRestart.getWidth()/2,btnRestart.getY()+btnRestart.getHeight()/2,Align.center);
+        lbRestart.setPosition(btnRestart.getX()+btnRestart.getWidth()/2,btnRestart.getY()+btnRestart.getHeight()/3,Align.center);
         gr.addActor(lbRestart);
 
 
@@ -740,7 +757,7 @@ public class Board {
         lbHome.setFontScale(0.5f);
         lbHome.setOrigin(Align.center);
         lbHome.setAlignment(Align.center);
-        lbHome.setPosition(btnHome.getX()+btnHome.getWidth()/2,btnHome.getY()+btnHome.getHeight()/2,Align.center);
+        lbHome.setPosition(btnHome.getX()+btnHome.getWidth()/2,btnHome.getY()+btnHome.getHeight()/3,Align.center);
         gr.addActor(lbHome);
         gr.addAction(Actions.scaleTo(1,1,0.5f,Interpolation.swingOut));
         lbRestart.addListener(new ClickListener(){

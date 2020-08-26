@@ -11,6 +11,7 @@ import com.badlogic.gdx.scenes.scene2d.utils.SpriteDrawable;
 import com.badlogic.gdx.utils.Align;
 import com.ss.commons.TextureAtlasC;
 import com.ss.commons.Tweens;
+import com.ss.core.action.exAction.GArcMoveToAction;
 import com.ss.core.action.exAction.GSimpleAction;
 import com.ss.core.util.GLayer;
 import com.ss.core.util.GStage;
@@ -39,13 +40,18 @@ public class Pop implements Comparable {
         pop = GUI.createImage(TextureAtlasC.uigame,"Static"+id);
         pop.setOrigin(Align.center);
 //        pop.setPosition(Config.ScreenW/2+pop.getWidth()/2-(pop.getWidth()* Config.col/2)+pop.getWidth()*col,Config.ScreenH- pop.getHeight()/2-pop.getHeight()*row, Align.center);
-        pop.setPosition(Config.ScreenW/2+pop.getWidth()/2-(pop.getWidth()* Config.col/2)+pop.getWidth()*col,-pop.getHeight(), Align.center);
+//        pop.setPosition(Config.ScreenW/2+pop.getWidth()/2-(pop.getWidth()* Config.col/2)+pop.getWidth()*col,-pop.getHeight(), Align.center);
+        pop.setPosition(GStage.getWorldWidth()/2,-200, Align.center);
         group.addActor(pop);
+        float[] arc = new float[]{0,GStage.getWorldWidth(),GStage.getWorldWidth()/3,GStage.getWorldWidth()*0.7f};
+//        if(col%2!=0)
+//            arc=GStage.getWorldWidth()-100;
         pop.addAction(Actions.sequence(
-                Actions.moveTo(Config.ScreenW/2-(pop.getWidth()* Config.col/2)+pop.getWidth()*col,Config.ScreenH-fotter.group.getHeight()*1.1f- pop.getHeight()-pop.getHeight()*row,duration,Config.sliceStyle2),
+                GArcMoveToAction.arcMoveTo(Config.ScreenW/2-(pop.getWidth()* Config.col/2)+pop.getWidth()*col,Config.ScreenH-fotter.group.getHeight()*1.1f- pop.getHeight()-pop.getHeight()*row,arc[(int)(Math.random()*arc.length)],100,duration,Config.sliceStyle2),
+//                Actions.moveTo(Config.ScreenW/2-(pop.getWidth()* Config.col/2)+pop.getWidth()*col,Config.ScreenH-fotter.group.getHeight()*1.1f- pop.getHeight()-pop.getHeight()*row,duration,Config.sliceStyle2),
                 GSimpleAction.simpleAction((d,a)->{
-//                    if(col==3)
-//                        SoundEffect.Play(SoundEffect.Fall);
+                    if(col%2==0)
+                        SoundEffect.Play(SoundEffect.Fall);
                     popChosse = GUI.createImage(TextureAtlasC.uigame,"Chosse"+id);
                     popChosse.setOrigin(Align.center);
                     popChosse.setPosition(pop.getX(),pop.getY());
@@ -55,11 +61,12 @@ public class Pop implements Comparable {
 //                    group2.addActor(grEffect);
                     AddTouch();
                     if(row==Config.row-1&&col==Config.col-1||duration==0){
-                        System.out.println("mo het");
+//                        System.out.println("mo het");
                         board.setTouch(Touchable.enabled);
                     }
                     return true;
                 })
+
         ));
 
 
@@ -69,8 +76,8 @@ public class Pop implements Comparable {
         pop.addListener(new ClickListener(){
             @Override
             public boolean touchDown(InputEvent event, float x, float y, int pointer, int button) {
-                board.setTouch(Touchable.disabled);
-                SoundEffect.Play(SoundEffect.click);
+                //board.setTouch(Touchable.disabled);
+               // SoundEffect.Play(SoundEffect.click);
                 Config.xSkill=pop.getX()+pop.getWidth()/2;
                 Config.ySkill=pop.getY()+pop.getHeight()/2;
                 board.popClick(Pop.this);

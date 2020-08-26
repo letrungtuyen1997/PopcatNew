@@ -6,252 +6,252 @@ filter: Nearest,Nearest
 repeat: none
 Chosse0
   rotate: false
-  xy: 1536, 38
+  xy: 1953, 1879
   size: 90, 78
   orig: 90, 78
   offset: 0, 0
   index: -1
 Chosse1
   rotate: false
-  xy: 1309, 564
+  xy: 1953, 1799
   size: 90, 78
   orig: 90, 78
   offset: 0, 0
   index: -1
 Chosse2
   rotate: false
-  xy: 1908, 938
+  xy: 1953, 1719
   size: 90, 78
   orig: 90, 78
   offset: 0, 0
   index: -1
 Chosse3
   rotate: false
-  xy: 1628, 38
+  xy: 1953, 1639
   size: 90, 78
   orig: 90, 78
   offset: 0, 0
   index: -1
 Chosse4
   rotate: false
-  xy: 1908, 858
+  xy: 1953, 1559
   size: 90, 78
   orig: 90, 78
   offset: 0, 0
   index: -1
 Chosse5
   rotate: false
-  xy: 1720, 38
+  xy: 1953, 1479
   size: 90, 78
   orig: 90, 78
   offset: 0, 0
   index: -1
 Chosse6
   rotate: false
-  xy: 1812, 38
+  xy: 1953, 1399
   size: 90, 78
   orig: 90, 78
   offset: 0, 0
   index: -1
 Chosse7
   rotate: false
-  xy: 1949, 259
+  xy: 1568, 544
   size: 90, 78
   orig: 90, 78
   offset: 0, 0
   index: -1
 Static0
   rotate: false
-  xy: 492, 78
+  xy: 1953, 1959
   size: 90, 78
   orig: 90, 78
   offset: 0, 0
   index: -1
 Static1
   rotate: false
-  xy: 1949, 179
+  xy: 1568, 464
   size: 90, 78
   orig: 90, 78
   offset: 0, 0
   index: -1
 Static2
   rotate: false
-  xy: 1924, 99
+  xy: 1660, 548
   size: 90, 78
   orig: 90, 78
   offset: 0, 0
   index: -1
 Static3
   rotate: false
-  xy: 1904, 19
+  xy: 1660, 468
   size: 90, 78
   orig: 90, 78
   offset: 0, 0
   index: -1
 Static4
   rotate: false
-  xy: 1917, 778
+  xy: 1752, 548
   size: 90, 78
   orig: 90, 78
   offset: 0, 0
   index: -1
 Static5
   rotate: false
-  xy: 1917, 698
+  xy: 1752, 468
   size: 90, 78
   orig: 90, 78
   offset: 0, 0
   index: -1
 Static6
   rotate: false
-  xy: 1917, 618
+  xy: 1575, 384
   size: 90, 78
   orig: 90, 78
   offset: 0, 0
   index: -1
 Static7
   rotate: false
-  xy: 1917, 538
+  xy: 1575, 304
   size: 90, 78
   orig: 90, 78
   offset: 0, 0
   index: -1
 bg
   rotate: false
-  xy: 2, 761
-  size: 720, 1285
-  orig: 720, 1285
+  xy: 2, 757
+  size: 720, 1280
+  orig: 720, 1280
   offset: 0, 0
   index: -1
-bg2
+bgStart
   rotate: false
-  xy: 724, 766
+  xy: 724, 757
   size: 720, 1280
   orig: 720, 1280
   offset: 0, 0
   index: -1
 bg_icon_cross
   rotate: false
-  xy: 1309, 11
-  size: 225, 298
-  orig: 225, 298
+  xy: 1266, 199
+  size: 185, 258
+  orig: 185, 258
   offset: 0, 0
   index: -1
 btn
   rotate: false
-  xy: 1536, 118
-  size: 386, 113
-  orig: 386, 113
+  xy: 1446, 734
+  size: 440, 150
+  orig: 440, 150
   offset: 0, 0
   index: -1
 btn2
   rotate: false
-  xy: 2, 43
-  size: 488, 113
-  orig: 488, 113
+  xy: 614, 2
+  size: 440, 150
+  orig: 440, 150
   offset: 0, 0
   index: -1
 btnExit
   rotate: false
-  xy: 1309, 644
-  size: 120, 120
-  orig: 120, 120
+  xy: 1575, 226
+  size: 75, 76
+  orig: 75, 76
   offset: 0, 0
   index: -1
 btnGameOther
   rotate: false
-  xy: 1908, 1140
+  xy: 1453, 337
   size: 120, 120
   orig: 120, 120
   offset: 0, 0
   index: -1
 btnMini
   rotate: false
-  xy: 1691, 339
+  xy: 1266, 459
   size: 300, 163
   orig: 300, 163
   offset: 0, 0
   index: -1
 btnOk
   rotate: false
-  xy: 1691, 233
+  xy: 1657, 628
   size: 256, 104
   orig: 256, 104
   offset: 0, 0
   index: -1
 btnWatch
   rotate: false
-  xy: 1908, 1018
+  xy: 1453, 215
   size: 120, 120
   orig: 120, 120
   offset: 0, 0
   index: -1
 frmBonus
   rotate: false
-  xy: 724, 2
-  size: 583, 762
-  orig: 583, 762
+  xy: 1446, 1348
+  size: 505, 689
+  orig: 505, 689
   offset: 0, 0
   index: -1
 frmGameOther
   rotate: false
-  xy: 1446, 1262
-  size: 600, 784
-  orig: 600, 784
+  xy: 2, 28
+  size: 610, 727
+  orig: 610, 727
   offset: 0, 0
   index: -1
 frmWheel
   rotate: false
-  xy: 2, 158
+  xy: 614, 154
   size: 650, 601
   orig: 650, 601
   offset: 0, 0
   index: -1
 kim
   rotate: false
-  xy: 584, 62
+  xy: 1844, 532
   size: 70, 94
   orig: 70, 94
   offset: 0, 0
   index: -1
 rewardEn
   rotate: false
-  xy: 1309, 311
-  size: 380, 191
-  orig: 380, 191
+  xy: 1056, 57
+  size: 253, 95
+  orig: 253, 95
   offset: 0, 0
   index: -1
 rewardVn
   rotate: false
-  xy: 1446, 504
-  size: 469, 294
-  orig: 469, 294
+  xy: 1266, 624
+  size: 389, 108
+  orig: 389, 108
   offset: 0, 0
   index: -1
 whell
   rotate: false
-  xy: 1446, 800
+  xy: 1446, 886
   size: 460, 460
   orig: 460, 460
   offset: 0, 0
   index: -1
 
 uigame2.png
-size: 2048,2048
+size: 2048,1024
 format: RGBA8888
 filter: Nearest,Nearest
 repeat: none
-bgStart
-  rotate: false
-  xy: 2, 2
-  size: 720, 1280
-  orig: 720, 1280
-  offset: 0, 0
-  index: -1
 frmBoard
   rotate: false
-  xy: 724, 478
+  xy: 724, 38
   size: 720, 804
   orig: 720, 804
+  offset: 0, 0
+  index: -1
+overFrm
+  rotate: false
+  xy: 2, 2
+  size: 720, 840
+  orig: 720, 840
   offset: 0, 0
   index: -1

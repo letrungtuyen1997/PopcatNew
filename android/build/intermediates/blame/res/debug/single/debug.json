@@ -144,12 +144,12 @@
         "source": "/Users/dungle/.gradle/caches/transforms-1/files-1.1/core-1.0.0.aar/48b7501f681f8246ba4bf72678bcef18/res/drawable-mdpi-v4/notification_bg_normal.9.png"
     },
     {
-        "merged": "/Users/dungle/Desktop/libgdx/PopCat/android/build/intermediates/res/merged/debug/drawable-hdpi-v4_notification_bg_low_pressed.9.png.flat",
-        "source": "/Users/dungle/.gradle/caches/transforms-1/files-1.1/core-1.0.0.aar/48b7501f681f8246ba4bf72678bcef18/res/drawable-hdpi-v4/notification_bg_low_pressed.9.png"
-    },
-    {
         "merged": "/Users/dungle/Desktop/libgdx/PopCat/android/build/intermediates/res/merged/debug/drawable-hdpi-v4_common_google_signin_btn_icon_dark_normal_background.9.png.flat",
         "source": "/Users/dungle/.gradle/caches/transforms-1/files-1.1/play-services-base-17.0.0.aar/673393e00b339fa2046982a16902705c/res/drawable-hdpi-v4/common_google_signin_btn_icon_dark_normal_background.9.png"
+    },
+    {
+        "merged": "/Users/dungle/Desktop/libgdx/PopCat/android/build/intermediates/res/merged/debug/drawable-hdpi-v4_notification_bg_low_pressed.9.png.flat",
+        "source": "/Users/dungle/.gradle/caches/transforms-1/files-1.1/core-1.0.0.aar/48b7501f681f8246ba4bf72678bcef18/res/drawable-hdpi-v4/notification_bg_low_pressed.9.png"
     },
     {
         "merged": "/Users/dungle/Desktop/libgdx/PopCat/android/build/intermediates/res/merged/debug/layout-v16_notification_template_custom_big.xml.flat",
@@ -184,12 +184,12 @@
         "source": "/Users/dungle/.gradle/caches/transforms-1/files-1.1/core-1.0.0.aar/48b7501f681f8246ba4bf72678bcef18/res/drawable-mdpi-v4/notification_bg_low_normal.9.png"
     },
     {
-        "merged": "/Users/dungle/Desktop/libgdx/PopCat/android/build/intermediates/res/merged/debug/drawable_notification_tile_bg.xml.flat",
-        "source": "/Users/dungle/.gradle/caches/transforms-1/files-1.1/core-1.0.0.aar/48b7501f681f8246ba4bf72678bcef18/res/drawable/notification_tile_bg.xml"
-    },
-    {
         "merged": "/Users/dungle/Desktop/libgdx/PopCat/android/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
         "source": "/Users/dungle/Desktop/libgdx/PopCat/android/res/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/dungle/Desktop/libgdx/PopCat/android/build/intermediates/res/merged/debug/drawable_notification_tile_bg.xml.flat",
+        "source": "/Users/dungle/.gradle/caches/transforms-1/files-1.1/core-1.0.0.aar/48b7501f681f8246ba4bf72678bcef18/res/drawable/notification_tile_bg.xml"
     },
     {
         "merged": "/Users/dungle/Desktop/libgdx/PopCat/android/build/intermediates/res/merged/debug/layout-v21_notification_template_custom_big.xml.flat",
@@ -256,12 +256,12 @@
         "source": "/Users/dungle/.gradle/caches/transforms-1/files-1.1/core-1.0.0.aar/48b7501f681f8246ba4bf72678bcef18/res/layout/notification_template_icon_group.xml"
     },
     {
-        "merged": "/Users/dungle/Desktop/libgdx/PopCat/android/build/intermediates/res/merged/debug/drawable-anydpi-v26_ic_launcher_foreground.xml.flat",
-        "source": "/Users/dungle/Desktop/libgdx/PopCat/android/res/drawable-anydpi-v26/ic_launcher_foreground.xml"
-    },
-    {
         "merged": "/Users/dungle/Desktop/libgdx/PopCat/android/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
         "source": "/Users/dungle/Desktop/libgdx/PopCat/android/res/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/dungle/Desktop/libgdx/PopCat/android/build/intermediates/res/merged/debug/drawable-anydpi-v26_ic_launcher_foreground.xml.flat",
+        "source": "/Users/dungle/Desktop/libgdx/PopCat/android/res/drawable-anydpi-v26/ic_launcher_foreground.xml"
     },
     {
         "merged": "/Users/dungle/Desktop/libgdx/PopCat/android/build/intermediates/res/merged/debug/drawable-xhdpi-v4_notification_bg_low_pressed.9.png.flat",
@@ -332,16 +332,16 @@
         "source": "/Users/dungle/.gradle/caches/transforms-1/files-1.1/play-services-base-17.0.0.aar/673393e00b339fa2046982a16902705c/res/drawable-xxhdpi-v4/common_google_signin_btn_icon_dark_normal_background.9.png"
     },
     {
+        "merged": "/Users/dungle/Desktop/libgdx/PopCat/android/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/Users/dungle/Desktop/libgdx/PopCat/android/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
         "merged": "/Users/dungle/Desktop/libgdx/PopCat/android/build/intermediates/res/merged/debug/drawable-watch-v20_common_google_signin_btn_text_disabled.xml.flat",
         "source": "/Users/dungle/.gradle/caches/transforms-1/files-1.1/play-services-auth-17.0.0.aar/ce285aa5ec9043fcc5f5183fb8c4beed/res/drawable-watch-v20/common_google_signin_btn_text_disabled.xml"
     },
     {
         "merged": "/Users/dungle/Desktop/libgdx/PopCat/android/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_common_google_signin_btn_text_light_normal_background.9.png.flat",
         "source": "/Users/dungle/.gradle/caches/transforms-1/files-1.1/play-services-base-17.0.0.aar/673393e00b339fa2046982a16902705c/res/drawable-xxhdpi-v4/common_google_signin_btn_text_light_normal_background.9.png"
-    },
-    {
-        "merged": "/Users/dungle/Desktop/libgdx/PopCat/android/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "/Users/dungle/Desktop/libgdx/PopCat/android/res/mipmap-xhdpi/ic_launcher.png"
     },
     {
         "merged": "/Users/dungle/Desktop/libgdx/PopCat/android/build/intermediates/res/merged/debug/drawable_common_google_signin_btn_text_dark_focused.xml.flat",

@@ -60,7 +60,7 @@ public class JokerSdk implements IPlatform {
   private static final int RC_UNUSED = 5001;
   private static final int RC_SIGN_IN = 9001;
 
-  private static final String LEADERBOARD_ID = "12345";
+  private static final String LEADERBOARD_ID = "CgkI1ci4-f4CEAIQAQ";
 
 
   private static final String ADMOB_APP_ID = "ca-app-pub-9108876944724815~3025604155";

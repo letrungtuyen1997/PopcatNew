@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/dungle/Desktop/libgdx/PopCat/android/AndroidManifest.xml:2:1-39:12
-INJECTED from /Users/dungle/Desktop/libgdx/PopCat/android/AndroidManifest.xml:2:1-39:12
-INJECTED from /Users/dungle/Desktop/libgdx/PopCat/android/AndroidManifest.xml:2:1-39:12
-INJECTED from /Users/dungle/Desktop/libgdx/PopCat/android/AndroidManifest.xml:2:1-39:12
+ADDED from /Users/dungle/Desktop/libgdx/PopCat/android/AndroidManifest.xml:2:1-41:12
+INJECTED from /Users/dungle/Desktop/libgdx/PopCat/android/AndroidManifest.xml:2:1-41:12
+INJECTED from /Users/dungle/Desktop/libgdx/PopCat/android/AndroidManifest.xml:2:1-41:12
+INJECTED from /Users/dungle/Desktop/libgdx/PopCat/android/AndroidManifest.xml:2:1-41:12
 MERGED from [com.android.support:multidex:1.0.2] /Users/dungle/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/b835dcde2ae6599d0dc8e25ed1e27651/AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.firebase:firebase-ads:18.3.0] /Users/dungle/.gradle/caches/transforms-1/files-1.1/firebase-ads-18.3.0.aar/844b54bd3f96631028f54bf453c735da/AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.firebase:firebase-core:17.2.1] /Users/dungle/.gradle/caches/transforms-1/files-1.1/firebase-core-17.2.1.aar/93f2fa924ac7d312523e90af5dd145ec/AndroidManifest.xml:2:1-9:12
@@ -66,20 +66,20 @@ MERGED from [androidx.print:print:1.0.0] /Users/dungle/.gradle/caches/transforms
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/dungle/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-2.0.0.aar/064ac8e6943bb0ea106780e801239a50/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/dungle/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-core-2.0.0.aar/a41a881cbb4a6ceeb7caeea9552629a0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/dungle/.gradle/caches/transforms-1/files-1.1/core-runtime-2.0.0.aar/26963bd22db2f518df65a68be1b5357b/AndroidManifest.xml:17:1-22:12
-INJECTED from /Users/dungle/Desktop/libgdx/PopCat/android/AndroidManifest.xml:2:1-39:12
-INJECTED from /Users/dungle/Desktop/libgdx/PopCat/android/AndroidManifest.xml:2:1-39:12
-INJECTED from /Users/dungle/Desktop/libgdx/PopCat/android/AndroidManifest.xml:2:1-39:12
+INJECTED from /Users/dungle/Desktop/libgdx/PopCat/android/AndroidManifest.xml:2:1-41:12
+INJECTED from /Users/dungle/Desktop/libgdx/PopCat/android/AndroidManifest.xml:2:1-41:12
+INJECTED from /Users/dungle/Desktop/libgdx/PopCat/android/AndroidManifest.xml:2:1-41:12
 	package
 		ADDED from /Users/dungle/Desktop/libgdx/PopCat/android/AndroidManifest.xml:3:5-29
 		INJECTED from /Users/dungle/Desktop/libgdx/PopCat/android/AndroidManifest.xml
 		INJECTED from /Users/dungle/Desktop/libgdx/PopCat/android/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/dungle/Desktop/libgdx/PopCat/android/AndroidManifest.xml
-		ADDED from /Users/dungle/Desktop/libgdx/PopCat/android/AndroidManifest.xml:2:1-39:12
+		ADDED from /Users/dungle/Desktop/libgdx/PopCat/android/AndroidManifest.xml:2:1-41:12
 		INJECTED from /Users/dungle/Desktop/libgdx/PopCat/android/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /Users/dungle/Desktop/libgdx/PopCat/android/AndroidManifest.xml
-		ADDED from /Users/dungle/Desktop/libgdx/PopCat/android/AndroidManifest.xml:2:1-39:12
+		ADDED from /Users/dungle/Desktop/libgdx/PopCat/android/AndroidManifest.xml:2:1-41:12
 		INJECTED from /Users/dungle/Desktop/libgdx/PopCat/android/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/dungle/Desktop/libgdx/PopCat/android/AndroidManifest.xml:2:11-69
@@ -150,7 +150,7 @@ ADDED from /Users/dungle/Desktop/libgdx/PopCat/android/AndroidManifest.xml:8:5-8
 	android:name
 		ADDED from /Users/dungle/Desktop/libgdx/PopCat/android/AndroidManifest.xml:8:22-77
 application
-ADDED from /Users/dungle/Desktop/libgdx/PopCat/android/AndroidManifest.xml:11:5-36:19
+ADDED from /Users/dungle/Desktop/libgdx/PopCat/android/AndroidManifest.xml:11:5-38:19
 MERGED from [com.google.firebase:firebase-ads:18.3.0] /Users/dungle/.gradle/caches/transforms-1/files-1.1/firebase-ads-18.3.0.aar/844b54bd3f96631028f54bf453c735da/AndroidManifest.xml:7:5-20
 MERGED from [com.google.firebase:firebase-ads:18.3.0] /Users/dungle/.gradle/caches/transforms-1/files-1.1/firebase-ads-18.3.0.aar/844b54bd3f96631028f54bf453c735da/AndroidManifest.xml:7:5-20
 MERGED from [com.google.firebase:firebase-core:17.2.1] /Users/dungle/.gradle/caches/transforms-1/files-1.1/firebase-core-17.2.1.aar/93f2fa924ac7d312523e90af5dd145ec/AndroidManifest.xml:7:5-20
@@ -271,6 +271,12 @@ ADDED from /Users/dungle/Desktop/libgdx/PopCat/android/AndroidManifest.xml:33:9-
 		ADDED from /Users/dungle/Desktop/libgdx/PopCat/android/AndroidManifest.xml:35:13-67
 	android:name
 		ADDED from /Users/dungle/Desktop/libgdx/PopCat/android/AndroidManifest.xml:34:13-69
+meta-data#com.google.android.gms.games.APP_ID
+ADDED from /Users/dungle/Desktop/libgdx/PopCat/android/AndroidManifest.xml:36:9-104
+	android:value
+		ADDED from /Users/dungle/Desktop/libgdx/PopCat/android/AndroidManifest.xml:36:71-101
+	android:name
+		ADDED from /Users/dungle/Desktop/libgdx/PopCat/android/AndroidManifest.xml:36:20-70
 uses-sdk
 INJECTED from /Users/dungle/Desktop/libgdx/PopCat/android/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/dungle/Desktop/libgdx/PopCat/android/AndroidManifest.xml

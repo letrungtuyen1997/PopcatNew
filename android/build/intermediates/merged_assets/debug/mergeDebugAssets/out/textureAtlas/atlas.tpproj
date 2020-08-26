@@ -32,7 +32,46 @@ limitMemory=true
 useIndexes=false
 
 scaleFactors=[{suffix:"",factor:1,resampling:bicubic}]
-inputFiles=[{path:../../../Asset/bg.png,type:Input,regionName:null},{path:../../../Asset/Chosse0.png,type:Input,regionName:null},{path:../../../Asset/Chosse1.png,type:Input,regionName:null},{path:../../../Asset/Chosse2.png,type:Input,regionName:null},{path:../../../Asset/Chosse3.png,type:Input,regionName:null},{path:../../../Asset/Chosse4.png,type:Input,regionName:null},{path:../../../Asset/Chosse5.png,type:Input,regionName:null},{path:../../../Asset/Chosse6.png,type:Input,regionName:null},{path:../../../Asset/Chosse7.png,type:Input,regionName:null},{path:../../../Asset/Static0.png,type:Input,regionName:null},{path:../../../Asset/Static1.png,type:Input,regionName:null},{path:../../../Asset/Static2.png,type:Input,regionName:null},{path:../../../Asset/Static3.png,type:Input,regionName:null},{path:../../../Asset/Static4.png,type:Input,regionName:null},{path:../../../Asset/Static5.png,type:Input,regionName:null},{path:../../../Asset/Static6.png,type:Input,regionName:null},{path:../../../Asset/Static7.png,type:Input,regionName:null},{path:../../../Asset/bg2.png,type:Input,regionName:null},{path:../../../Asset/bgStart.png,type:Input,regionName:null},{path:../../../Asset/btnContinus.png,type:Input,regionName:null},{path:../../../Asset/btnMini.png,type:Input,regionName:null},{path:../../../Asset/btnNewGame.png,type:Input,regionName:null},{path:../../../Asset/btnRank.png,type:Input,regionName:null},{path:../../../Asset/btnOk.png,type:Input,regionName:null},{path:../../../Asset/frmBonus.png,type:Input,regionName:null},{path:../../../Asset/frmWheel.png,type:Input,regionName:null},{path:../../../Asset/kim.png,type:Input,regionName:null},{path:../../../Asset/whell.png,type:Input,regionName:null},{path:../../../Asset/btnExit.png,type:Input,regionName:null},{path:../../../Asset/frmGameOther.png,type:Input,regionName:null},{path:../../../Asset/bg_icon_cross.png,type:Input,regionName:null},{path:../../../Asset/btnGameOther.png,type:Input,regionName:null},{path:../../../Asset/frmBoard.png,type:Input,regionName:null},{path:../../../Asset/btnWatch.png,type:Input,regionName:null},{path:../../../Asset/btn.png,type:Input,regionName:null},{path:../../../Asset/btn2.png,type:Input,regionName:null},{path:../../../Asset/rewardEn.png,type:Input,regionName:null},{path:../../../Asset/rewardVn.png,type:Input,regionName:null}]
+inputFiles=[{path:../../../Asset/bg.png,type:Input,regionName:null},{path:../../../Asset/Chosse0.png,type:Input,regionName:null},{path:../../../Asset/Chosse1.png,type:Input,regionName:null},{path:../../../Asset/Chosse2.png,type:Input,regionName:null},{path:../../../Asset/Chosse3.png,type:Input,regionName:null},{path:../../../Asset/Chosse4.png,type:Input,regionName:null},{path:../../../Asset/Chosse5.png,type:Input,regionName:null},{path:../../../Asset/Chosse6.png,type:Input,regionName:null},{path:../../../Asset/Chosse7.png,type:Input,regionName:null},{path:../../../Asset/Static0.png,type:Input,regionName:null},{path:../../../Asset/Static1.png,type:Input,regionName:null},{path:../../../Asset/Static2.png,type:Input,regionName:null},{path:../../../Asset/Static3.png,type:Input,regionName:null},{path:../../../Asset/Static4.png,type:Input,regionName:null},{path:../../../Asset/Static5.png,type:Input,regionName:null},{path:../../../Asset/Static6.png,type:Input,regionName:null},{path:../../../Asset/Static7.png,type:Input,regionName:null},{path:../../../Asset/bgStart.png,type:Input,regionName:null},{path:../../../Asset/btnMini.png,type:Input,regionName:null},{path:../../../Asset/btnOk.png,type:Input,regionName:null},{path:../../../Asset/frmBonus.png,type:Input,regionName:null},{path:../../../Asset/frmWheel.png,type:Input,regionName:null},{path:../../../Asset/kim.png,type:Input,regionName:null},{path:../../../Asset/whell.png,type:Input,regionName:null},{path:../../../Asset/btnExit.png,type:Input,regionName:null},{path:../../../Asset/frmGameOther.png,type:Input,regionName:null},{path:../../../Asset/bg_icon_cross.png,type:Input,regionName:null},{path:../../../Asset/btnGameOther.png,type:Input,regionName:null},{path:../../../Asset/frmBoard.png,type:Input,regionName:null},{path:../../../Asset/btnWatch.png,type:Input,regionName:null},{path:../../../Asset/btn.png,type:Input,regionName:null},{path:../../../Asset/btn2.png,type:Input,regionName:null},{path:../../../Asset/rewardEn.png,type:Input,regionName:null},{path:../../../Asset/rewardVn.png,type:Input,regionName:null},{path:../../../Asset/overFrm.png,type:Input,regionName:null}]
+
+
+---
+
+name=loading
+filename=
+output=.
+
+alias=true
+alphaThreshold=0
+debug=false
+duplicatePadding=false
+edgePadding=true
+fast=false
+filterMag=Nearest
+filterMin=Nearest
+ignoreBlankImages=true
+maxHeight=2048
+maxWidth=2048
+minHeight=16
+minWidth=16
+paddingX=2
+paddingY=2
+pot=true
+mof=false
+rotation=false
+stripWhitespaceX=false
+stripWhitespaceY=false
+wrapX=ClampToEdge
+wrapY=ClampToEdge
+premultiplyAlpha=false
+grid=false
+square=false
+bleed=true
+limitMemory=true
+useIndexes=true
+
+scaleFactors=[{suffix:"",factor:1,resampling:bicubic}]
+inputFiles=[{path:bgStart.png,type:Input,regionName:null},{path:loadding.png,type:Input,regionName:null},{path:../../../Asset/loading/bgStart.png,type:Input,regionName:null},{path:../../../Asset/loading/loadding.png,type:Input,regionName:null}]
 
 
 ---
@@ -71,12 +110,12 @@ limitMemory=true
 useIndexes=true
 
 scaleFactors=[{suffix:"",factor:1,resampling:bicubic}]
-inputFiles=[{path:../../../Asset/fotter/fotter.png,type:Input,regionName:null},{path:../../../Asset/fotter/frmHighSc-1.png,type:Input,regionName:null},{path:../../../Asset/fotter/frmHighSc-2.png,type:Input,regionName:null},{path:../../../Asset/fotter/frmHighSc.png,type:Input,regionName:null},{path:../../../Asset/fotter/frmMoney.png,type:Input,regionName:null},{path:../../../Asset/fotter/frmScore.png,type:Input,regionName:null},{path:../../../Asset/fotter/item1.png,type:Input,regionName:null},{path:../../../Asset/fotter/item2.png,type:Input,regionName:null},{path:../../../Asset/fotter/item3.png,type:Input,regionName:null},{path:../../../Asset/fotter/frmSkill1.png,type:Input,regionName:null},{path:../../../Asset/fotter/btnPause.png,type:Input,regionName:null},{path:../../../Asset/fotter/addMore.png,type:Input,regionName:null},{path:../../../Asset/fotter/header.png,type:Input,regionName:null},{path:../../../Asset/fotter/btnRestart.png,type:Input,regionName:null},{path:../../../Asset/fotter/iconHome.png,type:Input,regionName:null},{path:../../../Asset/fotter/turnOffMs.png,type:Input,regionName:null},{path:../../../Asset/fotter/turnOffSu.png,type:Input,regionName:null},{path:../../../Asset/fotter/turnOnMs.png,type:Input,regionName:null},{path:../../../Asset/fotter/turnOnSu.png,type:Input,regionName:null},{path:../../../Asset/fotter/frm1.png,type:Input,regionName:null},{path:../../../Asset/fotter/frm2.png,type:Input,regionName:null},{path:../../../Asset/fotter/frm3.png,type:Input,regionName:null},{path:../../../Asset/fotter/icon1.png,type:Input,regionName:null},{path:../../../Asset/fotter/icon2.png,type:Input,regionName:null},{path:../../../Asset/fotter/icon3.png,type:Input,regionName:null},{path:../../../Asset/fotter/light.png,type:Input,regionName:null},{path:../../../Asset/stageClear.png,type:Input,regionName:null},{path:../../../Asset/fotter/btnHome.png,type:Input,regionName:null},{path:../../../Asset/fotter/frmGameOver.png,type:Input,regionName:null},{path:../../../Asset/fotter/frm.png,type:Input,regionName:null},{path:../../../Asset/stageClearEn.png,type:Input,regionName:null},{path:../../../Asset/stageClearVn.png,type:Input,regionName:null}]
+inputFiles=[{path:../../../Asset/fotter/fotter.png,type:Input,regionName:null},{path:../../../Asset/fotter/frmHighSc-1.png,type:Input,regionName:null},{path:../../../Asset/fotter/frmHighSc-2.png,type:Input,regionName:null},{path:../../../Asset/fotter/frmHighSc.png,type:Input,regionName:null},{path:../../../Asset/fotter/frmMoney.png,type:Input,regionName:null},{path:../../../Asset/fotter/frmScore.png,type:Input,regionName:null},{path:../../../Asset/fotter/item1.png,type:Input,regionName:null},{path:../../../Asset/fotter/item2.png,type:Input,regionName:null},{path:../../../Asset/fotter/item3.png,type:Input,regionName:null},{path:../../../Asset/fotter/frmSkill1.png,type:Input,regionName:null},{path:../../../Asset/fotter/btnPause.png,type:Input,regionName:null},{path:../../../Asset/fotter/addMore.png,type:Input,regionName:null},{path:../../../Asset/fotter/header.png,type:Input,regionName:null},{path:../../../Asset/fotter/btnRestart.png,type:Input,regionName:null},{path:../../../Asset/fotter/iconHome.png,type:Input,regionName:null},{path:../../../Asset/fotter/turnOffMs.png,type:Input,regionName:null},{path:../../../Asset/fotter/turnOffSu.png,type:Input,regionName:null},{path:../../../Asset/fotter/turnOnMs.png,type:Input,regionName:null},{path:../../../Asset/fotter/turnOnSu.png,type:Input,regionName:null},{path:../../../Asset/fotter/frm1.png,type:Input,regionName:null},{path:../../../Asset/fotter/frm2.png,type:Input,regionName:null},{path:../../../Asset/fotter/frm3.png,type:Input,regionName:null},{path:../../../Asset/fotter/icon1.png,type:Input,regionName:null},{path:../../../Asset/fotter/icon2.png,type:Input,regionName:null},{path:../../../Asset/fotter/icon3.png,type:Input,regionName:null},{path:../../../Asset/fotter/light.png,type:Input,regionName:null},{path:../../../Asset/stageClear.png,type:Input,regionName:null},{path:../../../Asset/fotter/btnHome.png,type:Input,regionName:null},{path:../../../Asset/fotter/frmGameOver.png,type:Input,regionName:null},{path:../../../Asset/fotter/frm.png,type:Input,regionName:null},{path:../../../Asset/stageClearEn.png,type:Input,regionName:null},{path:../../../Asset/stageClearVn.png,type:Input,regionName:null},{path:../../../Asset/fotter/frmSetting.png,type:Input,regionName:null}]
 
 
 -PROJ-
 
 version=4.8.2
 fileTypeType=png
-fileTypeData={encoding:RGBA8888}
+fileTypeData={encoding:RGBA8888,compType:TINY_PNG,compData:""}
 previewBackgroundColor=ffffffff
