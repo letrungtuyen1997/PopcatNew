@@ -5,9 +5,9 @@ package com.mygdx.game;
 
 public final class BuildConfig {
   public static final boolean DEBUG = false;
-  public static final String APPLICATION_ID = "com.jkstudiogroup.popcat";
+  public static final String APPLICATION_ID = "com.cyclones.popcat";
   public static final String BUILD_TYPE = "release";
   public static final String FLAVOR = "";
-  public static final int VERSION_CODE = 4;
-  public static final String VERSION_NAME = "4.0";
+  public static final int VERSION_CODE = 6;
+  public static final String VERSION_NAME = "1.1";
 }

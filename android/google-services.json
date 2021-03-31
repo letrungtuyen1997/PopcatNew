@@ -1,42 +1,33 @@
 {
   "project_info": {
-    "project_number": "297811367941",
-    "firebase_url": "https://popcat-3a3ba.firebaseio.com",
-    "project_id": "popcat-3a3ba",
-    "storage_bucket": "popcat-3a3ba.appspot.com"
+    "project_number": "699433610614",
+    "project_id": "popcattest",
+    "storage_bucket": "popcattest.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:297811367941:android:7e98556cbddebb78",
+        "mobilesdk_app_id": "1:699433610614:android:22ebdf1d280cace83b5e57",
         "android_client_info": {
-          "package_name": "com.jkstudiogroup.popcat"
+          "package_name": "com.cyclones.popcat"
         }
       },
       "oauth_client": [
         {
-          "client_id": "297811367941-gc2d8b57b749v80b24cu3n2ufo3m81eo.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.jkstudiogroup.popcat",
-            "certificate_hash": "67c4455ed1dbb3e0658ff8ab21bf21a4117b20db"
-          }
-        },
-        {
-          "client_id": "297811367941-g5tuevrkv1i63c7t7n4df79ovm44v4qr.apps.googleusercontent.com",
+          "client_id": "699433610614-3vqg0rile00ghieq299dbjdakq9vvake.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyD-AMDnKq-8wRUU-WxqwBeUHNW2RXNc13A"
+          "current_key": "AIzaSyBxDAPl7Nzmp0xN-eDFRJTOFefJS_-JQIU"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "297811367941-g5tuevrkv1i63c7t7n4df79ovm44v4qr.apps.googleusercontent.com",
+              "client_id": "699433610614-3vqg0rile00ghieq299dbjdakq9vvake.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

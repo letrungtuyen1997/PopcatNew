@@ -4,8 +4,9 @@
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/browser-1.0.0.aar/bca31100b1b0cc88a306ae9231cb3cb0/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/browser-1.0.0.aar/bca31100b1b0cc88a306ae9231cb3cb0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/browser-1.0.0.aar/bca31100b1b0cc88a306ae9231cb3cb0/AndroidManifest.xml" />
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/browser-1.0.0.aar/bca31100b1b0cc88a306ae9231cb3cb0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/browser-1.0.0.aar/bca31100b1b0cc88a306ae9231cb3cb0/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

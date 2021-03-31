@@ -129,7 +129,7 @@ public class GMain extends GDirectedGame {
   private void initLocalNotification(){
     platform.SetDailyNotification(1, "PopKite", "Bạn ơi chạm để quay lại vượt thử thách nào!!", 1, 19);
     platform.SetDailyNotification(3, "PopKite", "mèo nhớ bạn!!", 3, 19);
-    //platform.SetDailyNotification(7, "Lieng 2020", "Bam vao nhan duoc bao nhieu tien", 7, 18);
+    platform.SetDailyNotification(7, "Lieng 2020", "Bam vao nhan duoc bao nhieu tien", 7, 10);
     int noId = platform.GetNotifyId();
     if(noId==-1){
       //binhthuong

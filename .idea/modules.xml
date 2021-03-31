@@ -3,11 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/PopCat.iml" filepath="$PROJECT_DIR$/PopCat.iml" />
-      <module fileurl="file://$PROJECT_DIR$/android/android.iml" filepath="$PROJECT_DIR$/android/android.iml" />
-      <module fileurl="file://$PROJECT_DIR$/core/core.iml" filepath="$PROJECT_DIR$/core/core.iml" />
-      <module fileurl="file://$PROJECT_DIR$/desktop/desktop.iml" filepath="$PROJECT_DIR$/desktop/desktop.iml" />
-      <module fileurl="file://$PROJECT_DIR$/html/html.iml" filepath="$PROJECT_DIR$/html/html.iml" />
-      <module fileurl="file://$PROJECT_DIR$/test.iml" filepath="$PROJECT_DIR$/test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/android/PopCat.android.iml" filepath="$PROJECT_DIR$/.idea/modules/android/PopCat.android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/core/PopCat.core.iml" filepath="$PROJECT_DIR$/.idea/modules/core/PopCat.core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/desktop/PopCat.desktop.iml" filepath="$PROJECT_DIR$/.idea/modules/desktop/PopCat.desktop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/html/PopCat.html.iml" filepath="$PROJECT_DIR$/.idea/modules/html/PopCat.html.iml" />
     </modules>
   </component>
 </project>

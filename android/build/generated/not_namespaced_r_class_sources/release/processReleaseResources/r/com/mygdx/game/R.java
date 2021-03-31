@@ -455,21 +455,20 @@ public final class R {
     public static final int common_signin_button_text=0x7f090013;
     public static final int common_signin_button_text_long=0x7f090014;
     public static final int default_web_client_id=0x7f090015;
-    public static final int firebase_database_url=0x7f090016;
-    public static final int gcm_defaultSenderId=0x7f090017;
-    public static final int google_api_key=0x7f090018;
-    public static final int google_app_id=0x7f090019;
-    public static final int google_crash_reporting_api_key=0x7f09001a;
-    public static final int google_storage_bucket=0x7f09001b;
-    public static final int project_id=0x7f09001c;
-    public static final int s1=0x7f09001d;
-    public static final int s2=0x7f09001e;
-    public static final int s3=0x7f09001f;
-    public static final int s4=0x7f090020;
-    public static final int s5=0x7f090021;
-    public static final int s6=0x7f090022;
-    public static final int s7=0x7f090023;
-    public static final int status_bar_notification_info_overflow=0x7f090024;
+    public static final int gcm_defaultSenderId=0x7f090016;
+    public static final int google_api_key=0x7f090017;
+    public static final int google_app_id=0x7f090018;
+    public static final int google_crash_reporting_api_key=0x7f090019;
+    public static final int google_storage_bucket=0x7f09001a;
+    public static final int project_id=0x7f09001b;
+    public static final int s1=0x7f09001c;
+    public static final int s2=0x7f09001d;
+    public static final int s3=0x7f09001e;
+    public static final int s4=0x7f09001f;
+    public static final int s5=0x7f090020;
+    public static final int s6=0x7f090021;
+    public static final int s7=0x7f090022;
+    public static final int status_bar_notification_info_overflow=0x7f090023;
   }
   public static final class style {
     public static final int GdxTheme=0x7f0a0000;
@@ -491,9 +490,9 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #AdsAttrs_adSize com.jkstudiogroup.popcat:adSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AdsAttrs_adSizes com.jkstudiogroup.popcat:adSizes}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AdsAttrs_adUnitId com.jkstudiogroup.popcat:adUnitId}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AdsAttrs_adSize com.cyclones.popcat:adSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AdsAttrs_adSizes com.cyclones.popcat:adSizes}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AdsAttrs_adUnitId com.cyclones.popcat:adUnitId}</code></td><td></td></tr>
      * </table>
      * @see #AdsAttrs_adSize
      * @see #AdsAttrs_adSizes
@@ -503,33 +502,33 @@ public final class R {
       0x7f010000, 0x7f010001, 0x7f010002
     };
     /**
-     * <p>This symbol is the offset where the {@link com.jkstudiogroup.popcat.R.attr#adSize}
+     * <p>This symbol is the offset where the {@link com.cyclones.popcat.R.attr#adSize}
      * attribute's value can be found in the {@link #AdsAttrs} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.jkstudiogroup.popcat:adSize
+     * @attr name com.cyclones.popcat:adSize
      */
     public static final int AdsAttrs_adSize=0;
     /**
-     * <p>This symbol is the offset where the {@link com.jkstudiogroup.popcat.R.attr#adSizes}
+     * <p>This symbol is the offset where the {@link com.cyclones.popcat.R.attr#adSizes}
      * attribute's value can be found in the {@link #AdsAttrs} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.jkstudiogroup.popcat:adSizes
+     * @attr name com.cyclones.popcat:adSizes
      */
     public static final int AdsAttrs_adSizes=1;
     /**
-     * <p>This symbol is the offset where the {@link com.jkstudiogroup.popcat.R.attr#adUnitId}
+     * <p>This symbol is the offset where the {@link com.cyclones.popcat.R.attr#adUnitId}
      * attribute's value can be found in the {@link #AdsAttrs} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.jkstudiogroup.popcat:adUnitId
+     * @attr name com.cyclones.popcat:adUnitId
      */
     public static final int AdsAttrs_adUnitId=2;
     /**
@@ -541,7 +540,7 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #ColorStateListItem_android_color android:color}</code></td><td></td></tr>
      * <tr><td><code>{@link #ColorStateListItem_android_alpha android:alpha}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ColorStateListItem_alpha com.jkstudiogroup.popcat:alpha}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ColorStateListItem_alpha com.cyclones.popcat:alpha}</code></td><td></td></tr>
      * </table>
      * @see #ColorStateListItem_android_color
      * @see #ColorStateListItem_android_alpha
@@ -571,12 +570,12 @@ public final class R {
      */
     public static final int ColorStateListItem_android_alpha=1;
     /**
-     * <p>This symbol is the offset where the {@link com.jkstudiogroup.popcat.R.attr#alpha}
+     * <p>This symbol is the offset where the {@link com.cyclones.popcat.R.attr#alpha}
      * attribute's value can be found in the {@link #ColorStateListItem} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.jkstudiogroup.popcat:alpha
+     * @attr name com.cyclones.popcat:alpha
      */
     public static final int ColorStateListItem_alpha=2;
     /**
@@ -586,8 +585,8 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_keylines com.jkstudiogroup.popcat:keylines}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_statusBarBackground com.jkstudiogroup.popcat:statusBarBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_keylines com.cyclones.popcat:keylines}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_statusBarBackground com.cyclones.popcat:statusBarBackground}</code></td><td></td></tr>
      * </table>
      * @see #CoordinatorLayout_keylines
      * @see #CoordinatorLayout_statusBarBackground
@@ -596,7 +595,7 @@ public final class R {
       0x7f010014, 0x7f01001c
     };
     /**
-     * <p>This symbol is the offset where the {@link com.jkstudiogroup.popcat.R.attr#keylines}
+     * <p>This symbol is the offset where the {@link com.cyclones.popcat.R.attr#keylines}
      * attribute's value can be found in the {@link #CoordinatorLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -604,11 +603,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.jkstudiogroup.popcat:keylines
+     * @attr name com.cyclones.popcat:keylines
      */
     public static final int CoordinatorLayout_keylines=0;
     /**
-     * <p>This symbol is the offset where the {@link com.jkstudiogroup.popcat.R.attr#statusBarBackground}
+     * <p>This symbol is the offset where the {@link com.cyclones.popcat.R.attr#statusBarBackground}
      * attribute's value can be found in the {@link #CoordinatorLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -619,7 +618,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.jkstudiogroup.popcat:statusBarBackground
+     * @attr name com.cyclones.popcat:statusBarBackground
      */
     public static final int CoordinatorLayout_statusBarBackground=1;
     /**
@@ -630,12 +629,12 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #CoordinatorLayout_Layout_android_layout_gravity android:layout_gravity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_anchor com.jkstudiogroup.popcat:layout_anchor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_anchorGravity com.jkstudiogroup.popcat:layout_anchorGravity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_behavior com.jkstudiogroup.popcat:layout_behavior}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_dodgeInsetEdges com.jkstudiogroup.popcat:layout_dodgeInsetEdges}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_insetEdge com.jkstudiogroup.popcat:layout_insetEdge}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_keyline com.jkstudiogroup.popcat:layout_keyline}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_anchor com.cyclones.popcat:layout_anchor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_anchorGravity com.cyclones.popcat:layout_anchorGravity}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_behavior com.cyclones.popcat:layout_behavior}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_dodgeInsetEdges com.cyclones.popcat:layout_dodgeInsetEdges}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_insetEdge com.cyclones.popcat:layout_insetEdge}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_keyline com.cyclones.popcat:layout_keyline}</code></td><td></td></tr>
      * </table>
      * @see #CoordinatorLayout_Layout_android_layout_gravity
      * @see #CoordinatorLayout_Layout_layout_anchor
@@ -679,7 +678,7 @@ public final class R {
      */
     public static final int CoordinatorLayout_Layout_android_layout_gravity=0;
     /**
-     * <p>This symbol is the offset where the {@link com.jkstudiogroup.popcat.R.attr#layout_anchor}
+     * <p>This symbol is the offset where the {@link com.cyclones.popcat.R.attr#layout_anchor}
      * attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -687,11 +686,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.jkstudiogroup.popcat:layout_anchor
+     * @attr name com.cyclones.popcat:layout_anchor
      */
     public static final int CoordinatorLayout_Layout_layout_anchor=1;
     /**
-     * <p>This symbol is the offset where the {@link com.jkstudiogroup.popcat.R.attr#layout_anchorGravity}
+     * <p>This symbol is the offset where the {@link com.cyclones.popcat.R.attr#layout_anchorGravity}
      * attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -716,21 +715,21 @@ public final class R {
      * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      *
-     * @attr name com.jkstudiogroup.popcat:layout_anchorGravity
+     * @attr name com.cyclones.popcat:layout_anchorGravity
      */
     public static final int CoordinatorLayout_Layout_layout_anchorGravity=2;
     /**
-     * <p>This symbol is the offset where the {@link com.jkstudiogroup.popcat.R.attr#layout_behavior}
+     * <p>This symbol is the offset where the {@link com.cyclones.popcat.R.attr#layout_behavior}
      * attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.jkstudiogroup.popcat:layout_behavior
+     * @attr name com.cyclones.popcat:layout_behavior
      */
     public static final int CoordinatorLayout_Layout_layout_behavior=3;
     /**
-     * <p>This symbol is the offset where the {@link com.jkstudiogroup.popcat.R.attr#layout_dodgeInsetEdges}
+     * <p>This symbol is the offset where the {@link com.cyclones.popcat.R.attr#layout_dodgeInsetEdges}
      * attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -749,11 +748,11 @@ public final class R {
      * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      *
-     * @attr name com.jkstudiogroup.popcat:layout_dodgeInsetEdges
+     * @attr name com.cyclones.popcat:layout_dodgeInsetEdges
      */
     public static final int CoordinatorLayout_Layout_layout_dodgeInsetEdges=4;
     /**
-     * <p>This symbol is the offset where the {@link com.jkstudiogroup.popcat.R.attr#layout_insetEdge}
+     * <p>This symbol is the offset where the {@link com.cyclones.popcat.R.attr#layout_insetEdge}
      * attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -771,16 +770,16 @@ public final class R {
      * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      *
-     * @attr name com.jkstudiogroup.popcat:layout_insetEdge
+     * @attr name com.cyclones.popcat:layout_insetEdge
      */
     public static final int CoordinatorLayout_Layout_layout_insetEdge=5;
     /**
-     * <p>This symbol is the offset where the {@link com.jkstudiogroup.popcat.R.attr#layout_keyline}
+     * <p>This symbol is the offset where the {@link com.cyclones.popcat.R.attr#layout_keyline}
      * attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.jkstudiogroup.popcat:layout_keyline
+     * @attr name com.cyclones.popcat:layout_keyline
      */
     public static final int CoordinatorLayout_Layout_layout_keyline=6;
     /**
@@ -790,12 +789,12 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderAuthority com.jkstudiogroup.popcat:fontProviderAuthority}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderCerts com.jkstudiogroup.popcat:fontProviderCerts}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderFetchStrategy com.jkstudiogroup.popcat:fontProviderFetchStrategy}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderFetchTimeout com.jkstudiogroup.popcat:fontProviderFetchTimeout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderPackage com.jkstudiogroup.popcat:fontProviderPackage}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderQuery com.jkstudiogroup.popcat:fontProviderQuery}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderAuthority com.cyclones.popcat:fontProviderAuthority}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderCerts com.cyclones.popcat:fontProviderCerts}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderFetchStrategy com.cyclones.popcat:fontProviderFetchStrategy}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderFetchTimeout com.cyclones.popcat:fontProviderFetchTimeout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderPackage com.cyclones.popcat:fontProviderPackage}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderQuery com.cyclones.popcat:fontProviderQuery}</code></td><td></td></tr>
      * </table>
      * @see #FontFamily_fontProviderAuthority
      * @see #FontFamily_fontProviderCerts
@@ -809,17 +808,17 @@ public final class R {
       0x7f01000d, 0x7f01000e
     };
     /**
-     * <p>This symbol is the offset where the {@link com.jkstudiogroup.popcat.R.attr#fontProviderAuthority}
+     * <p>This symbol is the offset where the {@link com.cyclones.popcat.R.attr#fontProviderAuthority}
      * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.jkstudiogroup.popcat:fontProviderAuthority
+     * @attr name com.cyclones.popcat:fontProviderAuthority
      */
     public static final int FontFamily_fontProviderAuthority=0;
     /**
-     * <p>This symbol is the offset where the {@link com.jkstudiogroup.popcat.R.attr#fontProviderCerts}
+     * <p>This symbol is the offset where the {@link com.cyclones.popcat.R.attr#fontProviderCerts}
      * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -827,11 +826,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.jkstudiogroup.popcat:fontProviderCerts
+     * @attr name com.cyclones.popcat:fontProviderCerts
      */
     public static final int FontFamily_fontProviderCerts=1;
     /**
-     * <p>This symbol is the offset where the {@link com.jkstudiogroup.popcat.R.attr#fontProviderFetchStrategy}
+     * <p>This symbol is the offset where the {@link com.cyclones.popcat.R.attr#fontProviderFetchStrategy}
      * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -844,11 +843,11 @@ public final class R {
      * <tr><td>blocking</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.jkstudiogroup.popcat:fontProviderFetchStrategy
+     * @attr name com.cyclones.popcat:fontProviderFetchStrategy
      */
     public static final int FontFamily_fontProviderFetchStrategy=2;
     /**
-     * <p>This symbol is the offset where the {@link com.jkstudiogroup.popcat.R.attr#fontProviderFetchTimeout}
+     * <p>This symbol is the offset where the {@link com.cyclones.popcat.R.attr#fontProviderFetchTimeout}
      * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
@@ -861,27 +860,27 @@ public final class R {
      * <tr><td>forever</td><td>ffffffff</td><td></td></tr>
      * </table>
      *
-     * @attr name com.jkstudiogroup.popcat:fontProviderFetchTimeout
+     * @attr name com.cyclones.popcat:fontProviderFetchTimeout
      */
     public static final int FontFamily_fontProviderFetchTimeout=3;
     /**
-     * <p>This symbol is the offset where the {@link com.jkstudiogroup.popcat.R.attr#fontProviderPackage}
+     * <p>This symbol is the offset where the {@link com.cyclones.popcat.R.attr#fontProviderPackage}
      * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.jkstudiogroup.popcat:fontProviderPackage
+     * @attr name com.cyclones.popcat:fontProviderPackage
      */
     public static final int FontFamily_fontProviderPackage=4;
     /**
-     * <p>This symbol is the offset where the {@link com.jkstudiogroup.popcat.R.attr#fontProviderQuery}
+     * <p>This symbol is the offset where the {@link com.cyclones.popcat.R.attr#fontProviderQuery}
      * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.jkstudiogroup.popcat:fontProviderQuery
+     * @attr name com.cyclones.popcat:fontProviderQuery
      */
     public static final int FontFamily_fontProviderQuery=5;
     /**
@@ -896,11 +895,11 @@ public final class R {
      * <tr><td><code>{@link #FontFamilyFont_android_fontStyle android:fontStyle}</code></td><td></td></tr>
      * <tr><td><code>{@link #FontFamilyFont_android_ttcIndex android:ttcIndex}</code></td><td></td></tr>
      * <tr><td><code>{@link #FontFamilyFont_android_fontVariationSettings android:fontVariationSettings}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamilyFont_font com.jkstudiogroup.popcat:font}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamilyFont_fontStyle com.jkstudiogroup.popcat:fontStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamilyFont_fontVariationSettings com.jkstudiogroup.popcat:fontVariationSettings}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamilyFont_fontWeight com.jkstudiogroup.popcat:fontWeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamilyFont_ttcIndex com.jkstudiogroup.popcat:ttcIndex}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamilyFont_font com.cyclones.popcat:font}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamilyFont_fontStyle com.cyclones.popcat:fontStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamilyFont_fontVariationSettings com.cyclones.popcat:fontVariationSettings}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamilyFont_fontWeight com.cyclones.popcat:fontWeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamilyFont_ttcIndex com.cyclones.popcat:ttcIndex}</code></td><td></td></tr>
      * </table>
      * @see #FontFamilyFont_android_font
      * @see #FontFamilyFont_android_fontWeight
@@ -976,7 +975,7 @@ public final class R {
      */
     public static final int FontFamilyFont_android_fontVariationSettings=4;
     /**
-     * <p>This symbol is the offset where the {@link com.jkstudiogroup.popcat.R.attr#font}
+     * <p>This symbol is the offset where the {@link com.cyclones.popcat.R.attr#font}
      * attribute's value can be found in the {@link #FontFamilyFont} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -984,11 +983,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.jkstudiogroup.popcat:font
+     * @attr name com.cyclones.popcat:font
      */
     public static final int FontFamilyFont_font=5;
     /**
-     * <p>This symbol is the offset where the {@link com.jkstudiogroup.popcat.R.attr#fontStyle}
+     * <p>This symbol is the offset where the {@link com.cyclones.popcat.R.attr#fontStyle}
      * attribute's value can be found in the {@link #FontFamilyFont} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -1001,35 +1000,35 @@ public final class R {
      * <tr><td>normal</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.jkstudiogroup.popcat:fontStyle
+     * @attr name com.cyclones.popcat:fontStyle
      */
     public static final int FontFamilyFont_fontStyle=6;
     /**
-     * <p>This symbol is the offset where the {@link com.jkstudiogroup.popcat.R.attr#fontVariationSettings}
+     * <p>This symbol is the offset where the {@link com.cyclones.popcat.R.attr#fontVariationSettings}
      * attribute's value can be found in the {@link #FontFamilyFont} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.jkstudiogroup.popcat:fontVariationSettings
+     * @attr name com.cyclones.popcat:fontVariationSettings
      */
     public static final int FontFamilyFont_fontVariationSettings=7;
     /**
-     * <p>This symbol is the offset where the {@link com.jkstudiogroup.popcat.R.attr#fontWeight}
+     * <p>This symbol is the offset where the {@link com.cyclones.popcat.R.attr#fontWeight}
      * attribute's value can be found in the {@link #FontFamilyFont} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.jkstudiogroup.popcat:fontWeight
+     * @attr name com.cyclones.popcat:fontWeight
      */
     public static final int FontFamilyFont_fontWeight=8;
     /**
-     * <p>This symbol is the offset where the {@link com.jkstudiogroup.popcat.R.attr#ttcIndex}
+     * <p>This symbol is the offset where the {@link com.cyclones.popcat.R.attr#ttcIndex}
      * attribute's value can be found in the {@link #FontFamilyFont} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.jkstudiogroup.popcat:ttcIndex
+     * @attr name com.cyclones.popcat:ttcIndex
      */
     public static final int FontFamilyFont_ttcIndex=9;
     /**
@@ -1263,9 +1262,9 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #LoadingImageView_circleCrop com.jkstudiogroup.popcat:circleCrop}</code></td><td></td></tr>
-     * <tr><td><code>{@link #LoadingImageView_imageAspectRatio com.jkstudiogroup.popcat:imageAspectRatio}</code></td><td></td></tr>
-     * <tr><td><code>{@link #LoadingImageView_imageAspectRatioAdjust com.jkstudiogroup.popcat:imageAspectRatioAdjust}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LoadingImageView_circleCrop com.cyclones.popcat:circleCrop}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LoadingImageView_imageAspectRatio com.cyclones.popcat:imageAspectRatio}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LoadingImageView_imageAspectRatioAdjust com.cyclones.popcat:imageAspectRatioAdjust}</code></td><td></td></tr>
      * </table>
      * @see #LoadingImageView_circleCrop
      * @see #LoadingImageView_imageAspectRatio
@@ -1275,26 +1274,26 @@ public final class R {
       0x7f010005, 0x7f010012, 0x7f010013
     };
     /**
-     * <p>This symbol is the offset where the {@link com.jkstudiogroup.popcat.R.attr#circleCrop}
+     * <p>This symbol is the offset where the {@link com.cyclones.popcat.R.attr#circleCrop}
      * attribute's value can be found in the {@link #LoadingImageView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.jkstudiogroup.popcat:circleCrop
+     * @attr name com.cyclones.popcat:circleCrop
      */
     public static final int LoadingImageView_circleCrop=0;
     /**
-     * <p>This symbol is the offset where the {@link com.jkstudiogroup.popcat.R.attr#imageAspectRatio}
+     * <p>This symbol is the offset where the {@link com.cyclones.popcat.R.attr#imageAspectRatio}
      * attribute's value can be found in the {@link #LoadingImageView} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.jkstudiogroup.popcat:imageAspectRatio
+     * @attr name com.cyclones.popcat:imageAspectRatio
      */
     public static final int LoadingImageView_imageAspectRatio=1;
     /**
-     * <p>This symbol is the offset where the {@link com.jkstudiogroup.popcat.R.attr#imageAspectRatioAdjust}
+     * <p>This symbol is the offset where the {@link com.cyclones.popcat.R.attr#imageAspectRatioAdjust}
      * attribute's value can be found in the {@link #LoadingImageView} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -1308,7 +1307,7 @@ public final class R {
      * <tr><td>none</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.jkstudiogroup.popcat:imageAspectRatioAdjust
+     * @attr name com.cyclones.popcat:imageAspectRatioAdjust
      */
     public static final int LoadingImageView_imageAspectRatioAdjust=2;
     /**
@@ -1318,9 +1317,9 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #SignInButton_buttonSize com.jkstudiogroup.popcat:buttonSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SignInButton_colorScheme com.jkstudiogroup.popcat:colorScheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SignInButton_scopeUris com.jkstudiogroup.popcat:scopeUris}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SignInButton_buttonSize com.cyclones.popcat:buttonSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SignInButton_colorScheme com.cyclones.popcat:colorScheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SignInButton_scopeUris com.cyclones.popcat:scopeUris}</code></td><td></td></tr>
      * </table>
      * @see #SignInButton_buttonSize
      * @see #SignInButton_colorScheme
@@ -1330,7 +1329,7 @@ public final class R {
       0x7f010004, 0x7f010006, 0x7f01001b
     };
     /**
-     * <p>This symbol is the offset where the {@link com.jkstudiogroup.popcat.R.attr#buttonSize}
+     * <p>This symbol is the offset where the {@link com.cyclones.popcat.R.attr#buttonSize}
      * attribute's value can be found in the {@link #SignInButton} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -1348,11 +1347,11 @@ public final class R {
      * <tr><td>wide</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.jkstudiogroup.popcat:buttonSize
+     * @attr name com.cyclones.popcat:buttonSize
      */
     public static final int SignInButton_buttonSize=0;
     /**
-     * <p>This symbol is the offset where the {@link com.jkstudiogroup.popcat.R.attr#colorScheme}
+     * <p>This symbol is the offset where the {@link com.cyclones.popcat.R.attr#colorScheme}
      * attribute's value can be found in the {@link #SignInButton} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -1370,11 +1369,11 @@ public final class R {
      * <tr><td>light</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.jkstudiogroup.popcat:colorScheme
+     * @attr name com.cyclones.popcat:colorScheme
      */
     public static final int SignInButton_colorScheme=1;
     /**
-     * <p>This symbol is the offset where the {@link com.jkstudiogroup.popcat.R.attr#scopeUris}
+     * <p>This symbol is the offset where the {@link com.cyclones.popcat.R.attr#scopeUris}
      * attribute's value can be found in the {@link #SignInButton} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -1384,7 +1383,7 @@ public final class R {
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.jkstudiogroup.popcat:scopeUris
+     * @attr name com.cyclones.popcat:scopeUris
      */
     public static final int SignInButton_scopeUris=2;
   }
